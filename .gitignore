@@ -28,3 +28,9 @@ service.env
 .env
 .env.*
 .deepseek.json
+
+# LaTeX 中间产物
+*.aux
+*.out
+*.toc
+*.synctex.gz
