@@ -1,0 +1,26 @@
+[
+  {
+    "label": "taobao",
+    "error": "淘宝 / 天猫这次只返回了打开 App 的页面，没读到具体内容。可以先看分享文案，或补截图。",
+    "code": "APP_REQUIRED"
+  },
+  {
+    "label": "douyin",
+    "error": "抖音没有返回这条作品的内容，可以先看分享文案，或上传视频、截图。",
+    "code": "CONTENT_UNAVAILABLE"
+  },
+  {
+    "label": "xhs",
+    "title": "皮肤好的人都要用很贵的精华吗",
+    "coverage": {
+      "text": true,
+      "reviews": 19,
+      "images": 3,
+      "excerptOnly": false
+    },
+    "limitations": [
+      "只读到页面公开提供的 19 条评价，不代表全部评价。",
+      "配图较多，这次最多读取前 3 张。"
+    ]
+  }
+]

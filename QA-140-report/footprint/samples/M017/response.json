@@ -1,0 +1,271 @@
+{
+  "contentType": "social",
+  "verdict": "flagged",
+  "summary": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。 还没确认，先别急着下结论。",
+  "next": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+  "evidence": [
+    {
+      "text": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。",
+      "finding": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。",
+      "why": "这可能是复制粘贴，也可能是平铺纹理或重复图案，需要原图对照。",
+      "imageIndex": 0,
+      "box": [
+        0.1422,
+        0.5825,
+        0.3,
+        0.02
+      ],
+      "source": "画面真实性",
+      "excerpt": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。"
+    },
+    {
+      "text": "同一张图里有两块内容高度吻合：一块在画面左上角，另一块在画面右上角。",
+      "finding": "同一张图里有两块内容高度吻合：一块在画面左上角，另一块在画面右上角。",
+      "why": "这可能是复制粘贴，也可能是平铺纹理或重复图案，需要原图对照。",
+      "imageIndex": 1,
+      "box": [
+        0.2878,
+        0.1632,
+        0.0455,
+        0.0166
+      ],
+      "source": "画面真实性",
+      "excerpt": "同一张图里有两块内容高度吻合：一块在画面左上角，另一块在画面右上角。"
+    },
+    {
+      "text": "中间资料卡是缩小版，边缘有浅色描边和投影，卡片内文字比页面正文小很多，字迹偏淡。",
+      "finding": "中间资料卡是缩小版，边缘有浅色描边和投影，卡片内文字比页面正文小很多，字迹偏淡。",
+      "why": "把另一张图缩略后贴进版式里做引用示意，缩小时文字自然变淡、加投影是为了区分层级。",
+      "imageIndex": 0,
+      "source": "画面真实性",
+      "excerpt": "中间资料卡是缩小版，边缘有浅色描边和投影，卡片内文字比页面正文小很多，字迹偏淡。"
+    }
+  ],
+  "references": [
+    {
+      "id": "aad-testing",
+      "title": "美国皮肤科学会 · 新护肤品试用",
+      "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products",
+      "excerpt": "Before you add a skin care product to your routine, dermatologists recommend testing it. Here are the steps to follow.\nWith so many skin care products available, including cleansers, moisturizers, and cosmetics, it can be difficult to know which products to choose. While understanding your skin type can help you choose products formulated for your skin, it’s still possible that you’ll end up with a product that irritates your skin. Sometimes, a skin care ingredient, such as one of the preservatives, can trigger a condition called allergic contact dermatitis, which can cause your skin to become red, itchy, and swollen.\nFortunately, testing skin care products on several small areas of your skin first can help predict whether you’ll experience a negative skin reaction.\nTo test a skin care product, dermatologists recommend the following tips:\nApply the product to a test spot twice daily for seven to 10 days. Choose a quarter-sized spot on your skin where the product won’t be rubbed or washed away, such as the underside of your arm or the bend of your elbow. Use the normal amount and thickness you would use as if you were applying the product regularly.\nLeave the product on your skin for as long as you would normally. If you’re testing something that you would usually wash off, like a cleanser, keep it on your skin for five minutes or as long as the instructions say.\nIf after seven to 10 days you don’t have a skin reaction, such as red, itchy, or swollen skin, go ahead and use the product.",
+      "retrievedAt": "2026-10-20T11:48:59.914Z"
+    }
+  ],
+  "numbers": [],
+  "answerKind": "check",
+  "tips": [],
+  "analysisLabel": "多个角度核对过",
+  "provider": "AUTHEN",
+  "model": "deepseek-chat",
+  "scope": "已读取图片文字并检查其中的说法；是否经过AI修改，还需要进一步证据。 这次检查了文字依据、画面真实性、图文一致性、上下文完整性、商品真实性这几个方面。其中文字依据、商品真实性材料不够。",
+  "checks": {
+    "content": "completed",
+    "knowledge": "retrieved",
+    "imageForensics": "partial",
+    "audioForensics": "partial"
+  },
+  "presentation": {
+    "presentation_state": "P-02",
+    "presentation_family": "风险发现",
+    "state_subtitle": "发现需要进一步核实的线索",
+    "state_reason": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。 还没确认，先别急着下结论。",
+    "confidence_tier": "线索（尚未确认）",
+    "dimension_summary": [
+      {
+        "dim": "文字依据",
+        "applicable": "适用",
+        "result": "没有资料可对",
+        "note": "这条内容里没找到能和资料直接对上的具体说法。"
+      },
+      {
+        "dim": "画面真实性",
+        "applicable": "适用",
+        "result": "画面有需要核对的重复",
+        "note": "中间资料卡是缩小版，边缘有浅色描边和投影，卡片内文字比页面正文小很多，字迹偏淡。"
+      },
+      {
+        "dim": "图文一致性",
+        "applicable": "适用",
+        "result": "有一处图文对不上",
+        "note": "文案写的是「崔予训泽指甲油」，但图1资料卡标题写的是「岑予亮泽指甲油」，品牌名和产品名都对…"
+      },
+      {
+        "dim": "评论区真实性",
+        "applicable": "本次未涉及",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      },
+      {
+        "dim": "上下文完整性",
+        "applicable": "适用",
+        "result": "有多处没给条件",
+        "note": "这句把话说满了：「“所有人都安全”的依据在哪」，但没写多少人试过、试了多久。"
+      },
+      {
+        "dim": "商品真实性",
+        "applicable": "适用",
+        "result": "没认出具体商品",
+        "note": "没认出手上资料里的具体商品。"
+      }
+    ],
+    "evidence_cards": [
+      {
+        "card_id": "CARD-01",
+        "evidence_id": "EVD-D2-03",
+        "dim": "画面真实性",
+        "title": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。",
+        "quote": "",
+        "observation": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。",
+        "explanation": "这可能是复制粘贴，也可能是平铺纹理或重复图案，需要原图对照。",
+        "alt_explanations": [
+          "平铺纹理或重复图案",
+          "同一张贴纸的多个角度",
+          "背景本身重复"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "精确",
+        "direction": "support",
+        "image_index": 0,
+        "box": [
+          0.1422,
+          0.5825,
+          0.3,
+          0.02
+        ]
+      },
+      {
+        "card_id": "CARD-02",
+        "evidence_id": "EVD-D2-04",
+        "dim": "画面真实性",
+        "title": "同一张图里有两块内容高度吻合：一块在画面左上角，另一块在画面右上角。",
+        "quote": "",
+        "observation": "同一张图里有两块内容高度吻合：一块在画面左上角，另一块在画面右上角。",
+        "explanation": "这可能是复制粘贴，也可能是平铺纹理或重复图案，需要原图对照。",
+        "alt_explanations": [
+          "平铺纹理或重复图案",
+          "同一张贴纸的多个角度",
+          "背景本身重复"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "精确",
+        "direction": "support",
+        "image_index": 1,
+        "box": [
+          0.2878,
+          0.1632,
+          0.0455,
+          0.0166
+        ]
+      },
+      {
+        "card_id": "CARD-03",
+        "evidence_id": "EVD-D2-01",
+        "dim": "画面真实性",
+        "title": "中间资料卡是缩小版，边缘有浅色描边和投影，卡片内文字比页面正文小很多，字迹偏淡。",
+        "quote": "",
+        "observation": "中间资料卡是缩小版，边缘有浅色描边和投影，卡片内文字比页面正文小很多，字迹偏淡。",
+        "explanation": "把另一张图缩略后贴进版式里做引用示意，缩小时文字自然变淡、加投影是为了区分层级。",
+        "alt_explanations": [
+          "光线与阴影",
+          "压缩或滤镜",
+          "拍摄角度"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "仅线索",
+        "direction": "support",
+        "image_index": 0
+      }
+    ],
+    "limitations": [
+      "这次看的是你发来的 2 张图，检查了 5 个方面。没有看评论区真实性。",
+      "这个结果只说这条内容，不猜作者是不是故意，也不判断账号是谁。",
+      "有些位置只能给个大概，要精确还得对着原图看一眼。",
+      "结论只说这一条内容，不套到别的帖子上。"
+    ],
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "reason_steps": [
+      "发现问题的方面：上下文完整性、画面真实性。",
+      "材料不够的方面：文字依据、商品真实性。",
+      "合起来看，有线索，但还不能确认。"
+    ],
+    "reason_detail": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。 还没确认，先别急着下结论。 同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。 同一张图里有两块内容高度吻合：一块在画面左上角，另一块在画面右上角。 补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "a11y_label": "状态：风险发现，线索（尚未确认）。发现需要进一步核实的线索。",
+    "aggregate_state": "E2",
+    "total_decision": "线索级（待核验）",
+    "e2_subtype": "E2-模式型",
+    "rejection_reason_code": "—",
+    "rule_version": "authen-2.0",
+    "generated_at": "2026-10-20T11:53:19.627Z",
+    "dims": {
+      "D1": "EI",
+      "D2": "E2",
+      "D3": "E1",
+      "D4": "NA",
+      "D5": "E2",
+      "D6": "EI"
+    },
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "references": [
+      {
+        "id": "aad-testing",
+        "title": "美国皮肤科学会 · 新护肤品试用",
+        "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products",
+        "excerpt": "Before you add a skin care product to your routine, dermatologists recommend testing it. Here are the steps to follow.\nWith so many skin care products available, including cleansers, moisturizers, and cosmetics, it can be difficult to know which products to choose. While understanding your skin type can help you choose products formulated for your skin, it’s still possible that you’ll end up with a product that irritates your skin. Sometimes, a skin care ingredient, such as one of the preservatives, can trigger a condition called allergic contact dermatitis, which can cause your skin to become red, itchy, and swollen.\nFortunately, testing skin care products on several small areas of your skin first can help predict whether you’ll experience a negative skin reaction.\nTo test a skin care product, dermatologists recommend the following tips:\nApply the product to a test spot twice daily for seven to 10 days. Choose a quarter-sized spot on your skin where the product won’t be rubbed or washed away, such as the underside of your arm or the bend of your elbow. Use the normal amount and thickness you would use as if you were applying the product regularly.\nLeave the product on your skin for as long as you would normally. If you’re testing something that you would usually wash off, like a cleanser, keep it on your skin for five minutes or as long as the instructions say.\nIf after seven to 10 days you don’t have a skin reaction, such as red, itchy, or swollen skin, go ahead and use the product.",
+        "retrievedAt": "2026-10-20T11:48:59.914Z"
+      }
+    ],
+    "compliance_log": []
+  },
+  "audit": {
+    "modality": "image",
+    "content_type": "social",
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E2",
+      "D3": "E1",
+      "D4": "NA",
+      "D5": "E2",
+      "D6": "EI"
+    },
+    "aggregate_state": "E2",
+    "e2_subtype": "E2-模式型",
+    "upgrade_eligible": false,
+    "total_decision": "线索级（待核验）",
+    "rejection_reason_code": "—",
+    "merged_evidence": 0,
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "alt_explanations": [
+      "作者在别处写了测试条件，只是这段没带",
+      "这只是个人感受，不是对所有人的承诺",
+      "光线与阴影",
+      "压缩或滤镜",
+      "拍摄角度",
+      "平铺纹理或重复图案",
+      "同一张贴纸的多个角度",
+      "背景本身重复"
+    ],
+    "rule_version": "authen-2.0",
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "elapsed_ms": 2559
+  }
+}

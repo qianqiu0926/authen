@@ -1,0 +1,90 @@
+--- /Users/sugeladi/Library/Application Support/DoubaoWork/Default/.doubaowork/agent_mode/workspace/.sessions/38448061071007746/agents/s_000EAvdwSRp/artifacts/before/src/app.css	2026-10-20 19:33:32
++++ /Users/sugeladi/Desktop/欧莱雅黑客松/AUTHEN/web/src/consumer/app.css	2026-10-20 19:36:11
+@@ -2104,7 +2104,20 @@
+   }
+   .profile-card h2 {
+     font-size: 18px;
++  }
++  .scenario-grid {
++    gap: 7px;
++  }
++  .scenario-card {
++    padding: 11px 9px 10px;
++    gap: 5px;
++  }
++  .scenario-card b {
++    font-size: 11.5px;
+   }
++  .scenario-card small {
++    font-size: 9px;
++  }
+ }
+ /* One entry for every kind of material; growth replaces duplicate shortcuts. */
+ .unified-hero {
+@@ -2187,7 +2200,66 @@
+   padding: 8px;
+   flex-shrink: 0;
+   color: white;
++}
++/* 首页三类赛题场景：种草内容 / 评论区 / 图片视频音频，都汇入同一个发来看看 */
++.scenarios .section-heading > span {
++  font-size: 11px;
++  color: var(--muted);
++}
++.scenario-grid {
++  display: grid;
++  grid-template-columns: repeat(3, 1fr);
++  gap: 10px;
++}
++.scenario-card {
++  display: flex;
++  flex-direction: column;
++  align-items: flex-start;
++  gap: 6px;
++  padding: 14px 12px 13px;
++  background: var(--white);
++  border: 1px solid var(--line);
++  border-radius: 20px;
++  text-align: left;
++  box-shadow: 0 4px 14px #71352608;
++  transition: transform 0.15s ease, border-color 0.15s ease;
++}
++.scenario-card:active {
++  transform: scale(0.97);
++  border-color: var(--red);
+ }
++.scenario-card .cute-icon {
++  margin-bottom: 2px;
++}
++.scenario-card b {
++  font-size: 12.5px;
++  font-weight: 700;
++  color: #191817;
++  line-height: 1.35;
++}
++.scenario-card small {
++  font-size: 10px;
++  color: var(--muted);
++  line-height: 1.45;
++}
++.intake-scenario {
++  border-radius: 18px;
++  padding: 13px 15px;
++  font-size: 12px;
++  line-height: 1.7;
++}
++.intake-scenario.scenario-note {
++  background: var(--blush);
++  color: #7a3b3b;
++}
++.intake-scenario.scenario-comments {
++  background: var(--mint);
++  color: #4f6043;
++}
++.intake-scenario.scenario-media {
++  background: #f0e7dc;
++  color: #7a5a44;
++}
+ .growth-section > .section-heading {
+   margin-bottom: 12px;
+ }

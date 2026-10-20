@@ -1,0 +1,31 @@
+{
+  "https://authen.classby.cn/authen/": {
+    "status": 200
+  },
+  "http://119.91.129.203/authen/": {
+    "status": 200
+  },
+  "https://authen.classby.cn/authen/api/health": {
+    "status": 200,
+    "body": {
+      "ok": true,
+      "service": "authen",
+      "release": "20261016-xhs-share",
+      "analysis": "deepseek-with-explicit-local-fallback",
+      "ai": {
+        "configured": true,
+        "provider": "DeepSeek",
+        "model": "deepseek-flash",
+        "vision": true
+      }
+    }
+  },
+  "http://119.91.129.203/": {
+    "status": 200
+  },
+  "loginHandling": {
+    "status": 422,
+    "code": "LOGIN_REQUIRED",
+    "error": "小红书这页需要登录，补上正文或截图就能继续。"
+  }
+}

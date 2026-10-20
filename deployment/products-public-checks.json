@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://authen.classby.cn/authen/api/health",
+    "status": 200,
+    "health": {
+      "ok": true,
+      "service": "authen",
+      "release": "20261016-product-cards",
+      "analysis": "deepseek-with-explicit-local-fallback",
+      "ai": {
+        "configured": true,
+        "provider": "DeepSeek",
+        "model": "deepseek-flash",
+        "vision": true
+      }
+    }
+  },
+  {
+    "url": "https://authen.classby.cn/authen/",
+    "status": 200
+  },
+  {
+    "url": "http://119.91.129.203/authen/",
+    "status": 200
+  },
+  {
+    "url": "http://119.91.129.203/",
+    "status": 200
+  },
+  {
+    "reviewStatus": 200,
+    "summary": "这篇笔记说25+后用第六代绿宝瓶，泛红当晚能褪，久用小细纹淡化，但没说多少人试、用了多久。",
+    "verdict": "flagged",
+    "referenceTitles": [],
+    "referenceURLs": [],
+    "evidenceCount": 2
+  }
+]

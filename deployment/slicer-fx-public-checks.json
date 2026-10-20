@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://authen.classby.cn/authen/api/health",
+    "status": 200,
+    "ok": true,
+    "release": "20261016-slicer-effects"
+  },
+  {
+    "url": "http://119.91.129.203/authen/",
+    "status": 200
+  },
+  {
+    "url": "http://119.91.129.203/",
+    "status": 200
+  },
+  {
+    "asset": "index-D2T60R_E.js",
+    "status": 200,
+    "sha256Matches": true
+  },
+  {
+    "asset": "index-Bbonds1u.css",
+    "status": 200,
+    "sha256Matches": true
+  }
+]

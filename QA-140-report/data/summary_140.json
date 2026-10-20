@@ -1,0 +1,259 @@
+{
+  "generated_at": "2026-10-20T20:05:03",
+  "dataset": "AUTHEN_多模态测试数据包_v2_140条（构造/脱敏验收集，参考标签非第三方真值）",
+  "total_samples": 140,
+  "strict_passed": 17,
+  "strict_failed": 123,
+  "strict_pass_rate": 0.1214,
+  "http_200_count": 140,
+  "note": "HTTP 200 / API 成功仅表示流程跑通，不计通过；严格通过=实际五类判定与期望五类完全一致。",
+  "five_classes": [
+    "暂未发现问题",
+    "有明确问题",
+    "线索级（待核验）",
+    "资料不足",
+    "无法判定"
+  ],
+  "by_shard": {
+    "shard_01": {
+      "total": 70,
+      "passed": 13,
+      "failed": 57,
+      "pass_rate": 0.1857
+    },
+    "shard_02": {
+      "total": 70,
+      "passed": 4,
+      "failed": 66,
+      "pass_rate": 0.0571
+    }
+  },
+  "by_modality": {
+    "音频": {
+      "total": 10,
+      "passed": 1,
+      "failed": 9,
+      "pass_rate": 0.1
+    },
+    "评论组": {
+      "total": 24,
+      "passed": 6,
+      "failed": 18,
+      "pass_rate": 0.25
+    },
+    "图文帖": {
+      "total": 26,
+      "passed": 4,
+      "failed": 22,
+      "pass_rate": 0.1538
+    },
+    "文章": {
+      "total": 26,
+      "passed": 3,
+      "failed": 23,
+      "pass_rate": 0.1154
+    },
+    "图片": {
+      "total": 34,
+      "passed": 3,
+      "failed": 31,
+      "pass_rate": 0.0882
+    },
+    "视频": {
+      "total": 12,
+      "passed": 0,
+      "failed": 12,
+      "pass_rate": 0.0
+    },
+    "转发变体": {
+      "total": 8,
+      "passed": 0,
+      "failed": 8,
+      "pass_rate": 0.0
+    }
+  },
+  "by_scenario": {
+    "开发": {
+      "total": 78,
+      "passed": 8,
+      "failed": 70,
+      "pass_rate": 0.1026
+    },
+    "验证": {
+      "total": 30,
+      "passed": 3,
+      "failed": 27,
+      "pass_rate": 0.1
+    },
+    "保留测试": {
+      "total": 32,
+      "passed": 6,
+      "failed": 26,
+      "pass_rate": 0.1875
+    }
+  },
+  "expected_distribution": {
+    "暂未发现问题": 54,
+    "有明确问题": 53,
+    "线索级（待核验）": 9,
+    "资料不足": 22,
+    "无法判定": 2
+  },
+  "actual_distribution": {
+    "暂未发现问题": 0,
+    "有明确问题": 4,
+    "线索级（待核验）": 62,
+    "资料不足": 74,
+    "无法判定": 0
+  },
+  "confusion_matrix_expected_rows_x_actual_cols": {
+    "暂未发现问题": {
+      "暂未发现问题": 0,
+      "有明确问题": 0,
+      "线索级（待核验）": 23,
+      "资料不足": 31,
+      "无法判定": 0
+    },
+    "有明确问题": {
+      "暂未发现问题": 0,
+      "有明确问题": 3,
+      "线索级（待核验）": 28,
+      "资料不足": 22,
+      "无法判定": 0
+    },
+    "线索级（待核验）": {
+      "暂未发现问题": 0,
+      "有明确问题": 0,
+      "线索级（待核验）": 2,
+      "资料不足": 7,
+      "无法判定": 0
+    },
+    "资料不足": {
+      "暂未发现问题": 0,
+      "有明确问题": 1,
+      "线索级（待核验）": 9,
+      "资料不足": 12,
+      "无法判定": 0
+    },
+    "无法判定": {
+      "暂未发现问题": 0,
+      "有明确问题": 0,
+      "线索级（待核验）": 0,
+      "资料不足": 2,
+      "无法判定": 0
+    }
+  },
+  "mismatch_kinds": {
+    "other": 48,
+    "missed_conflict": 50,
+    "(一致/无)": 17,
+    "false_alarm_or_clue": 25
+  },
+  "error_types": {
+    "verdict_mismatch": 123,
+    "none": 17
+  },
+  "http_status_distribution": {
+    "200": 140
+  },
+  "presentation_state_distribution": {
+    "P-04": 74,
+    "P-02": 62,
+    "P-01": 4
+  },
+  "mechanism_distribution": {
+    "口播事实核对": 10,
+    "评论模式与事实核对": 12,
+    "伪造专家背书机制": 1,
+    "效果图数字修饰": 1,
+    "AI素材透明披露": 1,
+    "AI图冒充实拍体验": 1,
+    "功效证据错配": 1,
+    "功效证据不足": 1,
+    "商业合作披露": 2,
+    "争议案例证据不足": 1,
+    "音画语义冲突": 1,
+    "商品信息边界": 1,
+    "有限功效说明": 1,
+    "正常热帖集中": 1,
+    "慢速模板相似": 1,
+    "追评时间矛盾": 1,
+    "自然追评": 1,
+    "身份关系证据": 1,
+    "身份推断不足": 1,
+    "语义模板改写": 1,
+    "相似体验正常": 1,
+    "采集层重复": 1,
+    "关键字段缺失": 1,
+    "关系图异常": 1,
+    "自然问答": 1,
+    "专家身份来源缺失": 1,
+    "专家否认": 1,
+    "商品成分与包装": 1,
+    "订单评论关系": 1,
+    "重复图片匹配": 1,
+    "AI透明使用": 1,
+    "对比条件不一致": 1,
+    "同条件对比": 1,
+    "字幕音频冲突": 1,
+    "引用错配": 1,
+    "来源记录缺失": 1,
+    "来源链记录": 1,
+    "血缘去重": 1,
+    "独立证据融合": 1,
+    "工具失败": 1,
+    "材料不足": 1,
+    "来源辨别": 7,
+    "图片中文字核对": 9,
+    "局部颜色改动": 2,
+    "瓶身颜色改动": 1,
+    "局部痕迹移除": 1,
+    "同图复制拼接": 1,
+    "包装标贴覆盖": 1,
+    "图文一致": 9,
+    "图文含义冲突": 9,
+    "正常说明": 9,
+    "事实改写": 9,
+    "字幕口播一致": 6,
+    "字幕篡改": 6,
+    "jpeg_low": 2,
+    "resize": 1,
+    "screenshot": 2,
+    "transcode": 2,
+    "noise": 1
+  },
+  "passed_sample_ids": [
+    "A010",
+    "C002",
+    "C006",
+    "C008",
+    "C010",
+    "C011",
+    "E106",
+    "E111",
+    "E118",
+    "E127",
+    "E131",
+    "E135",
+    "E137",
+    "M002",
+    "M004",
+    "M016",
+    "T018"
+  ],
+  "crosscheck_manifest_issues": [],
+  "elapsed_ms_available": 116,
+  "elapsed_ms": {
+    "min": 1,
+    "max": 38765,
+    "mean": 2588.0
+  },
+  "source_files": {
+    "shard_01": "/Users/sugeladi/Library/Application Support/DoubaoWork/Default/.doubaowork/agent_mode/workspace/.sessions/38448061071007746/agents/s_000EAvdwoiw/artifacts/shard_01.jsonl",
+    "shard_01_sha256": "721cdc721ef61b33d8bc992744fdc7e2fe355d3b1b3765e8ce405d0fc18362fe",
+    "shard_02": "/Users/sugeladi/Library/Application Support/DoubaoWork/Default/.doubaowork/agent_mode/workspace/.sessions/38448061071007746/agents/s_000EAvdwdbc/artifacts/shard_02_results.jsonl",
+    "shard_02_sha256": "785d08fadec58eeb3092c67216fd10de4b14c08102e07c5b8e097f422552c10e",
+    "manifest_labels": "/Users/sugeladi/Desktop/欧莱雅黑客松/AUTHEN数据包扩充_v2/AUTHEN_多模态测试数据包_v2_140条/manifest_labels.jsonl",
+    "manifest_labels_sha256": "80cd105ac250f373e3e3bbe9b2bda46785a817680e158243d76540e2b3617692"
+  }
+}

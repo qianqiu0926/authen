@@ -1,0 +1,13 @@
+{
+  "sample_id": "E111",
+  "built": {
+    "kind": "article",
+    "notes": ""
+  },
+  "request": {
+    "audience": "consumer",
+    "kind": "text",
+    "text": "包装字体和旧图不一样，所以这一定是假货。",
+    "scope": "已检查提交的文字；还需要商品资料才能核对具体功效。"
+  }
+}

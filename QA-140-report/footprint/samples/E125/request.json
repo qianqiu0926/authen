@@ -1,0 +1,38 @@
+{
+  "sample_id": "E125",
+  "built": {
+    "kind": "image",
+    "notes": ""
+  },
+  "request": {
+    "audience": "consumer",
+    "kind": "image",
+    "images": [
+      "<1 image(s), dataURL 未内联留存，原始图片见 input_files>"
+    ],
+    "text": "RAVES > A >\n| |",
+    "lines": [
+      {
+        "text": "RAVES > A >",
+        "imageIndex": 0,
+        "box": [
+          0.325,
+          0.12962962962962962,
+          0.23425925925925925,
+          0.04
+        ]
+      },
+      {
+        "text": "| |",
+        "imageIndex": 0,
+        "box": [
+          0.1638888888888889,
+          0.9325925925925926,
+          0.18703703703703703,
+          0.0362962962962963
+        ]
+      }
+    ],
+    "scope": "已读取图片文字并检查其中的说法；是否经过AI修改，还需要进一步证据。"
+  }
+}

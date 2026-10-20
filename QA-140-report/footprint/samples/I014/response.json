@@ -1,0 +1,225 @@
+{
+  "contentType": "image",
+  "verdict": "flagged",
+  "summary": "这句说了效果：「资料只记载眼周保湿」，但没给测试人数、时长或方法。 还没确认，先别急着下结论。",
+  "next": "找到它说的测试人数和时长，或者原作者的原话。",
+  "evidence": [
+    {
+      "text": "文字为纯色背景上的深色排版，边缘清晰，未见明显重复纹理或光影异常。",
+      "finding": "文字为纯色背景上的深色排版，边缘清晰，未见明显重复纹理或光影异常。",
+      "why": "普通的产品资料截图或文档导出图片，正常排版渲染即可呈现这种效果。",
+      "imageIndex": 0,
+      "source": "画面真实性",
+      "excerpt": "文字为纯色背景上的深色排版，边缘清晰，未见明显重复纹理或光影异常。"
+    },
+    {
+      "text": "产品为崔予润眼霜，净含量15",
+      "finding": "文案写产品名“崔予润眼霜”，图片中产品名是“岑予润眼霜”，名称用字不一致；文案“净含量15”后缺单位，图片为“净含量1…",
+      "why": "文案和画面说法对不上，值得先核对。",
+      "imageIndex": 0,
+      "source": "图文一致性",
+      "excerpt": "文案写产品名“崔予润眼霜”，图片中产品名是“岑予润眼霜”，名称用字不一致；文案“净含量15”后缺单位，图片为“净含量15g”。"
+    },
+    {
+      "text": "永久消除眼袋的试验结果 。",
+      "finding": "文案以肯定陈述列出“永久消除眼袋的试验结果”，图片文字则说“没有永久消除眼袋的试验结果”，方向相反。",
+      "why": "文案和画面说法对不上，值得先核对。",
+      "imageIndex": 0,
+      "source": "图文一致性",
+      "excerpt": "文案以肯定陈述列出“永久消除眼袋的试验结果”，图片文字则说“没有永久消除眼袋的试验结果”，方向相反。"
+    }
+  ],
+  "references": [],
+  "numbers": [],
+  "answerKind": "check",
+  "tips": [],
+  "analysisLabel": "多个角度核对过",
+  "provider": "AUTHEN",
+  "model": "deepseek-chat",
+  "scope": "已读取图片文字并检查其中的说法；是否经过AI修改，还需要进一步证据。 这次检查了文字依据、画面真实性、图文一致性、上下文完整性、商品真实性这几个方面。其中文字依据、商品真实性材料不够。",
+  "checks": {
+    "content": "completed",
+    "knowledge": "not_connected",
+    "imageForensics": "partial",
+    "audioForensics": "partial"
+  },
+  "presentation": {
+    "presentation_state": "P-02",
+    "presentation_family": "风险发现",
+    "state_subtitle": "发现需要进一步核实的线索",
+    "state_reason": "这句说了效果：「资料只记载眼周保湿」，但没给测试人数、时长或方法。 还没确认，先别急着下结论。",
+    "confidence_tier": "线索（尚未确认）",
+    "dimension_summary": [
+      {
+        "dim": "文字依据",
+        "applicable": "适用",
+        "result": "没有资料可对",
+        "note": "这次没有可对照的公开资料。"
+      },
+      {
+        "dim": "画面真实性",
+        "applicable": "适用",
+        "result": "画面有一处可疑，也可能只是光线",
+        "note": "文字为纯色背景上的深色排版，边缘清晰，未见明显重复纹理或光影异常。"
+      },
+      {
+        "dim": "图文一致性",
+        "applicable": "适用",
+        "result": "有一处图文对不上",
+        "note": "文案写产品名“崔予润眼霜”，图片中产品名是“岑予润眼霜”，名称用字不一致；文案“净含量15…"
+      },
+      {
+        "dim": "评论区真实性",
+        "applicable": "本次未涉及",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      },
+      {
+        "dim": "上下文完整性",
+        "applicable": "适用",
+        "result": "有一处没给条件",
+        "note": "这句说了效果：「资料只记载眼周保湿」，但没给测试人数、时长或方法。"
+      },
+      {
+        "dim": "商品真实性",
+        "applicable": "适用",
+        "result": "没认出具体商品",
+        "note": "没认出手上资料里的具体商品。"
+      }
+    ],
+    "evidence_cards": [
+      {
+        "card_id": "CARD-01",
+        "evidence_id": "EVD-D2-01",
+        "dim": "画面真实性",
+        "title": "文字为纯色背景上的深色排版，边缘清晰，未见明显重复纹理或光影异常。",
+        "quote": "",
+        "observation": "文字为纯色背景上的深色排版，边缘清晰，未见明显重复纹理或光影异常。",
+        "explanation": "普通的产品资料截图或文档导出图片，正常排版渲染即可呈现这种效果。",
+        "alt_explanations": [
+          "光线与阴影",
+          "压缩或滤镜",
+          "拍摄角度"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "仅线索",
+        "direction": "support",
+        "image_index": 0
+      },
+      {
+        "card_id": "CARD-02",
+        "evidence_id": "EVD-D3-01",
+        "dim": "图文一致性",
+        "title": "文案写产品名“崔予润眼霜”，图片中产品名是“岑予润眼霜”，名称用字不一致；文案“净含量15”后缺单位，图片为“净含量1…",
+        "quote": "产品为崔予润眼霜，净含量15",
+        "observation": "文案写产品名“崔予润眼霜”，图片中产品名是“岑予润眼霜”，名称用字不一致；文案“净含量15”后缺单位，图片为“净含量15g”。",
+        "explanation": "文案和画面说法对不上，值得先核对。",
+        "alt_explanations": [
+          "拍摄角度或光线不同",
+          "说的是不同步骤"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假"
+        ],
+        "location_quality": "近似",
+        "direction": "support",
+        "image_index": 0
+      },
+      {
+        "card_id": "CARD-03",
+        "evidence_id": "EVD-D3-02",
+        "dim": "图文一致性",
+        "title": "文案以肯定陈述列出“永久消除眼袋的试验结果”，图片文字则说“没有永久消除眼袋的试验结果”，方向相反。",
+        "quote": "永久消除眼袋的试验结果 。",
+        "observation": "文案以肯定陈述列出“永久消除眼袋的试验结果”，图片文字则说“没有永久消除眼袋的试验结果”，方向相反。",
+        "explanation": "文案和画面说法对不上，值得先核对。",
+        "alt_explanations": [
+          "拍摄角度或光线不同",
+          "说的是不同步骤"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假"
+        ],
+        "location_quality": "近似",
+        "direction": "support",
+        "image_index": 0
+      }
+    ],
+    "limitations": [
+      "这次看的是你发来的 1 张图，检查了 5 个方面。没有看评论区真实性。",
+      "这个结果只说这条内容，不猜作者是不是故意，也不判断账号是谁。",
+      "有些位置只能给个大概，要精确还得对着原图看一眼。",
+      "结论只说这一条内容，不套到别的帖子上。"
+    ],
+    "next_action": "找到它说的测试人数和时长，或者原作者的原话。",
+    "reason_steps": [
+      "材料不够的方面：文字依据、商品真实性。",
+      "合起来看，有线索，但还不能确认。"
+    ],
+    "reason_detail": "这句说了效果：「资料只记载眼周保湿」，但没给测试人数、时长或方法。 还没确认，先别急着下结论。 文字为纯色背景上的深色排版，边缘清晰，未见明显重复纹理或光影异常。 文案写产品名“崔予润眼霜”，图片中产品名是“岑予润眼霜”，名称用字不一致；文案“净含量15”后缺单位，图片为“净含量15g”。 找到它说的测试人数和时长，或者原作者的原话。",
+    "a11y_label": "状态：风险发现，线索（尚未确认）。发现需要进一步核实的线索。",
+    "aggregate_state": "E1",
+    "total_decision": "线索级（待核验）",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "rule_version": "authen-2.0",
+    "generated_at": "2026-10-20T11:50:52.833Z",
+    "dims": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E1",
+      "D4": "NA",
+      "D5": "E1",
+      "D6": "EI"
+    },
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "references": [],
+    "compliance_log": []
+  },
+  "audit": {
+    "modality": "image",
+    "content_type": "image",
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E1",
+      "D4": "NA",
+      "D5": "E1",
+      "D6": "EI"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "upgrade_eligible": false,
+    "total_decision": "线索级（待核验）",
+    "rejection_reason_code": "—",
+    "merged_evidence": 0,
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "alt_explanations": [
+      "作者在别处写了测试条件，只是这段没带",
+      "这只是个人感受，不是对所有人的承诺",
+      "光线与阴影",
+      "压缩或滤镜",
+      "拍摄角度",
+      "拍摄角度或光线不同",
+      "说的是不同步骤"
+    ],
+    "rule_version": "authen-2.0",
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "elapsed_ms": 2063
+  }
+}

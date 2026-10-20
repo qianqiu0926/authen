@@ -1,0 +1,13 @@
+{
+  "sample_id": "E106",
+  "built": {
+    "kind": "article",
+    "notes": ""
+  },
+  "request": {
+    "audience": "consumer",
+    "kind": "text",
+    "text": "这款家用光疗面罩一定能修复所有人的皮肤屏障。",
+    "scope": "已检查提交的文字；还需要商品资料才能核对具体功效。"
+  }
+}

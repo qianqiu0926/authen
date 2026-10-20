@@ -1,0 +1,22 @@
+{
+  "https": {
+    "status": 200,
+    "consumerApp": true
+  },
+  "http": {
+    "status": 200,
+    "consumerApp": true
+  },
+  "health": {
+    "ok": true,
+    "service": "authen",
+    "release": "20261016-smart-input",
+    "analysis": "deepseek-with-explicit-local-fallback",
+    "ai": {
+      "configured": true,
+      "provider": "DeepSeek",
+      "model": "deepseek-flash",
+      "vision": true
+    }
+  }
+}

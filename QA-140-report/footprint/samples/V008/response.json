@@ -1,0 +1,241 @@
+{
+  "contentType": "video",
+  "verdict": "flagged",
+  "summary": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正中间。 还没确认，先别急着下结论。",
+  "next": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+  "evidence": [
+    {
+      "text": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正中间。",
+      "finding": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正中间。",
+      "why": "这可能是复制粘贴，也可能是平铺纹理或重复图案，需要原图对照。",
+      "imageIndex": 1,
+      "box": [
+        0.1669,
+        0.4207,
+        0.0402,
+        0.0236
+      ],
+      "source": "画面真实性",
+      "excerpt": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正中间。"
+    },
+    {
+      "text": "米色背景上分布着极细的竖向纹理，卡片圆角边缘与背景交界处过渡平滑",
+      "finding": "米色背景上分布着极细的竖向纹理，卡片圆角边缘与背景交界处过渡平滑",
+      "why": "纯色背景图导出时常见的压缩噪点或屏幕拍摄产生的摩尔纹",
+      "imageIndex": 0,
+      "source": "画面真实性",
+      "excerpt": "米色背景上分布着极细的竖向纹理，卡片圆角边缘与背景交界处过渡平滑"
+    },
+    {
+      "text": "卡片内文字行距均匀，字体边缘有轻微灰边",
+      "finding": "卡片内文字行距均匀，字体边缘有轻微灰边",
+      "why": "图片缩放或抗锯齿渲染造成的正常现象",
+      "imageIndex": 1,
+      "source": "画面真实性",
+      "excerpt": "卡片内文字行距均匀，字体边缘有轻微灰边"
+    }
+  ],
+  "references": [],
+  "numbers": [],
+  "answerKind": "check",
+  "tips": [],
+  "analysisLabel": "多个角度核对过",
+  "provider": "AUTHEN",
+  "model": "deepseek-chat",
+  "scope": "已查看3个关键画面和可读字幕；未读取声音，也未检查每一帧。 已把音频转成文字，核对其中的说法；尚未判断声音是否合成。 这次检查了文字依据、画面真实性、图文一致性、上下文完整性这几个方面。其中文字依据材料不够。",
+  "checks": {
+    "content": "completed",
+    "knowledge": "not_connected",
+    "imageForensics": "partial",
+    "audioForensics": "not_applicable"
+  },
+  "presentation": {
+    "presentation_state": "P-02",
+    "presentation_family": "风险发现",
+    "state_subtitle": "发现需要进一步核实的线索",
+    "state_reason": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正中间。 还没确认，先别急着下结论。",
+    "confidence_tier": "线索（尚未确认）",
+    "dimension_summary": [
+      {
+        "dim": "文字依据",
+        "applicable": "适用",
+        "result": "没有资料可对",
+        "note": "这次没有可对照的公开资料。"
+      },
+      {
+        "dim": "画面真实性",
+        "applicable": "适用",
+        "result": "画面有需要核对的重复",
+        "note": "米色背景上分布着极细的竖向纹理，卡片圆角边缘与背景交界处过渡平滑"
+      },
+      {
+        "dim": "图文一致性",
+        "applicable": "适用",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      },
+      {
+        "dim": "评论区真实性",
+        "applicable": "本次未涉及",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      },
+      {
+        "dim": "上下文完整性",
+        "applicable": "适用",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      },
+      {
+        "dim": "商品真实性",
+        "applicable": "本次未涉及",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      }
+    ],
+    "evidence_cards": [
+      {
+        "card_id": "CARD-01",
+        "evidence_id": "EVD-D2-04",
+        "dim": "画面真实性",
+        "title": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正中间。",
+        "quote": "",
+        "observation": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正中间。",
+        "explanation": "这可能是复制粘贴，也可能是平铺纹理或重复图案，需要原图对照。",
+        "alt_explanations": [
+          "平铺纹理或重复图案",
+          "同一张贴纸的多个角度",
+          "背景本身重复"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "精确",
+        "direction": "support",
+        "image_index": 1,
+        "box": [
+          0.1669,
+          0.4207,
+          0.0402,
+          0.0236
+        ]
+      },
+      {
+        "card_id": "CARD-02",
+        "evidence_id": "EVD-D2-01",
+        "dim": "画面真实性",
+        "title": "米色背景上分布着极细的竖向纹理，卡片圆角边缘与背景交界处过渡平滑",
+        "quote": "",
+        "observation": "米色背景上分布着极细的竖向纹理，卡片圆角边缘与背景交界处过渡平滑",
+        "explanation": "纯色背景图导出时常见的压缩噪点或屏幕拍摄产生的摩尔纹",
+        "alt_explanations": [
+          "光线与阴影",
+          "压缩或滤镜",
+          "拍摄角度"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "仅线索",
+        "direction": "support",
+        "image_index": 0
+      },
+      {
+        "card_id": "CARD-03",
+        "evidence_id": "EVD-D2-02",
+        "dim": "画面真实性",
+        "title": "卡片内文字行距均匀，字体边缘有轻微灰边",
+        "quote": "",
+        "observation": "卡片内文字行距均匀，字体边缘有轻微灰边",
+        "explanation": "图片缩放或抗锯齿渲染造成的正常现象",
+        "alt_explanations": [
+          "光线与阴影",
+          "压缩或滤镜",
+          "拍摄角度"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "仅线索",
+        "direction": "support",
+        "image_index": 1
+      }
+    ],
+    "limitations": [
+      "这次看的是你发来的 3 张图，检查了 4 个方面。没有看评论区真实性、商品真实性。",
+      "这个结果只说这条内容，不猜作者是不是故意，也不判断账号是谁。",
+      "有些位置只能给个大概，要精确还得对着原图看一眼。",
+      "结论只说这一条内容，不套到别的帖子上。"
+    ],
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "reason_steps": [
+      "发现问题的方面：画面真实性。",
+      "材料不够的方面：文字依据。",
+      "合起来看，有线索，但还不能确认。"
+    ],
+    "reason_detail": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正中间。 还没确认，先别急着下结论。 同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正中间。 米色背景上分布着极细的竖向纹理，卡片圆角边缘与背景交界处过渡平滑 补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "a11y_label": "状态：风险发现，线索（尚未确认）。发现需要进一步核实的线索。",
+    "aggregate_state": "E2",
+    "total_decision": "线索级（待核验）",
+    "e2_subtype": "E2-模式型",
+    "rejection_reason_code": "—",
+    "rule_version": "authen-2.0",
+    "generated_at": "2026-10-20T11:56:24.045Z",
+    "dims": {
+      "D1": "EI",
+      "D2": "E2",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "references": [],
+    "compliance_log": []
+  },
+  "audit": {
+    "modality": "video",
+    "content_type": "video",
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E2",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E2",
+    "e2_subtype": "E2-模式型",
+    "upgrade_eligible": false,
+    "total_decision": "线索级（待核验）",
+    "rejection_reason_code": "—",
+    "merged_evidence": 1,
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "alt_explanations": [
+      "光线与阴影",
+      "压缩或滤镜",
+      "拍摄角度",
+      "平铺纹理或重复图案",
+      "同一张贴纸的多个角度",
+      "背景本身重复"
+    ],
+    "rule_version": "authen-2.0",
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "elapsed_ms": 2187
+  }
+}

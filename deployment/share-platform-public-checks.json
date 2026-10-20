@@ -1,0 +1,28 @@
+{
+  "health": {
+    "ok": true,
+    "service": "authen",
+    "release": "20261016-share-platforms-3",
+    "analysis": "deepseek-with-explicit-local-fallback",
+    "ai": {
+      "configured": true,
+      "provider": "DeepSeek",
+      "model": "deepseek-flash",
+      "vision": true
+    }
+  },
+  "pages": [
+    {
+      "name": "taobao",
+      "status": 422,
+      "code": "APP_REQUIRED",
+      "error": "淘宝 / 天猫这次只返回了打开 App 的页面，没读到具体内容。可以先看分享文案，或补截图。"
+    },
+    {
+      "name": "douyin-user",
+      "status": 422,
+      "code": "CONTENT_UNAVAILABLE",
+      "error": "抖音没有返回这条作品的内容，可以先看分享文案，或上传视频、截图。"
+    }
+  ]
+}

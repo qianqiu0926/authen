@@ -1,0 +1,29 @@
+[Unit]
+Description=AUTHEN beauty content service
+After=network-online.target
+Wants=network-online.target
+[Service]
+Type=simple
+User=authen
+Group=authen
+WorkingDirectory=/opt/authen/current/web
+Environment=HOME=/var/lib/authen
+EnvironmentFile=/opt/authen/shared/service.env
+ExecStart=/usr/bin/node --max-old-space-size=256 server.mjs
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+KillMode=control-group
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/authen
+UMask=0077
+Nice=10
+CPUQuota=100%
+MemoryHigh=750M
+MemoryMax=1200M
+MemorySwapMax=1500M
+[Install]
+WantedBy=multi-user.target

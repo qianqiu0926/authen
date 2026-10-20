@@ -1,0 +1,22 @@
+--- /Users/sugeladi/Library/Application Support/DoubaoWork/Default/.doubaowork/agent_mode/workspace/.sessions/38448061071007746/agents/s_000EAvdwSRp/artifacts/before/src/store.tsx	2026-10-20 19:33:32
++++ /Users/sugeladi/Desktop/欧莱雅黑客松/AUTHEN/web/src/consumer/store.tsx	2026-10-20 19:34:09
+@@ -86,6 +86,10 @@
+     [error, setError] = useState(""),
+     [unread, setUnread] = useState<string | null>(null),
+     [supplement, setSupplement] = useState<Report | null>(null);
++  const [intakePreset, setIntakePreset] = useState<{
++    scenario: "note" | "comments" | "media";
++    focus?: string;
++  } | null>(null);
+   const abort = useRef<AbortController | null>(null),
+     incoming = useRef<Material | null>(null),
+     latest = useRef({ tab, sheet, state });
+@@ -287,6 +291,8 @@
+     updatePost,
+     supplement,
+     setSupplement,
++    intakePreset,
++    setIntakePreset,
+     incoming,
+     cancel: () => {
+       abort.current?.abort();

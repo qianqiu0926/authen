@@ -1,0 +1,62 @@
+--- /Users/sugeladi/Library/Application Support/DoubaoWork/Default/.doubaowork/agent_mode/workspace/.sessions/38448061071007746/agents/s_000EAvdwSRp/artifacts/before/src/pages.tsx	2026-10-20 19:33:32
++++ /Users/sugeladi/Desktop/欧莱雅黑客松/AUTHEN/web/src/consumer/pages.tsx	2026-10-20 19:34:42
+@@ -24,7 +24,7 @@
+   { kind: "audio", name: "音频 / 口播", icon: "audio" },
+ ];
+ export function Toolbox() {
+-  const { state, open, setTab } = useApp(),
++  const { state, open, setTab, setIntakePreset } = useApp(),
+     featured = state.social.posts.find((p) => p.id === "zg5xAafJ080"),
+     lessons = state.social.posts.filter((p) => p.category === "鉴真课堂");
+   return (
+@@ -67,6 +67,50 @@
+           </span>
+           <ArrowUpRight size={22} />
+         </button>
++      </section>
++      <section className="scenarios" aria-label="选择要查的内容">
++        <div className="section-heading">
++          <h2>从哪里发来？</h2>
++          <span>都汇到同一个“发来看看”</span>
++        </div>
++        <div className="scenario-grid">
++          <button
++            className="scenario-card"
++            aria-label="查种草内容"
++            onClick={() => {
++              setIntakePreset({ scenario: "note", focus: "功效靠谱吗？" });
++              open("smart");
++            }}
++          >
++            <Icon name="notebook" size={38} />
++            <b>种草内容</b>
++            <small>笔记正文、功效承诺</small>
++          </button>
++          <button
++            className="scenario-card"
++            aria-label="查评论区"
++            onClick={() => {
++              setIntakePreset({ scenario: "comments", focus: "好评真实吗？" });
++              open("smart");
++            }}
++          >
++            <Icon name="social" size={38} />
++            <b>评论区</b>
++            <small>好评是不是复制粘贴的</small>
++          </button>
++          <button
++            className="scenario-card"
++            aria-label="查图片、视频或音频"
++            onClick={() => {
++              setIntakePreset({ scenario: "media" });
++              open("smart");
++            }}
++          >
++            <Icon name="video" size={38} />
++            <b>图片 / 视频 / 音频</b>
++            <small>画面、口播单独查</small>
++          </button>
++        </div>
+       </section>
+       <Growth />
+       <section className="discover">

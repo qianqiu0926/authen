@@ -1,0 +1,159 @@
+{
+  "sample_id": "E140",
+  "http_status": 200,
+  "body": {
+    "contentType": "other",
+    "verdict": "flagged",
+    "summary": "提到了「有临床证明」，但没给出本人或机构的原始出处。 还没确认，先别急着下结论。",
+    "next": "找到它说的测试人数和时长，或者原作者的原话。",
+    "evidence": [
+      {
+        "text": "有临床证明",
+        "finding": "提到了「有临床证明」，但没给出本人或机构的原始出处。",
+        "why": "说是谁推荐的，得能对上原视频、原声明或原论文。",
+        "source": "上下文完整性",
+        "excerpt": "提到了「有临床证明」，但没给出本人或机构的原始出处。"
+      }
+    ],
+    "references": [],
+    "numbers": [],
+    "answerKind": "check",
+    "tips": [],
+    "analysisLabel": "多个角度核对过",
+    "provider": "AUTHEN",
+    "model": "deepseek-chat",
+    "scope": "已检查提交的文字；APP 无 evidence.json 结构化血缘输入入口，该文件未进入分析。 这次检查了文字依据、评论区真实性、上下文完整性这几个方面。其中文字依据材料不够。",
+    "checks": {
+      "content": "completed",
+      "knowledge": "not_connected",
+      "imageForensics": "not_applicable",
+      "audioForensics": "not_applicable"
+    },
+    "presentation": {
+      "presentation_state": "P-02",
+      "presentation_family": "风险发现",
+      "state_subtitle": "发现需要进一步核实的线索",
+      "state_reason": "提到了「有临床证明」，但没给出本人或机构的原始出处。 还没确认，先别急着下结论。",
+      "confidence_tier": "线索（尚未确认）",
+      "dimension_summary": [
+        {
+          "dim": "文字依据",
+          "applicable": "适用",
+          "result": "没有资料可对",
+          "note": "这次没有可对照的公开资料。"
+        },
+        {
+          "dim": "画面真实性",
+          "applicable": "本次未涉及",
+          "result": "这次没涉及",
+          "note": "这次没有这类材料"
+        },
+        {
+          "dim": "图文一致性",
+          "applicable": "本次未涉及",
+          "result": "这次没涉及",
+          "note": "这次没有这类材料"
+        },
+        {
+          "dim": "评论区真实性",
+          "applicable": "适用",
+          "result": "这次没涉及",
+          "note": "这次没有这类材料"
+        },
+        {
+          "dim": "上下文完整性",
+          "applicable": "适用",
+          "result": "有一处没给条件",
+          "note": "提到了「有临床证明」，但没给出本人或机构的原始出处。"
+        },
+        {
+          "dim": "商品真实性",
+          "applicable": "本次未涉及",
+          "result": "这次没涉及",
+          "note": "这次没有这类材料"
+        }
+      ],
+      "evidence_cards": [
+        {
+          "card_id": "CARD-01",
+          "evidence_id": "EVD-D5-01",
+          "dim": "上下文完整性",
+          "title": "提到了「有临床证明」，但没给出本人或机构的原始出处。",
+          "quote": "有临床证明",
+          "observation": "提到了「有临床证明」，但没给出本人或机构的原始出处。",
+          "explanation": "说是谁推荐的，得能对上原视频、原声明或原论文。",
+          "alt_explanations": [
+            "出处写在主页或评论区",
+            "只是转述，不是本人背书"
+          ],
+          "cannot_infer": [
+            "发布者主观故意"
+          ],
+          "location_quality": "仅线索",
+          "direction": "support"
+        }
+      ],
+      "limitations": [
+        "这次看的是你发来的文字，检查了 3 个方面。没有看画面真实性、图文一致性、商品真实性。",
+        "这个结果只说这条内容，不猜作者是不是故意，也不判断账号是谁。",
+        "有些位置只能给个大概，要精确还得对着原图看一眼。",
+        "结论只说这一条内容，不套到别的帖子上。"
+      ],
+      "next_action": "找到它说的测试人数和时长，或者原作者的原话。",
+      "reason_steps": [
+        "材料不够的方面：文字依据。",
+        "合起来看，有线索，但还不能确认。"
+      ],
+      "reason_detail": "提到了「有临床证明」，但没给出本人或机构的原始出处。 还没确认，先别急着下结论。 提到了「有临床证明」，但没给出本人或机构的原始出处。 找到它说的测试人数和时长，或者原作者的原话。",
+      "a11y_label": "状态：风险发现，线索（尚未确认）。发现需要进一步核实的线索。",
+      "aggregate_state": "E1",
+      "total_decision": "线索级（待核验）",
+      "e2_subtype": "—",
+      "rejection_reason_code": "—",
+      "rule_version": "authen-2.0",
+      "generated_at": "2026-10-20T11:46:03.053Z",
+      "dims": {
+        "D1": "EI",
+        "D2": "NA",
+        "D3": "NA",
+        "D4": "NA",
+        "D5": "E1",
+        "D6": "NA"
+      },
+      "cannot_infer": [
+        "发布者主观故意"
+      ],
+      "references": [],
+      "compliance_log": []
+    },
+    "audit": {
+      "modality": "text",
+      "content_type": "other",
+      "dim_state_vector": {
+        "D1": "EI",
+        "D2": "NA",
+        "D3": "NA",
+        "D4": "NA",
+        "D5": "E1",
+        "D6": "NA"
+      },
+      "aggregate_state": "E1",
+      "e2_subtype": "—",
+      "upgrade_eligible": false,
+      "total_decision": "线索级（待核验）",
+      "rejection_reason_code": "—",
+      "merged_evidence": 0,
+      "cannot_infer": [
+        "发布者主观故意"
+      ],
+      "alt_explanations": [
+        "出处写在主页或评论区",
+        "只是转述，不是本人背书"
+      ],
+      "rule_version": "authen-2.0",
+      "model": "deepseek-chat",
+      "provider": "deepseek",
+      "elapsed_ms": 0
+    }
+  }
+}

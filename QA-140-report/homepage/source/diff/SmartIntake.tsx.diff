@@ -1,0 +1,46 @@
+--- /Users/sugeladi/Library/Application Support/DoubaoWork/Default/.doubaowork/agent_mode/workspace/.sessions/38448061071007746/agents/s_000EAvdwSRp/artifacts/before/src/SmartIntake.tsx	2026-10-20 19:33:32
++++ /Users/sugeladi/Desktop/欧莱雅黑客松/AUTHEN/web/src/consumer/SmartIntake.tsx	2026-10-20 19:35:16
+@@ -32,7 +32,9 @@
+     alive = useRef(true),
+     draftRef = useRef(text);
+   draftRef.current = text;
+-  const [readLink, setReadLink] = useState(!app.intakeRecovery?.issue), [focus, setFocus] = useState("");
++  const preset = app.intakePreset,
++    [scenario] = useState(preset?.scenario || null);
++  const [readLink, setReadLink] = useState(!app.intakeRecovery?.issue), [focus, setFocus] = useState(preset?.focus || "");
+   const pasteLink = async () => {
+     try {
+       const value = await navigator.clipboard.readText();
+@@ -59,6 +61,15 @@
+     };
+   }, []);
+   useEffect(() => {
++    app.setIntakePreset(null);
++    if (scenario === "media") {
++      const t = window.setTimeout(() => picker.current?.click(), 250);
++      return () => window.clearTimeout(t);
++    }
++    // 只在打开弹窗时执行一次场景预选
++    // eslint-disable-next-line react-hooks/exhaustive-deps
++  }, []);
++  useEffect(() => {
+     if (!media) {
+       setMediaURL("");
+       return;
+@@ -197,6 +208,16 @@
+           <p>好评、功效、妆效，查完再决定</p>
+           <img src="/authen/app/character-reading-bust.png" alt=""/>
+         </div>
++        {scenario && (
++          <div className={"intake-scenario scenario-" + scenario} role="status">
++            {scenario === "note" &&
++              "这是种草内容：贴一条笔记或商品链接，正文和功效承诺一起核对。"}
++            {scenario === "comments" &&
++              "这是评论区：贴商品或笔记链接，公开好评一起读；也可以直接贴几条评论。"}
++            {scenario === "media" &&
++              "这是图片 / 视频 / 音频：选好素材发来，画面和口播单独看。"}
++          </div>
++        )}
+         <div className="intake-sources">
+           <button onClick={()=>void pasteLink()}><Link2 size={22}/><b>粘贴链接</b><small>正文 + 评论一起看</small></button>
+           <button disabled={reading||recording} onClick={()=>picker.current?.click()}><Icon name="image" size={32}/><b>放入素材</b><small>图片 / 音视频</small></button>

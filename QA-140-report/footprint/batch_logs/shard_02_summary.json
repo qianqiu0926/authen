@@ -1,0 +1,729 @@
+{
+  "shard": "shard_02",
+  "total": 70,
+  "passed": 4,
+  "failed": 66,
+  "pass_rate": 0.0571,
+  "expected_distribution": {
+    "暂未发现问题": 32,
+    "有明确问题": 35,
+    "资料不足": 3
+  },
+  "actual_distribution": {
+    "有明确问题": 4,
+    "线索级（待核验）": 39,
+    "资料不足": 27
+  },
+  "by_modality": {
+    "图文帖": 18,
+    "图片": 14,
+    "文章": 18,
+    "视频": 12,
+    "转发变体": 8
+  },
+  "by_scenario": {
+    "保留测试": 17,
+    "开发": 39,
+    "验证": 14
+  },
+  "by_error_type": {
+    "none": 4,
+    "verdict_mismatch": 66
+  },
+  "by_mechanism": {
+    "jpeg_low": 2,
+    "noise": 1,
+    "resize": 1,
+    "screenshot": 2,
+    "transcode": 2,
+    "事实改写": 9,
+    "包装标贴覆盖": 1,
+    "同图复制拼接": 1,
+    "图文一致": 9,
+    "图文含义冲突": 9,
+    "图片中文字核对": 8,
+    "字幕口播一致": 6,
+    "字幕篡改": 6,
+    "局部痕迹移除": 1,
+    "局部颜色改动": 2,
+    "正常说明": 9,
+    "瓶身颜色改动": 1
+  },
+  "http_status": {
+    "200": 70
+  },
+  "mismatch_kinds": {
+    "(空)": 4,
+    "false_alarm_or_clue": 20,
+    "missed_conflict": 32,
+    "other": 14
+  },
+  "samples": [
+    "I009",
+    "I010",
+    "I011",
+    "I012",
+    "I013",
+    "I014",
+    "I015",
+    "I016",
+    "I017",
+    "I018",
+    "I019",
+    "I020",
+    "I021",
+    "I022",
+    "M001",
+    "M002",
+    "M003",
+    "M004",
+    "M005",
+    "M006",
+    "M007",
+    "M008",
+    "M009",
+    "M010",
+    "M011",
+    "M012",
+    "M013",
+    "M014",
+    "M015",
+    "M016",
+    "M017",
+    "M018",
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T005",
+    "T006",
+    "T007",
+    "T008",
+    "T009",
+    "T010",
+    "T011",
+    "T012",
+    "T013",
+    "T014",
+    "T015",
+    "T016",
+    "T017",
+    "T018",
+    "V001",
+    "V002",
+    "V003",
+    "V004",
+    "V005",
+    "V006",
+    "V007",
+    "V008",
+    "V009",
+    "V010",
+    "V011",
+    "V012",
+    "X001",
+    "X002",
+    "X003",
+    "X004",
+    "X005",
+    "X006",
+    "X007",
+    "X008"
+  ],
+  "failures": [
+    {
+      "sample_id": "I009",
+      "modality": "图片",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "图片中文字核对"
+    },
+    {
+      "sample_id": "I010",
+      "modality": "图片",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "图片中文字核对"
+    },
+    {
+      "sample_id": "I011",
+      "modality": "图片",
+      "expected": "暂未发现问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "other",
+      "mechanism": "图片中文字核对"
+    },
+    {
+      "sample_id": "I012",
+      "modality": "图片",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "图片中文字核对"
+    },
+    {
+      "sample_id": "I013",
+      "modality": "图片",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "图片中文字核对"
+    },
+    {
+      "sample_id": "I014",
+      "modality": "图片",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "图片中文字核对"
+    },
+    {
+      "sample_id": "I015",
+      "modality": "图片",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "图片中文字核对"
+    },
+    {
+      "sample_id": "I016",
+      "modality": "图片",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "图片中文字核对"
+    },
+    {
+      "sample_id": "I017",
+      "modality": "图片",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "局部颜色改动"
+    },
+    {
+      "sample_id": "I018",
+      "modality": "图片",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "局部颜色改动"
+    },
+    {
+      "sample_id": "I019",
+      "modality": "图片",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "瓶身颜色改动"
+    },
+    {
+      "sample_id": "I020",
+      "modality": "图片",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "局部痕迹移除"
+    },
+    {
+      "sample_id": "I021",
+      "modality": "图片",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "同图复制拼接"
+    },
+    {
+      "sample_id": "I022",
+      "modality": "图片",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "包装标贴覆盖"
+    },
+    {
+      "sample_id": "M001",
+      "modality": "图文帖",
+      "expected": "暂未发现问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "other",
+      "mechanism": "图文一致"
+    },
+    {
+      "sample_id": "M003",
+      "modality": "图文帖",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "图文一致"
+    },
+    {
+      "sample_id": "M005",
+      "modality": "图文帖",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "图文一致"
+    },
+    {
+      "sample_id": "M006",
+      "modality": "图文帖",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "图文含义冲突"
+    },
+    {
+      "sample_id": "M007",
+      "modality": "图文帖",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "图文一致"
+    },
+    {
+      "sample_id": "M008",
+      "modality": "图文帖",
+      "expected": "有明确问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "图文含义冲突"
+    },
+    {
+      "sample_id": "M009",
+      "modality": "图文帖",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "图文一致"
+    },
+    {
+      "sample_id": "M010",
+      "modality": "图文帖",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "图文含义冲突"
+    },
+    {
+      "sample_id": "M011",
+      "modality": "图文帖",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "图文一致"
+    },
+    {
+      "sample_id": "M012",
+      "modality": "图文帖",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "图文含义冲突"
+    },
+    {
+      "sample_id": "M013",
+      "modality": "图文帖",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "图文一致"
+    },
+    {
+      "sample_id": "M014",
+      "modality": "图文帖",
+      "expected": "有明确问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "图文含义冲突"
+    },
+    {
+      "sample_id": "M015",
+      "modality": "图文帖",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "图文一致"
+    },
+    {
+      "sample_id": "M017",
+      "modality": "图文帖",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "图文一致"
+    },
+    {
+      "sample_id": "M018",
+      "modality": "图文帖",
+      "expected": "资料不足",
+      "actual": "有明确问题",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "图文含义冲突"
+    },
+    {
+      "sample_id": "T001",
+      "modality": "文章",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "正常说明"
+    },
+    {
+      "sample_id": "T002",
+      "modality": "文章",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "事实改写"
+    },
+    {
+      "sample_id": "T003",
+      "modality": "文章",
+      "expected": "暂未发现问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "other",
+      "mechanism": "正常说明"
+    },
+    {
+      "sample_id": "T004",
+      "modality": "文章",
+      "expected": "有明确问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "事实改写"
+    },
+    {
+      "sample_id": "T005",
+      "modality": "文章",
+      "expected": "暂未发现问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "other",
+      "mechanism": "正常说明"
+    },
+    {
+      "sample_id": "T006",
+      "modality": "文章",
+      "expected": "有明确问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "事实改写"
+    },
+    {
+      "sample_id": "T007",
+      "modality": "文章",
+      "expected": "暂未发现问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "other",
+      "mechanism": "正常说明"
+    },
+    {
+      "sample_id": "T008",
+      "modality": "文章",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "事实改写"
+    },
+    {
+      "sample_id": "T009",
+      "modality": "文章",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "正常说明"
+    },
+    {
+      "sample_id": "T010",
+      "modality": "文章",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "事实改写"
+    },
+    {
+      "sample_id": "T011",
+      "modality": "文章",
+      "expected": "暂未发现问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "other",
+      "mechanism": "正常说明"
+    },
+    {
+      "sample_id": "T012",
+      "modality": "文章",
+      "expected": "有明确问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "事实改写"
+    },
+    {
+      "sample_id": "T013",
+      "modality": "文章",
+      "expected": "暂未发现问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "other",
+      "mechanism": "正常说明"
+    },
+    {
+      "sample_id": "T014",
+      "modality": "文章",
+      "expected": "有明确问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "事实改写"
+    },
+    {
+      "sample_id": "T015",
+      "modality": "文章",
+      "expected": "暂未发现问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "other",
+      "mechanism": "正常说明"
+    },
+    {
+      "sample_id": "T016",
+      "modality": "文章",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "事实改写"
+    },
+    {
+      "sample_id": "T017",
+      "modality": "文章",
+      "expected": "暂未发现问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "other",
+      "mechanism": "正常说明"
+    },
+    {
+      "sample_id": "V001",
+      "modality": "视频",
+      "expected": "暂未发现问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "other",
+      "mechanism": "字幕口播一致"
+    },
+    {
+      "sample_id": "V002",
+      "modality": "视频",
+      "expected": "有明确问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "字幕篡改"
+    },
+    {
+      "sample_id": "V003",
+      "modality": "视频",
+      "expected": "暂未发现问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "other",
+      "mechanism": "字幕口播一致"
+    },
+    {
+      "sample_id": "V004",
+      "modality": "视频",
+      "expected": "有明确问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "字幕篡改"
+    },
+    {
+      "sample_id": "V005",
+      "modality": "视频",
+      "expected": "暂未发现问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "other",
+      "mechanism": "字幕口播一致"
+    },
+    {
+      "sample_id": "V006",
+      "modality": "视频",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "字幕篡改"
+    },
+    {
+      "sample_id": "V007",
+      "modality": "视频",
+      "expected": "暂未发现问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "字幕口播一致"
+    },
+    {
+      "sample_id": "V008",
+      "modality": "视频",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "字幕篡改"
+    },
+    {
+      "sample_id": "V009",
+      "modality": "视频",
+      "expected": "暂未发现问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "other",
+      "mechanism": "字幕口播一致"
+    },
+    {
+      "sample_id": "V010",
+      "modality": "视频",
+      "expected": "有明确问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "字幕篡改"
+    },
+    {
+      "sample_id": "V011",
+      "modality": "视频",
+      "expected": "暂未发现问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "other",
+      "mechanism": "字幕口播一致"
+    },
+    {
+      "sample_id": "V012",
+      "modality": "视频",
+      "expected": "有明确问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "字幕篡改"
+    },
+    {
+      "sample_id": "X001",
+      "modality": "转发变体",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "jpeg_low"
+    },
+    {
+      "sample_id": "X002",
+      "modality": "转发变体",
+      "expected": "资料不足",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "false_alarm_or_clue",
+      "mechanism": "resize"
+    },
+    {
+      "sample_id": "X003",
+      "modality": "转发变体",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "jpeg_low"
+    },
+    {
+      "sample_id": "X004",
+      "modality": "转发变体",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "screenshot"
+    },
+    {
+      "sample_id": "X005",
+      "modality": "转发变体",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "screenshot"
+    },
+    {
+      "sample_id": "X006",
+      "modality": "转发变体",
+      "expected": "有明确问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "transcode"
+    },
+    {
+      "sample_id": "X007",
+      "modality": "转发变体",
+      "expected": "有明确问题",
+      "actual": "线索级（待核验）",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "transcode"
+    },
+    {
+      "sample_id": "X008",
+      "modality": "转发变体",
+      "expected": "有明确问题",
+      "actual": "资料不足",
+      "error_type": "verdict_mismatch",
+      "mismatch_kind": "missed_conflict",
+      "mechanism": "noise"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "brand": "AUTHEN",
+  "palette": {
+    "paper": "#F7F2EB",
+    "ink": "#191817",
+    "lipstick": "#B52B32",
+    "warmGray": "#A69C93",
+    "champagne": "#BDA486",
+    "paperWhite": "#FFFCF7",
+    "softRose": "#ECD9D4"
+  },
+  "type": {
+    "wordmark": { "ios": "Didot", "size": 58, "tracking": -2.5 },
+    "display": { "ios": "Didot-Bold", "size": 36 },
+    "body": { "ios": "system", "size": 16 },
+    "caption": { "ios": "system", "size": 12 },
+    "button": { "ios": "system-semibold", "size": 15 }
+  },
+  "motion": {
+    "gazeLimit": 0.12,
+    "headTiltDegrees": 7,
+    "bodyTiltDegrees": 3,
+    "stretchScaleMin": 0.86,
+    "stretchScaleMax": 1.15,
+    "pinchScaleMin": 0.84,
+    "pinchScaleMax": 1.17,
+    "paperInSeconds": 0.85,
+    "reportOutSeconds": 0.65,
+    "springResponse": 0.42,
+    "springDamping": 0.68,
+    "reducedMotion": "Replace shred, stretch and flying paper with brief opacity transitions; keep all controls usable."
+  },
+  "copy": {
+    "image": "图片",
+    "video": "视频",
+    "text": "文字",
+    "link": "链接",
+    "demo": "试一下",
+    "sampleBadge": "示例",
+    "archive": "档案",
+    "submit": "放进去",
+    "dropHint": "拖进来",
+    "replace": "换一份",
+    "cancel": "取消",
+    "reading": "看看内容",
+    "checking": "查查资料",
+    "assembling": "整理好了",
+    "flagged": "有疑点",
+    "supported": "查到了",
+    "unclear": "还差一点",
+    "openReport": "看依据",
+    "addMaterial": "再加一张",
+    "retry": "重试",
+    "source": "查看出处",
+    "save": "保存报告",
+    "delete": "删除",
+    "newCheck": "再查一份"
+  }
+}

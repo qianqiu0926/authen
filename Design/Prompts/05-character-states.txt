@@ -1,0 +1,7 @@
+Use case: identity-preserve
+Asset type: production character pose sheet for AUTHEN, to crop into three states.
+Input image: AUTHEN's approved finished character. This is the exact character identity, clothing, material and drawing style to preserve.
+Primary request: create three full-body variants of the SAME woman in three equally sized vertical columns. LEFT: thoughtfully reviewing a plain ivory sheet, eyes looking down, one hand adjusting her clear red glasses. CENTER: presenting a blank ivory report with one open palm, welcoming but self-assured, face looking toward the report. RIGHT: a gently curious head tilt and one raised eyebrow, open empty palm asking for another piece of information. Keep every visible hand complete and anatomically clear.
+Invariants: same face, asymmetrical black bob, red clear-lens cat-eye glasses, angular lipstick-red blazer, ivory shirt, black midi skirt and red shoes. Identical body scale, full figure visible at the same baseline in each column. Same premium ink-and-gouache fashion illustration. No hat, no new clothes, no new people, no shift to anime or 3D.
+Background: perfectly flat uniform chroma green #00FF00, no labels, no shadows or texture on green, no green in the subject. Wide separation between poses and margin around every silhouette for clean cropping.
+Text: none anywhere, including paper. No watermark, arrows, panels or signature.

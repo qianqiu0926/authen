@@ -1,0 +1,48 @@
+{
+  "https://authen.classby.cn/authen/": {
+    "status": 200
+  },
+  "http://119.91.129.203/authen/": {
+    "status": 200
+  },
+  "https://authen.classby.cn/authen/api/health": {
+    "status": 200,
+    "body": {
+      "ok": true,
+      "service": "authen",
+      "release": "20261016-beauty-garden",
+      "analysis": "deepseek-with-explicit-local-fallback",
+      "ai": {
+        "configured": true,
+        "provider": "DeepSeek",
+        "model": "deepseek-flash",
+        "vision": true
+      }
+    }
+  },
+  "http://119.91.129.203/": {
+    "status": 200
+  },
+  "https://authen.classby.cn/authen/app/garden/soft-flower-bloom.png": {
+    "status": 200
+  },
+  "linkRead": {
+    "status": 200,
+    "title": "Moisturizing Cream | CeraVe",
+    "keys": [
+      "url",
+      "title",
+      "platform",
+      "author",
+      "text",
+      "contentType",
+      "reviews",
+      "coverage",
+      "limitations",
+      "images"
+    ],
+    "textLength": 7031,
+    "images": 3,
+    "reviews": 0
+  }
+}

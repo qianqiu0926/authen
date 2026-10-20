@@ -1,0 +1,58 @@
+name: AUTHEN
+options:
+  bundleIdPrefix: studio.authen
+  deploymentTarget:
+    iOS: '18.0'
+settings:
+  base:
+    SWIFT_VERSION: '5.0'
+    DEVELOPMENT_TEAM: ''
+    CODE_SIGNING_ALLOWED: NO
+    TARGETED_DEVICE_FAMILY: '1,2'
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+targets:
+  AUTHEN:
+    type: application
+    platform: iOS
+    sources: [Authen]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: studio.authen.app
+        PRODUCT_NAME: AUTHEN
+        GENERATE_INFOPLIST_FILE: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        INFOPLIST_KEY_CFBundleDisplayName: AUTHEN
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_NSCameraUsageDescription: 拍下想核实的美妆内容。
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: 选择要核实的图片或视频。
+        INFOPLIST_KEY_NSSpeechRecognitionUsageDescription: 把视频里的口播变成可查看的文字。
+        INFOPLIST_KEY_NSMicrophoneUsageDescription: 把你的问题变成文字。
+        INFOPLIST_KEY_UIUserInterfaceStyle: Light
+  AuthenTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [AuthenTests]
+    dependencies: [{target: AUTHEN}]
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+  AuthenUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [AuthenUITests]
+    dependencies: [{target: AUTHEN}]
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  AUTHEN:
+    build:
+      targets:
+        AUTHEN: all
+    run:
+      config: Debug
+    test:
+      targets: [AuthenTests, AuthenUITests]

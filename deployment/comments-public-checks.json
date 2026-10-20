@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://authen.classby.cn/api/health",
+    "status": 200,
+    "health": {
+      "ok": true,
+      "service": "authen",
+      "release": "20261016-link-comments",
+      "analysis": "deepseek-with-explicit-local-fallback",
+      "ai": {
+        "configured": true,
+        "provider": "DeepSeek",
+        "model": "deepseek-flash",
+        "vision": true
+      }
+    }
+  },
+  {
+    "url": "https://authen.classby.cn/authen/",
+    "status": 200
+  },
+  {
+    "url": "http://119.91.129.203/authen/",
+    "status": 200
+  },
+  {
+    "url": "http://119.91.129.203/",
+    "status": 200
+  },
+  {
+    "url": "xhs-sample",
+    "status": 200,
+    "title": "皮肤好的人都要用很贵的精华吗",
+    "coverage": {
+      "text": true,
+      "reviews": 20,
+      "images": 3,
+      "excerptOnly": false
+    },
+    "commentAnalysis": {
+      "version": 1,
+      "method": "text-patterns-v1",
+      "status": "ready",
+      "readCount": 20,
+      "total": 20,
+      "replies": 15,
+      "authorReplies": 0,
+      "duplicates": 0,
+      "suspicious": 0,
+      "detailed": 0,
+      "unknown": 20,
+      "percent": 0,
+      "partial": true,
+      "limited": false,
+      "summary": "暂未发现成组重复话术，仍要结合产品说明看",
+      "groups": [],
+      "details": []
+    }
+  }
+]

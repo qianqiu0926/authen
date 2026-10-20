@@ -1,0 +1,110 @@
+{
+  "method": "gpt-image-2 via imagegen bundled CLI; local crop/alpha preservation and eye rig",
+  "assets": [
+    {
+      "name": "app-icon.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "25caacdb32bec02a104c2c37a2fdb5de3f1083c5a6b2c32cb8fc23f0bbc6c9e6"
+    },
+    {
+      "name": "character-bust.png",
+      "width": 770,
+      "height": 940,
+      "mode": "RGBA",
+      "sha256": "f7b2e1015a11b74fe7ee034452190d2cc17bdb9b54a933bab5c43268bdc90c1b"
+    },
+    {
+      "name": "character-curious-bust.png",
+      "width": 357,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "1b7ad1d657d7ab28b6b810b70b6c9a44ee3bd90ea7070deb912e36e514f0ac51"
+    },
+    {
+      "name": "character-curious.png",
+      "width": 357,
+      "height": 885,
+      "mode": "RGBA",
+      "sha256": "a51de20e25c1056a44c6f7b4095a6e3ea7ae9915b8e48d7035612cca213a9dc2"
+    },
+    {
+      "name": "character-full.png",
+      "width": 577,
+      "height": 1400,
+      "mode": "RGBA",
+      "sha256": "0e7b7a66d9cb1a6667dff3bf4648cac64835568ffcc5803bccf03e349b3cda6f"
+    },
+    {
+      "name": "character-gaze.png",
+      "width": 770,
+      "height": 940,
+      "mode": "RGBA",
+      "sha256": "3ac9bacf8ff1808e0280308ba1e3845d5188589ce3afe64273c88b45401d1444"
+    },
+    {
+      "name": "character-presenting-bust.png",
+      "width": 331,
+      "height": 517,
+      "mode": "RGBA",
+      "sha256": "8c043fc4a34e3bbb6d6ac84e60e77358084ac1f0e47e64ec4778d18a3eb43b52"
+    },
+    {
+      "name": "character-presenting.png",
+      "width": 331,
+      "height": 889,
+      "mode": "RGBA",
+      "sha256": "5417ce7bef54b870cb306ac5ec152957782180c5a9f0b49cddccdb8f49262a4e"
+    },
+    {
+      "name": "character-reading-bust.png",
+      "width": 296,
+      "height": 516,
+      "mode": "RGBA",
+      "sha256": "f3f1a0cb63a359a8e92aa4617d8ffe127dab911135029870b88ebaf471f6c5a3"
+    },
+    {
+      "name": "character-reading.png",
+      "width": 296,
+      "height": 889,
+      "mode": "RGBA",
+      "sha256": "bd715c7369e732c75431e95f0d43eedd015b98bedf70a4b695e9b84087b341bf"
+    },
+    {
+      "name": "compact.png",
+      "width": 439,
+      "height": 525,
+      "mode": "RGBA",
+      "sha256": "aed74e6704e25c2eec9f013d17a653366ea94cb110fc962f8cc3efac7b0d9c0d"
+    },
+    {
+      "name": "lipstick.png",
+      "width": 391,
+      "height": 539,
+      "mode": "RGBA",
+      "sha256": "0cd0b97da29e3e9b35d0f178df4918af2299fabc00ee24963b32f71bc6052494"
+    },
+    {
+      "name": "mascara.png",
+      "width": 321,
+      "height": 557,
+      "mode": "RGBA",
+      "sha256": "beae0104c0e0b6711bc43c2492825de3477d97503ccc81fd403bd4939e68ff92"
+    },
+    {
+      "name": "perfume.png",
+      "width": 386,
+      "height": 533,
+      "mode": "RGBA",
+      "sha256": "a8baba168b064f0cb42a8d324d0fc5d847d8cfc2b1a0e5d40ccb9e32231eb5cd"
+    },
+    {
+      "name": "shredder.png",
+      "width": 968,
+      "height": 1019,
+      "mode": "RGBA",
+      "sha256": "3dfe167bf0f16c64deab195c176e43d9b455f37f28aa0311b957223aa036d24c"
+    }
+  ]
+}

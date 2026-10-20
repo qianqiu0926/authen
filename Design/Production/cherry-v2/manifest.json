@@ -1,0 +1,17 @@
+{
+  "model": "gpt-image-2",
+  "method": "bundled CLI API generation, 3x3 crop",
+  "prompt": "Design/Prompts/cherry-icons-v2.txt",
+  "source": "output/imagegen/cherry-icons-v2.png",
+  "icons": [
+    "box",
+    "image",
+    "social",
+    "notebook",
+    "audio",
+    "video",
+    "house",
+    "leaf",
+    "game"
+  ]
+}

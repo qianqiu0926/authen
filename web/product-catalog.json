@@ -1,0 +1,225 @@
+{
+  "checkedAt": "2026-10-16",
+  "brands": [
+    {
+      "id": "hr",
+      "name": "赫莲娜",
+      "english": "HELENA RUBINSTEIN",
+      "aliases": [
+        "赫莲娜",
+        "helena rubinstein",
+        "HR赫莲娜"
+      ],
+      "url": "https://www.helenarubinstein.cn/",
+      "channels": "https://www.helenarubinstein.cn/counter/",
+      "hint": "官网可查看产品，并进入品牌小程序选购。"
+    },
+    {
+      "id": "ysl",
+      "name": "圣罗兰美妆",
+      "english": "YSL BEAUTY",
+      "aliases": [
+        "圣罗兰",
+        "YSL",
+        "Yves Saint Laurent"
+      ],
+      "url": "https://www.yslbeautycn.com/",
+      "channels": "",
+      "hint": "到官网搜索产品名；选购入口在官网的“小程序商城”。"
+    },
+    {
+      "id": "lancome",
+      "name": "兰蔻",
+      "english": "LANCÔME",
+      "aliases": [
+        "兰蔻",
+        "Lancôme",
+        "Lancome"
+      ],
+      "url": "https://www.lancome.com.cn/",
+      "channels": "",
+      "hint": "先在官网确认产品全名、版本和规格。"
+    },
+    {
+      "id": "loreal-paris",
+      "name": "巴黎欧莱雅",
+      "english": "L’ORÉAL PARIS",
+      "aliases": [
+        "巴黎欧莱雅",
+        "欧莱雅",
+        "L'Oréal Paris",
+        "Loreal Paris",
+        "L’Oreal Paris"
+      ],
+      "url": "https://www.lorealparis.com.cn/",
+      "channels": "",
+      "hint": "先在官网确认产品全名、版本和规格。"
+    },
+    {
+      "id": "cerave",
+      "name": "适乐肤",
+      "english": "CeraVe",
+      "aliases": [
+        "适乐肤",
+        "CeraVe"
+      ],
+      "url": "https://www.cerave.com/",
+      "channels": "",
+      "hint": "这是美国官网，产品版本可能与国内不同。"
+    }
+  ],
+  "products": [
+    {
+      "id": "hr-green",
+      "brand": "hr",
+      "name": "绿宝瓶精华",
+      "officialName": "赫莲娜悦颜焕活精华露",
+      "edition": "第六代",
+      "aliases": [
+        "绿宝瓶精华",
+        "绿宝瓶",
+        "悦颜焕活精华露"
+      ],
+      "exclude": "绿宝瓶(?:新肌水|水|眼霜|眼部|乳液|面霜)",
+      "icon": "perfume",
+      "tone": "sage",
+      "image": "https://res-wxec-unipt.lorealchina.com/prod/hr/20261014/eb56160c-70fc-499f-b469-3fc96abfcc51.jpg",
+      "url": "https://www.helenarubinstein.cn/product/HRD6DLBPJH/",
+      "buyURL": "https://detail.tmall.com/item.htm?id=613981068188",
+      "buyLabel": "去品牌推荐渠道选购",
+      "buySource": "https://www.helenarubinstein.cn/LLMs.txt",
+      "buyNote": "天猫可能需要登录。也可以展开“买前做点功课”，从官网进入品牌小程序。",
+      "facts": [
+        {
+          "label": "官网介绍",
+          "text": "保湿、舒缓、修护；这是品牌对产品的介绍。"
+        },
+        {
+          "label": "怎么用",
+          "text": "洁面后用在精华这一步，早晚均可。"
+        },
+        {
+          "label": "挑选时看",
+          "text": "先核对是否第六代，再选容量；旧版的配方和说明可能不同。"
+        }
+      ],
+      "check": "官网提到修护，不等于每个人都能马上褪红；也不能靠这张卡判断手里的瓶子是不是正品。",
+      "reference": "产品名称：赫莲娜悦颜焕活精华露。产品昵称：第六代绿宝瓶精华。产品功效：保湿、抗皱、祛痘、舒缓、修护。官网同时说明：护肤产品无法代替药物治疗，肌肤问题建议遵从医嘱。",
+      "editionPattern": "第[六6]代"
+    },
+    {
+      "id": "hr-black",
+      "brand": "hr",
+      "name": "黑绷带面霜",
+      "officialName": "赫莲娜活颜至浓修护晚霜",
+      "edition": "50PX",
+      "aliases": [
+        "黑绷带",
+        "活颜至浓修护晚霜"
+      ],
+      "exclude": "黑绷带(?:眼霜|精华)",
+      "icon": "compact",
+      "tone": "rose",
+      "image": "https://res-wxec-unipt.lorealchina.com/prod/hr/20261014/35f0c251-0f0e-422f-bea5-dce85258fe37.jpg",
+      "url": "https://www.helenarubinstein.cn/product/HRZNXHWS/",
+      "buyURL": "",
+      "buyLabel": "去官网选购",
+      "buySource": "https://www.helenarubinstein.cn/product/HRZNXHWS/",
+      "buyNote": "打开官网，点“即刻探索”进入品牌小程序。",
+      "facts": [
+        {
+          "label": "官网介绍",
+          "text": "保湿、抗皱、紧致、舒缓、修护。"
+        },
+        {
+          "label": "挑选时看",
+          "text": "当前资料对应 50PX 版，旧版需要另查说明。"
+        },
+        {
+          "label": "成分小提醒",
+          "text": "“50%玻色因溶液”说的是溶液，不能直接当成50%纯玻色因。"
+        }
+      ],
+      "check": "官网说明不针对淡斑、淡痘印或美白；不要把抗皱修护理解成什么问题都能解决。",
+      "reference": "产品名称：赫莲娜活颜至浓修护晚霜。产品昵称：黑绷带[50PX]面霜。产品功效：保湿、抗皱、紧致、舒缓、修护。官网成分表述为50%玻色因溶液。官网问答说明：不针对淡斑、淡痘印、美白功效。",
+      "editionPattern": "50\\s*px"
+    },
+    {
+      "id": "cerave-cream",
+      "brand": "cerave",
+      "name": "Moisturizing Cream 保湿霜",
+      "officialName": "CeraVe Moisturizing Cream",
+      "edition": "美国官网版本",
+      "aliases": [
+        "moisturizing cream",
+        "保湿霜",
+        "C霜"
+      ],
+      "requireBrand": true,
+      "exclude": "",
+      "icon": "compact",
+      "tone": "blue",
+      "image": "",
+      "url": "https://www.cerave.com/skincare/moisturizers/moisturizing-cream",
+      "buyURL": "",
+      "buyLabel": "看官网产品说明",
+      "buySource": "https://www.cerave.com/skincare/moisturizers/moisturizing-cream",
+      "buyNote": "美国官网，中文内容为简要翻译；国内款请核对包装。",
+      "facts": [
+        {
+          "label": "官网介绍",
+          "text": "保湿，帮助维护皮肤屏障；含神经酰胺和透明质酸等。"
+        },
+        {
+          "label": "适用部位",
+          "text": "官网标注可用于脸部和身体，面向中性至干性肌肤。"
+        },
+        {
+          "label": "挑选时看",
+          "text": "不同地区、不同版本的成分可能不同，以手里产品包装为准。"
+        }
+      ],
+      "check": "保湿霜不能替代皮肤病治疗；敏感时先小范围试用。",
+      "reference": "CeraVe美国官网：Moisturizing Cream。Made For: Normal to Dry Skin。Helps With: Hydration。Formulated with three essential ceramides, hyaluronic acid, dimethicone, and petrolatum. Please refer to the ingredient list on your product package for the most up-to-date list of ingredients."
+    },
+    {
+      "id": "lancome-genifique",
+      "brand": "lancome",
+      "name": "超修小黑瓶精华",
+      "officialName": "兰蔻肌底焕活修护精华液",
+      "edition": "超修版",
+      "editionPattern": "超修",
+      "aliases": [
+        "超修小黑瓶精华",
+        "小黑瓶精华",
+        "小黑瓶",
+        "肌底焕活修护精华液"
+      ],
+      "exclude": "小黑瓶(?:眼霜|眼部|眼精华)",
+      "icon": "perfume",
+      "tone": "rose",
+      "image": "https://res-wxec-unipt.lorealchina.com/prod/lan/20261008/45daa8a6-9f0b-4364-8787-057ac5962f2d.jpg",
+      "url": "https://www.lancome.com.cn/product/?id=LAN00008/",
+      "buyURL": "",
+      "buyLabel": "去官网查看 / 选购",
+      "buySource": "https://www.lancome.com.cn/product/?id=LAN00008/",
+      "buyNote": "官网点“即刻探索”查看品牌小程序入口。",
+      "facts": [
+        {
+          "label": "官网介绍",
+          "text": "修护、保湿、舒缓；这份资料对应超修版。"
+        },
+        {
+          "label": "怎么用",
+          "text": "官网建议早晚使用，用在爽肤水后、乳液或面霜前。"
+        },
+        {
+          "label": "挑选时看",
+          "text": "小黑瓶精华、眼霜是不同产品，经典版和超修版也要分清。"
+        }
+      ],
+      "check": "成分的高纯度不等于整瓶产品中的添加浓度；不同版本不要混着对比。",
+      "reference": "产品名称：兰蔻肌底焕活修护精华液。产品昵称：超修小黑瓶精华。官网介绍：修护肌肤屏障，舒缓肌肤，持久保湿。使用方法：每天早晚使用；单独使用时，爽肤水后，乳液/面霜前。"
+    }
+  ]
+}

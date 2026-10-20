@@ -1,0 +1,11 @@
+JSONL rows: 70
+unique sample_id: 70 OK
+actual-decision vocab violations: []
+missing raw files: []
+non-200 responses: []
+parsed OK: shard_01_summary.json
+parsed OK: shard_01.records.json
+passed: 13
+by modality: {'音频': 10, '评论组': 24, '图文帖': 8, '文章': 8, '图片': 20}
+by split: {'开发': 39, '验证': 16, '保留测试': 15}
+by error_type: {'-': 70}

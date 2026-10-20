@@ -1,0 +1,63 @@
+{
+  "sample_id": "E121",
+  "built": {
+    "kind": "comments",
+    "notes": ""
+  },
+  "request": {
+    "audience": "consumer",
+    "kind": "comments",
+    "text": "自然评论0\n自然评论1\n我更喜欢薄涂，厚涂会卡纹\n我更喜欢薄涂，厚涂会卡纹\n自然评论4\n自然评论5\n自然评论6\n自然评论7",
+    "comments": [
+      {
+        "id": "e121_c1",
+        "author": "user_088",
+        "authorKey": "user_088",
+        "text": "自然评论0"
+      },
+      {
+        "id": "e121_c2",
+        "author": "user_095",
+        "authorKey": "user_095",
+        "text": "自然评论1"
+      },
+      {
+        "id": "e121_c3",
+        "author": "user_005",
+        "authorKey": "user_005",
+        "text": "我更喜欢薄涂，厚涂会卡纹"
+      },
+      {
+        "id": "e121_c3",
+        "author": "user_012",
+        "authorKey": "user_012",
+        "text": "我更喜欢薄涂，厚涂会卡纹"
+      },
+      {
+        "id": "e121_c5",
+        "author": "user_019",
+        "authorKey": "user_019",
+        "text": "自然评论4"
+      },
+      {
+        "id": "e121_c6",
+        "author": "user_026",
+        "authorKey": "user_026",
+        "text": "自然评论5"
+      },
+      {
+        "id": "e121_c7",
+        "author": "user_033",
+        "authorKey": "user_033",
+        "text": "自然评论6"
+      },
+      {
+        "id": "e121_c8",
+        "author": "user_040",
+        "authorKey": "user_040",
+        "text": "自然评论7"
+      }
+    ],
+    "scope": "仅检查本次读取到的评论，未读取原帖正文与商品详情。"
+  }
+}

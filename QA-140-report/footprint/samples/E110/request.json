@@ -1,0 +1,13 @@
+{
+  "sample_id": "E110",
+  "built": {
+    "kind": "article",
+    "notes": ""
+  },
+  "request": {
+    "audience": "consumer",
+    "kind": "text",
+    "text": "今天太阳很大，偷懒不补涂也没关系，这支一次就能扛全天。",
+    "scope": "已检查提交的文字；还需要商品资料才能核对具体功效。"
+  }
+}

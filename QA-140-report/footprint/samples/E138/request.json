@@ -1,0 +1,13 @@
+{
+  "sample_id": "E138",
+  "built": {
+    "kind": "text_evidence_unavailable",
+    "notes": "evidence.json 无对应 API 入口，仅以 post.txt 文本实跑。"
+  },
+  "request": {
+    "audience": "consumer",
+    "kind": "text",
+    "text": "专家正式授权推荐",
+    "scope": "已检查提交的文字；APP 无 evidence.json 结构化血缘输入入口，该文件未进入分析。"
+  }
+}

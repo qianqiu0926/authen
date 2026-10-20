@@ -1,0 +1,28 @@
+{
+  "sample_id": "I003",
+  "built": {
+    "kind": "image",
+    "notes": ""
+  },
+  "request": {
+    "audience": "consumer",
+    "kind": "image",
+    "images": [
+      "<1 image(s), dataURL 未内联留存，原始图片见 input_files>"
+    ],
+    "text": "iM",
+    "lines": [
+      {
+        "text": "iM",
+        "imageIndex": 0,
+        "box": [
+          0.32710280373831774,
+          0.5134649910233393,
+          0.6355140186915887,
+          0.44703770197486536
+        ]
+      }
+    ],
+    "scope": "已读取图片文字并检查其中的说法；是否经过AI修改，还需要进一步证据。"
+  }
+}

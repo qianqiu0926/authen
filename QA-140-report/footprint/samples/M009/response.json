@@ -1,0 +1,230 @@
+{
+  "contentType": "social",
+  "verdict": "flagged",
+  "summary": "这句把话说满了：「一张试色图能保证什么」，但没写多少人试过、试了多久。 还没确认，先别急着下结论。",
+  "next": "找到它说的测试人数和时长，或者原作者的原话。",
+  "evidence": [
+    {
+      "text": "中间那张资料卡片四周有一圈浅色底衬，卡片边缘与底衬之间有一条较明显的分界",
+      "finding": "中间那张资料卡片四周有一圈浅色底衬，卡片边缘与底衬之间有一条较明显的分界",
+      "why": "可能是排版时给截图加了底衬或投影样式，属于常见的设计处理",
+      "imageIndex": 0,
+      "source": "画面真实性",
+      "excerpt": "中间那张资料卡片四周有一圈浅色底衬，卡片边缘与底衬之间有一条较明显的分界"
+    },
+    {
+      "text": "资料卡片内的文字整体偏小、偏淡，与页面其他文字的字重和清晰度不一致",
+      "finding": "资料卡片内的文字整体偏小、偏淡，与页面其他文字的字重和清晰度不一致",
+      "why": "可能是把另一份文档缩小后贴入页面，缩放导致文字变淡",
+      "imageIndex": 0,
+      "source": "画面真实性",
+      "excerpt": "资料卡片内的文字整体偏小、偏淡，与页面其他文字的字重和清晰度不一致"
+    },
+    {
+      "text": "页面四周留白很大，文字集中在左上区域，下方大片空白",
+      "finding": "页面四周留白很大，文字集中在左上区域，下方大片空白",
+      "why": "可能是文档截图只截了上半部分，或排版时留白较多",
+      "imageIndex": 1,
+      "source": "画面真实性",
+      "excerpt": "页面四周留白很大，文字集中在左上区域，下方大片空白"
+    }
+  ],
+  "references": [],
+  "numbers": [],
+  "answerKind": "check",
+  "tips": [],
+  "analysisLabel": "多个角度核对过",
+  "provider": "AUTHEN",
+  "model": "deepseek-chat",
+  "scope": "已读取图片文字并检查其中的说法；是否经过AI修改，还需要进一步证据。 这次检查了文字依据、画面真实性、图文一致性、上下文完整性、商品真实性这几个方面。其中文字依据、商品真实性材料不够。",
+  "checks": {
+    "content": "completed",
+    "knowledge": "not_connected",
+    "imageForensics": "partial",
+    "audioForensics": "partial"
+  },
+  "presentation": {
+    "presentation_state": "P-02",
+    "presentation_family": "风险发现",
+    "state_subtitle": "发现需要进一步核实的线索",
+    "state_reason": "这句把话说满了：「一张试色图能保证什么」，但没写多少人试过、试了多久。 还没确认，先别急着下结论。",
+    "confidence_tier": "线索（尚未确认）",
+    "dimension_summary": [
+      {
+        "dim": "文字依据",
+        "applicable": "适用",
+        "result": "没有资料可对",
+        "note": "这次没有可对照的公开资料。"
+      },
+      {
+        "dim": "画面真实性",
+        "applicable": "适用",
+        "result": "画面有一处可疑，也可能只是光线",
+        "note": "中间那张资料卡片四周有一圈浅色底衬，卡片边缘与底衬之间有一条较明显的分界"
+      },
+      {
+        "dim": "图文一致性",
+        "applicable": "适用",
+        "result": "有一处图文对不上",
+        "note": "文案写的是「匿膏」，图片内嵌资料写的是「唇膏」，产品名用字对不上"
+      },
+      {
+        "dim": "评论区真实性",
+        "applicable": "本次未涉及",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      },
+      {
+        "dim": "上下文完整性",
+        "applicable": "适用",
+        "result": "有一处没给条件",
+        "note": "这句把话说满了：「一张试色图能保证什么」，但没写多少人试过、试了多久。"
+      },
+      {
+        "dim": "商品真实性",
+        "applicable": "适用",
+        "result": "没认出具体商品",
+        "note": "没认出手上资料里的具体商品。"
+      }
+    ],
+    "evidence_cards": [
+      {
+        "card_id": "CARD-01",
+        "evidence_id": "EVD-D2-01",
+        "dim": "画面真实性",
+        "title": "中间那张资料卡片四周有一圈浅色底衬，卡片边缘与底衬之间有一条较明显的分界",
+        "quote": "",
+        "observation": "中间那张资料卡片四周有一圈浅色底衬，卡片边缘与底衬之间有一条较明显的分界",
+        "explanation": "可能是排版时给截图加了底衬或投影样式，属于常见的设计处理",
+        "alt_explanations": [
+          "光线与阴影",
+          "压缩或滤镜",
+          "拍摄角度"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "仅线索",
+        "direction": "support",
+        "image_index": 0
+      },
+      {
+        "card_id": "CARD-02",
+        "evidence_id": "EVD-D2-02",
+        "dim": "画面真实性",
+        "title": "资料卡片内的文字整体偏小、偏淡，与页面其他文字的字重和清晰度不一致",
+        "quote": "",
+        "observation": "资料卡片内的文字整体偏小、偏淡，与页面其他文字的字重和清晰度不一致",
+        "explanation": "可能是把另一份文档缩小后贴入页面，缩放导致文字变淡",
+        "alt_explanations": [
+          "光线与阴影",
+          "压缩或滤镜",
+          "拍摄角度"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "仅线索",
+        "direction": "support",
+        "image_index": 0
+      },
+      {
+        "card_id": "CARD-03",
+        "evidence_id": "EVD-D2-03",
+        "dim": "画面真实性",
+        "title": "页面四周留白很大，文字集中在左上区域，下方大片空白",
+        "quote": "",
+        "observation": "页面四周留白很大，文字集中在左上区域，下方大片空白",
+        "explanation": "可能是文档截图只截了上半部分，或排版时留白较多",
+        "alt_explanations": [
+          "光线与阴影",
+          "压缩或滤镜",
+          "拍摄角度"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "仅线索",
+        "direction": "support",
+        "image_index": 1
+      }
+    ],
+    "limitations": [
+      "这次看的是你发来的 2 张图，检查了 5 个方面。没有看评论区真实性。",
+      "这个结果只说这条内容，不猜作者是不是故意，也不判断账号是谁。",
+      "有些位置只能给个大概，要精确还得对着原图看一眼。",
+      "结论只说这一条内容，不套到别的帖子上。"
+    ],
+    "next_action": "找到它说的测试人数和时长，或者原作者的原话。",
+    "reason_steps": [
+      "材料不够的方面：文字依据、商品真实性。",
+      "合起来看，有线索，但还不能确认。"
+    ],
+    "reason_detail": "这句把话说满了：「一张试色图能保证什么」，但没写多少人试过、试了多久。 还没确认，先别急着下结论。 中间那张资料卡片四周有一圈浅色底衬，卡片边缘与底衬之间有一条较明显的分界 资料卡片内的文字整体偏小、偏淡，与页面其他文字的字重和清晰度不一致 找到它说的测试人数和时长，或者原作者的原话。",
+    "a11y_label": "状态：风险发现，线索（尚未确认）。发现需要进一步核实的线索。",
+    "aggregate_state": "E1",
+    "total_decision": "线索级（待核验）",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "rule_version": "authen-2.0",
+    "generated_at": "2026-10-20T11:52:36.912Z",
+    "dims": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E1",
+      "D4": "NA",
+      "D5": "E1",
+      "D6": "EI"
+    },
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "references": [],
+    "compliance_log": []
+  },
+  "audit": {
+    "modality": "image",
+    "content_type": "social",
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E1",
+      "D4": "NA",
+      "D5": "E1",
+      "D6": "EI"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "upgrade_eligible": false,
+    "total_decision": "线索级（待核验）",
+    "rejection_reason_code": "—",
+    "merged_evidence": 2,
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "alt_explanations": [
+      "作者在别处写了测试条件，只是这段没带",
+      "这只是个人感受，不是对所有人的承诺",
+      "光线与阴影",
+      "压缩或滤镜",
+      "拍摄角度",
+      "平铺纹理或重复图案",
+      "同一张贴纸的多个角度",
+      "背景本身重复"
+    ],
+    "rule_version": "authen-2.0",
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "elapsed_ms": 3026
+  }
+}

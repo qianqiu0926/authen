@@ -1,0 +1,240 @@
+{
+  "contentType": "image",
+  "verdict": "flagged",
+  "summary": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。 还没确认，先别急着下结论。",
+  "next": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+  "evidence": [
+    {
+      "text": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。",
+      "finding": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。",
+      "why": "这可能是复制粘贴，也可能是平铺纹理或重复图案，需要原图对照。",
+      "imageIndex": 0,
+      "box": [
+        0.3211,
+        0.4491,
+        0.0894,
+        0.1418
+      ],
+      "source": "画面真实性",
+      "excerpt": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。"
+    },
+    {
+      "text": "前景刷毛边缘与深色皮套背景交界处有柔和的虚化过渡，刷毛尖端细节在焦外区域显得模糊",
+      "finding": "前景刷毛边缘与深色皮套背景交界处有柔和的虚化过渡，刷毛尖端细节在焦外区域显得模糊",
+      "why": "大光圈浅景深拍摄时，焦点外的物体自然虚化，属于正常光学现象",
+      "imageIndex": 0,
+      "source": "画面真实性",
+      "excerpt": "前景刷毛边缘与深色皮套背景交界处有柔和的虚化过渡，刷毛尖端细节在焦外区域显得模糊"
+    },
+    {
+      "text": "金属刷管表面有高光反射，高光形状随刷管弧度变化",
+      "finding": "金属刷管表面有高光反射，高光形状随刷管弧度变化",
+      "why": "金属圆柱面对环境光源的正常镜面反射",
+      "imageIndex": 0,
+      "source": "画面真实性",
+      "excerpt": "金属刷管表面有高光反射，高光形状随刷管弧度变化"
+    }
+  ],
+  "references": [],
+  "numbers": [],
+  "answerKind": "check",
+  "tips": [],
+  "analysisLabel": "多个角度核对过",
+  "provider": "AUTHEN",
+  "model": "deepseek-chat",
+  "scope": "已读取图片文字并检查其中的说法；是否经过AI修改，还需要进一步证据。 这次检查了画面真实性、图文一致性这几个方面。",
+  "checks": {
+    "content": "completed",
+    "knowledge": "not_connected",
+    "imageForensics": "partial",
+    "audioForensics": "not_applicable"
+  },
+  "presentation": {
+    "presentation_state": "P-02",
+    "presentation_family": "风险发现",
+    "state_subtitle": "发现需要进一步核实的线索",
+    "state_reason": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。 还没确认，先别急着下结论。",
+    "confidence_tier": "线索（尚未确认）",
+    "dimension_summary": [
+      {
+        "dim": "文字依据",
+        "applicable": "本次未涉及",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      },
+      {
+        "dim": "画面真实性",
+        "applicable": "适用",
+        "result": "画面有需要核对的重复",
+        "note": "前景刷毛边缘与深色皮套背景交界处有柔和的虚化过渡，刷毛尖端细节在焦外区域显得模糊"
+      },
+      {
+        "dim": "图文一致性",
+        "applicable": "适用",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      },
+      {
+        "dim": "评论区真实性",
+        "applicable": "本次未涉及",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      },
+      {
+        "dim": "上下文完整性",
+        "applicable": "本次未涉及",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      },
+      {
+        "dim": "商品真实性",
+        "applicable": "本次未涉及",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      }
+    ],
+    "evidence_cards": [
+      {
+        "card_id": "CARD-01",
+        "evidence_id": "EVD-D2-04",
+        "dim": "画面真实性",
+        "title": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。",
+        "quote": "",
+        "observation": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。",
+        "explanation": "这可能是复制粘贴，也可能是平铺纹理或重复图案，需要原图对照。",
+        "alt_explanations": [
+          "平铺纹理或重复图案",
+          "同一张贴纸的多个角度",
+          "背景本身重复"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "精确",
+        "direction": "support",
+        "image_index": 0,
+        "box": [
+          0.3211,
+          0.4491,
+          0.0894,
+          0.1418
+        ]
+      },
+      {
+        "card_id": "CARD-02",
+        "evidence_id": "EVD-D2-01",
+        "dim": "画面真实性",
+        "title": "前景刷毛边缘与深色皮套背景交界处有柔和的虚化过渡，刷毛尖端细节在焦外区域显得模糊",
+        "quote": "",
+        "observation": "前景刷毛边缘与深色皮套背景交界处有柔和的虚化过渡，刷毛尖端细节在焦外区域显得模糊",
+        "explanation": "大光圈浅景深拍摄时，焦点外的物体自然虚化，属于正常光学现象",
+        "alt_explanations": [
+          "光线与阴影",
+          "压缩或滤镜",
+          "拍摄角度"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "仅线索",
+        "direction": "support",
+        "image_index": 0
+      },
+      {
+        "card_id": "CARD-03",
+        "evidence_id": "EVD-D2-02",
+        "dim": "画面真实性",
+        "title": "金属刷管表面有高光反射，高光形状随刷管弧度变化",
+        "quote": "",
+        "observation": "金属刷管表面有高光反射，高光形状随刷管弧度变化",
+        "explanation": "金属圆柱面对环境光源的正常镜面反射",
+        "alt_explanations": [
+          "光线与阴影",
+          "压缩或滤镜",
+          "拍摄角度"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "仅线索",
+        "direction": "support",
+        "image_index": 0
+      }
+    ],
+    "limitations": [
+      "这次看的是你发来的 1 张图，检查了 2 个方面。其余方面这次用不上。",
+      "这个结果只说这条内容，不猜作者是不是故意，也不判断账号是谁。",
+      "有些位置只能给个大概，要精确还得对着原图看一眼。",
+      "结论只说这一条内容，不套到别的帖子上。"
+    ],
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "reason_steps": [
+      "发现问题的方面：画面真实性。",
+      "合起来看，有线索，但还不能确认。"
+    ],
+    "reason_detail": "同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。 还没确认，先别急着下结论。 同一张图里有两块内容高度吻合：一块在画面左侧，另一块在画面正下方。 前景刷毛边缘与深色皮套背景交界处有柔和的虚化过渡，刷毛尖端细节在焦外区域显得模糊 补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "a11y_label": "状态：风险发现，线索（尚未确认）。发现需要进一步核实的线索。",
+    "aggregate_state": "E2",
+    "total_decision": "线索级（待核验）",
+    "e2_subtype": "E2-模式型",
+    "rejection_reason_code": "—",
+    "rule_version": "authen-2.0",
+    "generated_at": "2026-10-20T11:51:52.131Z",
+    "dims": {
+      "D1": "NA",
+      "D2": "E2",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "references": [],
+    "compliance_log": []
+  },
+  "audit": {
+    "modality": "image",
+    "content_type": "image",
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "E2",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E2",
+    "e2_subtype": "E2-模式型",
+    "upgrade_eligible": false,
+    "total_decision": "线索级（待核验）",
+    "rejection_reason_code": "—",
+    "merged_evidence": 0,
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "alt_explanations": [
+      "光线与阴影",
+      "压缩或滤镜",
+      "拍摄角度",
+      "平铺纹理或重复图案",
+      "同一张贴纸的多个角度",
+      "背景本身重复"
+    ],
+    "rule_version": "authen-2.0",
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "elapsed_ms": 2706
+  }
+}

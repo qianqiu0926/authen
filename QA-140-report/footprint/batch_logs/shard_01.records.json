@@ -1,0 +1,3427 @@
+[
+  {
+    "sample_id": "A001",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "音频",
+    "split": "开发",
+    "mechanism": "口播事实核对",
+    "evidence_group": "K01",
+    "reference_files": [
+      "sources/knowledge/K01.txt"
+    ],
+    "input_files": [
+      "inputs/A001/audio.wav"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.455Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料，暂时判断不了。",
+    "next_action": "补上能对照的公开资料，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "A002",
+    "expected_decision": "有明确问题",
+    "expected_modality": "音频",
+    "split": "开发",
+    "mechanism": "口播事实核对",
+    "evidence_group": "K01",
+    "reference_files": [
+      "sources/knowledge/K01.txt"
+    ],
+    "input_files": [
+      "inputs/A002/audio.wav"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.456Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料，暂时判断不了。",
+    "next_action": "补上能对照的公开资料，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "A003",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "音频",
+    "split": "开发",
+    "mechanism": "口播事实核对",
+    "evidence_group": "K02",
+    "reference_files": [
+      "sources/knowledge/K02.txt"
+    ],
+    "input_files": [
+      "inputs/A003/audio.wav"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.456Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料、商品名称和规格，暂时判断不了。",
+    "next_action": "补上能对照的公开资料、商品名称和规格，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "EI"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "A004",
+    "expected_decision": "有明确问题",
+    "expected_modality": "音频",
+    "split": "开发",
+    "mechanism": "口播事实核对",
+    "evidence_group": "K02",
+    "reference_files": [
+      "sources/knowledge/K02.txt"
+    ],
+    "input_files": [
+      "inputs/A004/audio.wav"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.457Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料、商品名称和规格，暂时判断不了。",
+    "next_action": "补上能对照的公开资料、商品名称和规格，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "EI"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "A005",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "音频",
+    "split": "验证",
+    "mechanism": "口播事实核对",
+    "evidence_group": "K03",
+    "reference_files": [
+      "sources/knowledge/K03.txt"
+    ],
+    "input_files": [
+      "inputs/A005/audio.wav"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.457Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料、商品名称和规格，暂时判断不了。",
+    "next_action": "补上能对照的公开资料、商品名称和规格，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "EI"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "A006",
+    "expected_decision": "有明确问题",
+    "expected_modality": "音频",
+    "split": "验证",
+    "mechanism": "口播事实核对",
+    "evidence_group": "K03",
+    "reference_files": [
+      "sources/knowledge/K03.txt"
+    ],
+    "input_files": [
+      "inputs/A006/audio.wav"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.458Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料、商品名称和规格，暂时判断不了。",
+    "next_action": "补上能对照的公开资料、商品名称和规格，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "EI"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "A007",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "音频",
+    "split": "开发",
+    "mechanism": "口播事实核对",
+    "evidence_group": "K08",
+    "reference_files": [
+      "sources/knowledge/K08.txt"
+    ],
+    "input_files": [
+      "inputs/A007/audio.wav"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.458Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料，暂时判断不了。",
+    "next_action": "补上能对照的公开资料，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "A008",
+    "expected_decision": "有明确问题",
+    "expected_modality": "音频",
+    "split": "开发",
+    "mechanism": "口播事实核对",
+    "evidence_group": "K08",
+    "reference_files": [
+      "sources/knowledge/K08.txt"
+    ],
+    "input_files": [
+      "inputs/A008/audio.wav"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.458Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料，暂时判断不了。",
+    "next_action": "补上能对照的公开资料，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "A009",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "音频",
+    "split": "保留测试",
+    "mechanism": "口播事实核对",
+    "evidence_group": "K09",
+    "reference_files": [
+      "sources/knowledge/K09.txt"
+    ],
+    "input_files": [
+      "inputs/A009/audio.wav"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.458Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料，暂时判断不了。",
+    "next_action": "补上能对照的公开资料，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "A010",
+    "expected_decision": "资料不足",
+    "expected_modality": "音频",
+    "split": "保留测试",
+    "mechanism": "口播事实核对",
+    "evidence_group": "K09",
+    "reference_files": [
+      "sources/knowledge/K09.txt"
+    ],
+    "input_files": [
+      "inputs/A010/audio.wav"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.459Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料，暂时判断不了。",
+    "next_action": "补上能对照的公开资料，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": true
+  },
+  {
+    "sample_id": "C001",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "评论模式与事实核对",
+    "evidence_group": "K01",
+    "reference_files": [
+      "sources/knowledge/K01.txt"
+    ],
+    "input_files": [
+      "inputs/C001/comments.json",
+      "inputs/C001/comments.txt"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.459Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "上下文完整性",
+        "title": "这句说了效果：「看资料写的是保湿，别自动理解成去皱。」，但没给测试人数、时长或方法。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "C002",
+    "expected_decision": "资料不足",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "评论模式与事实核对",
+    "evidence_group": "K01",
+    "reference_files": [
+      "sources/knowledge/K01.txt"
+    ],
+    "input_files": [
+      "inputs/C002/comments.json",
+      "inputs/C002/comments.txt"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.459Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": true
+  },
+  {
+    "sample_id": "C003",
+    "expected_decision": "有明确问题",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "评论模式与事实核对",
+    "evidence_group": "K02",
+    "reference_files": [
+      "sources/knowledge/K02.txt"
+    ],
+    "input_files": [
+      "inputs/C003/comments.json",
+      "inputs/C003/comments.txt"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.460Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "C004",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "评论组",
+    "split": "验证",
+    "mechanism": "评论模式与事实核对",
+    "evidence_group": "K03",
+    "reference_files": [
+      "sources/knowledge/K03.txt"
+    ],
+    "input_files": [
+      "inputs/C004/comments.json",
+      "inputs/C004/comments.txt"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.460Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "文字依据",
+        "title": "这句和查到的资料一致：「SPF 30 or higher: The American Academy of Derma…",
+        "location": "精确"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "C005",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "评论组",
+    "split": "保留测试",
+    "mechanism": "评论模式与事实核对",
+    "evidence_group": "K05",
+    "reference_files": [
+      "sources/knowledge/K05.txt"
+    ],
+    "input_files": [
+      "inputs/C005/comments.json",
+      "inputs/C005/comments.txt"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.460Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "C006",
+    "expected_decision": "资料不足",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "评论模式与事实核对",
+    "evidence_group": "K06",
+    "reference_files": [
+      "sources/knowledge/K06.txt"
+    ],
+    "input_files": [
+      "inputs/C006/comments.json",
+      "inputs/C006/comments.txt"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.460Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": true
+  },
+  {
+    "sample_id": "C007",
+    "expected_decision": "有明确问题",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "评论模式与事实核对",
+    "evidence_group": "K08",
+    "reference_files": [
+      "sources/knowledge/K08.txt"
+    ],
+    "input_files": [
+      "inputs/C007/comments.json",
+      "inputs/C007/comments.txt"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.461Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "上下文完整性",
+        "title": "这句把话说满了：「放心，配方完全无香精。」，但没写多少人试过、试了多久。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "C008",
+    "expected_decision": "资料不足",
+    "expected_modality": "评论组",
+    "split": "验证",
+    "mechanism": "评论模式与事实核对",
+    "evidence_group": "K07",
+    "reference_files": [
+      "sources/knowledge/K07.txt"
+    ],
+    "input_files": [
+      "inputs/C008/comments.json",
+      "inputs/C008/comments.txt"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.461Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "上下文完整性",
+        "title": "提到了「听说这款拿过国际医学认证。」，但没给出本人或机构的原始出处。",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-02",
+        "dim": "上下文完整性",
+        "title": "提到了「能发认证编号吗？」，但没给出本人或机构的原始出处。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": true
+  },
+  {
+    "sample_id": "C009",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "评论模式与事实核对",
+    "evidence_group": "K04",
+    "reference_files": [
+      "sources/knowledge/K04.txt"
+    ],
+    "input_files": [
+      "inputs/C009/comments.json",
+      "inputs/C009/comments.txt"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.461Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "C010",
+    "expected_decision": "资料不足",
+    "expected_modality": "评论组",
+    "split": "保留测试",
+    "mechanism": "评论模式与事实核对",
+    "evidence_group": "K09",
+    "reference_files": [
+      "sources/knowledge/K09.txt"
+    ],
+    "input_files": [
+      "inputs/C010/comments.json",
+      "inputs/C010/comments.txt"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.461Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "文字依据",
+        "title": "这句话和查到的资料对不上：资料原文是「Sometimes, a skin care ingredient, such …",
+        "location": "精确"
+      },
+      {
+        "card": "CARD-02",
+        "dim": "上下文完整性",
+        "title": "这句把话说满了：「任何人用都绝不会过敏。」，但没写多少人试过、试了多久。",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-03",
+        "dim": "上下文完整性",
+        "title": "这句把话说满了：「这种保证还是要看依据。」，但没写多少人试过、试了多久。",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-04",
+        "dim": "文字依据",
+        "title": "这句和查到的资料一致：「Before you add a skin care product to your rout…",
+        "location": "精确"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": true
+  },
+  {
+    "sample_id": "C011",
+    "expected_decision": "资料不足",
+    "expected_modality": "评论组",
+    "split": "保留测试",
+    "mechanism": "评论模式与事实核对",
+    "evidence_group": "K05",
+    "reference_files": [
+      "sources/knowledge/K05.txt"
+    ],
+    "input_files": [
+      "inputs/C011/comments.json",
+      "inputs/C011/comments.txt"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.461Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": true
+  },
+  {
+    "sample_id": "C012",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "评论模式与事实核对",
+    "evidence_group": "K02",
+    "reference_files": [
+      "sources/knowledge/K02.txt"
+    ],
+    "input_files": [
+      "inputs/C012/comments.json",
+      "inputs/C012/comments.txt"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.462Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "文字依据",
+        "title": "同一份内容里「10%」和「2%」同时出现，单位都是百分号。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E101",
+    "expected_decision": "有明确问题",
+    "expected_modality": "图文帖",
+    "split": "开发",
+    "mechanism": "伪造专家背书机制",
+    "evidence_group": "C01",
+    "reference_files": [
+      "sources/cases/C01.txt"
+    ],
+    "input_files": [
+      "inputs/E101/image.png",
+      "inputs/E101/post.txt",
+      "inputs/E101/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.462Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "提到了「配文：这位“国家级皮肤研究专家”亲自推荐岑予焕亮霜，并获得权威机构认证。」，但没给出本人或机构的原始出处。 还没确认，先别急着下结论。",
+    "next_action": "找到它说的测试人数和时长，或者原作者的原话。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "画面左上角有白色文字“教学改编 / 脱敏合成”。",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-02",
+        "dim": "画面真实性",
+        "title": "人物手指与白色罐体接触处边缘较平滑，罐体表面无任何印刷或反光细节。",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-03",
+        "dim": "画面真实性",
+        "title": "背景书架上的绿植叶片轮廓与墙面交界处略显柔和，右侧搁板上的物品边缘不够锐利。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E1",
+      "D4": "NA",
+      "D5": "E1",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E102",
+    "expected_decision": "有明确问题",
+    "expected_modality": "图文帖",
+    "split": "开发",
+    "mechanism": "效果图数字修饰",
+    "evidence_group": "C02",
+    "reference_files": [
+      "sources/cases/C02.txt",
+      "sources/cases/C03.txt",
+      "sources/cases/C12.txt"
+    ],
+    "input_files": [
+      "inputs/E102/image.png",
+      "inputs/E102/post.txt",
+      "inputs/E102/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.462Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "同一张图里有两块内容高度吻合：一块在画面右侧，另一块在画面左侧。 还没确认，先别急着下结论。",
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "同一张图里有两块内容高度吻合：一块在画面右侧，另一块在画面左侧。",
+        "location": "精确",
+        "box": [
+          0.5229,
+          0.0714,
+          0.4536,
+          0.838
+        ]
+      },
+      {
+        "card": "CARD-02",
+        "dim": "画面真实性",
+        "title": "左右两图人物的发丝走向、碎发位置、衣领褶皱和肩线几乎完全重合，只有肤色和肤质不同。",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-03",
+        "dim": "画面真实性",
+        "title": "右图面部高光区域（额头、鼻梁、脸颊）的皮肤纹理明显变淡，边界过渡较平滑。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E2",
+      "D3": "E1",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "EI"
+    },
+    "aggregate_state": "E2",
+    "e2_subtype": "E2-模式型",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E103",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "图文帖",
+    "split": "开发",
+    "mechanism": "AI素材透明披露",
+    "evidence_group": "C11",
+    "reference_files": [
+      "sources/cases/C11.txt"
+    ],
+    "input_files": [
+      "inputs/E103/image.png",
+      "inputs/E103/post.txt",
+      "inputs/E103/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.462Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "膏体顶端的斜切面边缘非常锐利，切面与圆柱体交界处有一条几乎笔直的高光分界线，膏体表面看不到常见的蜡质颗粒或细微划痕 还没确认，先别急着下结论。",
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "膏体顶端的斜切面边缘非常锐利，切面与圆柱体交界处有一条几乎笔直的高光分界线，膏体表面看不到常见的蜡质颗粒或细微划痕",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-02",
+        "dim": "画面真实性",
+        "title": "左下角膏体涂抹痕迹的尾端呈细密平行条纹，条纹方向与涂抹拖拽方向一致，边缘有轻微锯齿状起伏",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-03",
+        "dim": "画面真实性",
+        "title": "黑色圆柱盖与下方深色石台接触处，阴影边缘较硬，盖子底部与台面之间几乎看不到环境反射光",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E0",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E104",
+    "expected_decision": "有明确问题",
+    "expected_modality": "图文帖",
+    "split": "开发",
+    "mechanism": "AI图冒充实拍体验",
+    "evidence_group": "X01",
+    "reference_files": [
+      "sources/cases/X01.txt"
+    ],
+    "input_files": [
+      "inputs/E104/image.png",
+      "inputs/E104/post.txt",
+      "inputs/E104/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.462Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "图片左上角有白色文字「教学改编 / 脱敏合成」 还没确认，先别急着下结论。",
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "图片左上角有白色文字「教学改编 / 脱敏合成」",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-02",
+        "dim": "画面真实性",
+        "title": "口红膏体顶端有斜切面，切面边缘能看到细小的颗粒状反光",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-03",
+        "dim": "画面真实性",
+        "title": "右侧化妆棉上有红色晕染痕迹，边缘呈不规则扩散",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E0",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E105",
+    "expected_decision": "有明确问题",
+    "expected_modality": "文章",
+    "split": "开发",
+    "mechanism": "功效证据错配",
+    "evidence_group": "C08",
+    "reference_files": [
+      "sources/cases/C08.txt"
+    ],
+    "input_files": [
+      "inputs/E105/content.txt",
+      "inputs/E105/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.463Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "这句把话说满了：「30名体验者中，82%觉得自己看起来更年轻，因此临床证明所有人年轻五岁。」，但没写多少人试过、试了多久。 还没确认，先别急着下结论。",
+    "next_action": "找到它说的测试人数和时长，或者原作者的原话。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "上下文完整性",
+        "title": "这句把话说满了：「30名体验者中，82%觉得自己看起来更年轻，因此临床证明所有人年轻五岁。」，但没写多少人试过、试了多…",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "E1",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E106",
+    "expected_decision": "线索级（待核验）",
+    "expected_modality": "文章",
+    "split": "开发",
+    "mechanism": "功效证据不足",
+    "evidence_group": "C07",
+    "reference_files": [
+      "sources/cases/C07.txt"
+    ],
+    "input_files": [
+      "inputs/E106/content.txt",
+      "inputs/E106/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.463Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "这句把话说满了：「这款家用光疗面罩一定能修复所有人的皮肤屏障。」，但没写多少人试过、试了多久。 还没确认，先别急着下结论。",
+    "next_action": "找到它说的测试人数和时长，或者原作者的原话。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "上下文完整性",
+        "title": "这句把话说满了：「这款家用光疗面罩一定能修复所有人的皮肤屏障。」，但没写多少人试过、试了多久。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "E1",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": true
+  },
+  {
+    "sample_id": "E107",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "文章",
+    "split": "开发",
+    "mechanism": "商业合作披露",
+    "evidence_group": "C04",
+    "reference_files": [
+      "sources/cases/C04.txt"
+    ],
+    "input_files": [
+      "inputs/E107/content.txt",
+      "inputs/E107/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.463Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料、商品名称和规格，暂时判断不了。",
+    "next_action": "补上能对照的公开资料、商品名称和规格，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "EI"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E108",
+    "expected_decision": "有明确问题",
+    "expected_modality": "文章",
+    "split": "开发",
+    "mechanism": "商业合作披露",
+    "evidence_group": "C04",
+    "reference_files": [
+      "sources/cases/C04.txt"
+    ],
+    "input_files": [
+      "inputs/E108/content.txt",
+      "inputs/E108/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.463Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "这句把话说满了：「真心自用分享，完全不是广告。」，但没写多少人试过、试了多久。 还没确认，先别急着下结论。",
+    "next_action": "找到它说的测试人数和时长，或者原作者的原话。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "上下文完整性",
+        "title": "这句把话说满了：「真心自用分享，完全不是广告。」，但没写多少人试过、试了多久。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "E1",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E109",
+    "expected_decision": "线索级（待核验）",
+    "expected_modality": "文章",
+    "split": "开发",
+    "mechanism": "争议案例证据不足",
+    "evidence_group": "C10",
+    "reference_files": [
+      "sources/cases/C10.txt"
+    ],
+    "input_files": [
+      "inputs/E109/content.txt",
+      "inputs/E109/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.463Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料，暂时判断不了。",
+    "next_action": "补上能对照的公开资料，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E110",
+    "expected_decision": "有明确问题",
+    "expected_modality": "文章",
+    "split": "开发",
+    "mechanism": "音画语义冲突",
+    "evidence_group": "C09",
+    "reference_files": [
+      "sources/cases/C09.txt"
+    ],
+    "input_files": [
+      "inputs/E110/content.txt",
+      "inputs/E110/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.464Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料，暂时判断不了。",
+    "next_action": "补上能对照的公开资料，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E111",
+    "expected_decision": "资料不足",
+    "expected_modality": "文章",
+    "split": "开发",
+    "mechanism": "商品信息边界",
+    "evidence_group": "C05",
+    "reference_files": [
+      "sources/cases/C05.txt"
+    ],
+    "input_files": [
+      "inputs/E111/content.txt",
+      "inputs/E111/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.464Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料，暂时判断不了。",
+    "next_action": "补上能对照的公开资料，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": true
+  },
+  {
+    "sample_id": "E112",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "文章",
+    "split": "开发",
+    "mechanism": "有限功效说明",
+    "evidence_group": "C07",
+    "reference_files": [
+      "sources/cases/C07.txt"
+    ],
+    "input_files": [
+      "inputs/E112/content.txt",
+      "inputs/E112/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.464Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料，暂时判断不了。",
+    "next_action": "补上能对照的公开资料，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E113",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "正常热帖集中",
+    "evidence_group": "C06",
+    "reference_files": [
+      "sources/cases/C06.txt"
+    ],
+    "input_files": [
+      "inputs/E113/comments.json",
+      "inputs/E113/comments.txt",
+      "inputs/E113/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.464Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "上下文完整性",
+        "title": "这句说了效果：「用了两周，保湿尚可」，但没给测试人数、时长或方法。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E114",
+    "expected_decision": "线索级（待核验）",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "慢速模板相似",
+    "evidence_group": "C06",
+    "reference_files": [
+      "sources/cases/C06.txt"
+    ],
+    "input_files": [
+      "inputs/E114/comments.json",
+      "inputs/E114/comments.txt",
+      "inputs/E114/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.465Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E115",
+    "expected_decision": "有明确问题",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "追评时间矛盾",
+    "evidence_group": "C05",
+    "reference_files": [
+      "sources/cases/C05.txt"
+    ],
+    "input_files": [
+      "inputs/E115/comments.json",
+      "inputs/E115/comments.txt",
+      "inputs/E115/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.465Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E116",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "自然追评",
+    "evidence_group": "C05",
+    "reference_files": [
+      "sources/cases/C05.txt"
+    ],
+    "input_files": [
+      "inputs/E116/comments.json",
+      "inputs/E116/comments.txt",
+      "inputs/E116/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.465Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "上下文完整性",
+        "title": "这句说了效果：「用了两周，保湿尚可」，但没给测试人数、时长或方法。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E117",
+    "expected_decision": "有明确问题",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "身份关系证据",
+    "evidence_group": "C06",
+    "reference_files": [
+      "sources/cases/C06.txt"
+    ],
+    "input_files": [
+      "inputs/E117/comments.json",
+      "inputs/E117/comments.txt",
+      "inputs/E117/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.465Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E118",
+    "expected_decision": "资料不足",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "身份推断不足",
+    "evidence_group": "C06",
+    "reference_files": [
+      "sources/cases/C06.txt"
+    ],
+    "input_files": [
+      "inputs/E118/comments.json",
+      "inputs/E118/comments.txt",
+      "inputs/E118/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.465Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "上下文完整性",
+        "title": "这句说了效果：「用了两周，保湿尚可」，但没给测试人数、时长或方法。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": true
+  },
+  {
+    "sample_id": "E119",
+    "expected_decision": "线索级（待核验）",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "语义模板改写",
+    "evidence_group": "X01",
+    "reference_files": [
+      "sources/cases/X01.txt"
+    ],
+    "input_files": [
+      "inputs/E119/comments.json",
+      "inputs/E119/comments.txt",
+      "inputs/E119/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.465Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E120",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "相似体验正常",
+    "evidence_group": "X01",
+    "reference_files": [
+      "sources/cases/X01.txt"
+    ],
+    "input_files": [
+      "inputs/E120/comments.json",
+      "inputs/E120/comments.txt",
+      "inputs/E120/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.465Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "上下文完整性",
+        "title": "这句说了效果：「用了两周，保湿尚可」，但没给测试人数、时长或方法。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E121",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "采集层重复",
+    "evidence_group": "X01",
+    "reference_files": [
+      "sources/cases/X01.txt"
+    ],
+    "input_files": [
+      "inputs/E121/comments.json",
+      "inputs/E121/comments.txt",
+      "inputs/E121/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.466Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E122",
+    "expected_decision": "无法判定",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "关键字段缺失",
+    "evidence_group": "X01",
+    "reference_files": [
+      "sources/cases/X01.txt"
+    ],
+    "input_files": [
+      "inputs/E122/comments.json",
+      "inputs/E122/comments.txt",
+      "inputs/E122/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.466Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "上下文完整性",
+        "title": "这句说了效果：「用了两周，保湿尚可」，但没给测试人数、时长或方法。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E123",
+    "expected_decision": "线索级（待核验）",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "关系图异常",
+    "evidence_group": "C05",
+    "reference_files": [
+      "sources/cases/C05.txt"
+    ],
+    "input_files": [
+      "inputs/E123/comments.json",
+      "inputs/E123/comments.txt",
+      "inputs/E123/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.466Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E124",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "评论组",
+    "split": "开发",
+    "mechanism": "自然问答",
+    "evidence_group": "C05",
+    "reference_files": [
+      "sources/cases/C05.txt"
+    ],
+    "input_files": [
+      "inputs/E124/comments.json",
+      "inputs/E124/comments.txt",
+      "inputs/E124/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.466Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next_action": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "上下文完整性",
+        "title": "这句说了效果：「用了两周，保湿尚可」，但没给测试人数、时长或方法。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-02",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E125",
+    "expected_decision": "线索级（待核验）",
+    "expected_modality": "图片",
+    "split": "验证",
+    "mechanism": "专家身份来源缺失",
+    "evidence_group": "C01",
+    "reference_files": [
+      "sources/cases/C01.txt"
+    ],
+    "input_files": [
+      "inputs/E125/image.png",
+      "inputs/E125/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.467Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料、原片或拍摄记录，暂时判断不了。",
+    "next_action": "补上能对照的公开资料、原片或拍摄记录，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "EI",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E126",
+    "expected_decision": "有明确问题",
+    "expected_modality": "图片",
+    "split": "验证",
+    "mechanism": "专家否认",
+    "evidence_group": "C01",
+    "reference_files": [
+      "sources/cases/C01.txt"
+    ],
+    "input_files": [
+      "inputs/E126/image.png",
+      "inputs/E126/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.467Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "同一张图里有两块内容高度吻合：一块在画面正上方，另一块在画面左上角。 还没确认，先别急着下结论。",
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "同一张图里有两块内容高度吻合：一块在画面正上方，另一块在画面左上角。",
+        "location": "精确",
+        "box": [
+          0.2356,
+          0.0551,
+          0.3356,
+          0.1012
+        ]
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E2",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E2",
+    "e2_subtype": "E2-模式型",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E127",
+    "expected_decision": "资料不足",
+    "expected_modality": "图片",
+    "split": "验证",
+    "mechanism": "商品成分与包装",
+    "evidence_group": "C05",
+    "reference_files": [
+      "sources/cases/C05.txt"
+    ],
+    "input_files": [
+      "inputs/E127/image.png",
+      "inputs/E127/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.467Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料、原片或拍摄记录，暂时判断不了。",
+    "next_action": "补上能对照的公开资料、原片或拍摄记录，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "EI",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": true
+  },
+  {
+    "sample_id": "E128",
+    "expected_decision": "线索级（待核验）",
+    "expected_modality": "图片",
+    "split": "验证",
+    "mechanism": "订单评论关系",
+    "evidence_group": "C05",
+    "reference_files": [
+      "sources/cases/C05.txt"
+    ],
+    "input_files": [
+      "inputs/E128/image.png",
+      "inputs/E128/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.467Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料、原片或拍摄记录，暂时判断不了。",
+    "next_action": "补上能对照的公开资料、原片或拍摄记录，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "EI",
+      "D3": "E0",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E0",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E129",
+    "expected_decision": "线索级（待核验）",
+    "expected_modality": "图片",
+    "split": "验证",
+    "mechanism": "重复图片匹配",
+    "evidence_group": "X01",
+    "reference_files": [
+      "sources/cases/X01.txt"
+    ],
+    "input_files": [
+      "inputs/E129/image.png",
+      "inputs/E129/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.467Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料、原片或拍摄记录，暂时判断不了。",
+    "next_action": "补上能对照的公开资料、原片或拍摄记录，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "EI",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E130",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "图片",
+    "split": "验证",
+    "mechanism": "AI透明使用",
+    "evidence_group": "C11",
+    "reference_files": [
+      "sources/cases/C11.txt"
+    ],
+    "input_files": [
+      "inputs/E130/image.png",
+      "inputs/E130/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.467Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "同一张图里有两块内容高度吻合：一块在画面正上方，另一块在画面正上方。 还没确认，先别急着下结论。",
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "同一张图里有两块内容高度吻合：一块在画面正上方，另一块在画面正上方。",
+        "location": "精确",
+        "box": [
+          0.2107,
+          0.1355,
+          0.3514,
+          0.021
+        ]
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E2",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E2",
+    "e2_subtype": "E2-模式型",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E131",
+    "expected_decision": "资料不足",
+    "expected_modality": "图片",
+    "split": "验证",
+    "mechanism": "对比条件不一致",
+    "evidence_group": "C02",
+    "reference_files": [
+      "sources/cases/C02.txt"
+    ],
+    "input_files": [
+      "inputs/E131/image.png",
+      "inputs/E131/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.467Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料、原片或拍摄记录，暂时判断不了。",
+    "next_action": "补上能对照的公开资料、原片或拍摄记录，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "EI",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": true
+  },
+  {
+    "sample_id": "E132",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "图片",
+    "split": "验证",
+    "mechanism": "同条件对比",
+    "evidence_group": "C02",
+    "reference_files": [
+      "sources/cases/C02.txt"
+    ],
+    "input_files": [
+      "inputs/E132/image.png",
+      "inputs/E132/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.467Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "同一张图里有两块内容高度吻合：一块在画面正上方，另一块在画面正上方。 还没确认，先别急着下结论。",
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "同一张图里有两块内容高度吻合：一块在画面正上方，另一块在画面正上方。",
+        "location": "精确",
+        "box": [
+          0.4333,
+          0.088,
+          0.3444,
+          0.0692
+        ]
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E2",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E2",
+    "e2_subtype": "E2-模式型",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E133",
+    "expected_decision": "有明确问题",
+    "expected_modality": "图片",
+    "split": "保留测试",
+    "mechanism": "字幕音频冲突",
+    "evidence_group": "C09",
+    "reference_files": [
+      "sources/cases/C09.txt"
+    ],
+    "input_files": [
+      "inputs/E133/image.png",
+      "inputs/E133/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.468Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料、原片或拍摄记录，暂时判断不了。",
+    "next_action": "补上能对照的公开资料、原片或拍摄记录，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "EI",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E134",
+    "expected_decision": "有明确问题",
+    "expected_modality": "图片",
+    "split": "保留测试",
+    "mechanism": "引用错配",
+    "evidence_group": "C07",
+    "reference_files": [
+      "sources/cases/C07.txt"
+    ],
+    "input_files": [
+      "inputs/E134/image.png",
+      "inputs/E134/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.468Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "同一张图里有两块内容高度吻合：一块在画面左上角，另一块在画面正上方。 还没确认，先别急着下结论。",
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "同一张图里有两块内容高度吻合：一块在画面左上角，另一块在画面正上方。",
+        "location": "精确",
+        "box": [
+          0.1213,
+          0.0569,
+          0.1174,
+          0.0327
+        ]
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E2",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E2",
+    "e2_subtype": "E2-模式型",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E135",
+    "expected_decision": "资料不足",
+    "expected_modality": "图片",
+    "split": "保留测试",
+    "mechanism": "来源记录缺失",
+    "evidence_group": "C11",
+    "reference_files": [
+      "sources/cases/C11.txt"
+    ],
+    "input_files": [
+      "inputs/E135/image.png",
+      "inputs/E135/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.468Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料、原片或拍摄记录，暂时判断不了。",
+    "next_action": "补上能对照的公开资料、原片或拍摄记录，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "EI",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": true
+  },
+  {
+    "sample_id": "E136",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "图片",
+    "split": "保留测试",
+    "mechanism": "来源链记录",
+    "evidence_group": "C11",
+    "reference_files": [
+      "sources/cases/C11.txt"
+    ],
+    "input_files": [
+      "inputs/E136/image.png",
+      "inputs/E136/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.468Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "同一张图里有两块内容高度吻合：一块在画面左上角，另一块在画面右上角。 还没确认，先别急着下结论。",
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "同一张图里有两块内容高度吻合：一块在画面左上角，另一块在画面右上角。",
+        "location": "精确",
+        "box": [
+          0.0741,
+          0.136,
+          0.0706,
+          0.0218
+        ]
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E2",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E2",
+    "e2_subtype": "E2-模式型",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E137",
+    "expected_decision": "线索级（待核验）",
+    "expected_modality": "图文帖",
+    "split": "保留测试",
+    "mechanism": "血缘去重",
+    "evidence_group": "X01",
+    "reference_files": [
+      "sources/cases/X01.txt"
+    ],
+    "input_files": [
+      "inputs/E137/evidence.json",
+      "inputs/E137/post.txt",
+      "inputs/E137/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.468Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "这句把话说满了：「七天永久改善所有人」，但没写多少人试过、试了多久。 还没确认，先别急着下结论。",
+    "next_action": "找到它说的测试人数和时长，或者原作者的原话。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "上下文完整性",
+        "title": "这句把话说满了：「七天永久改善所有人」，但没写多少人试过、试了多久。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "E1",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": true
+  },
+  {
+    "sample_id": "E138",
+    "expected_decision": "有明确问题",
+    "expected_modality": "图文帖",
+    "split": "保留测试",
+    "mechanism": "独立证据融合",
+    "evidence_group": "C01",
+    "reference_files": [
+      "sources/cases/C01.txt"
+    ],
+    "input_files": [
+      "inputs/E138/evidence.json",
+      "inputs/E138/post.txt",
+      "inputs/E138/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.468Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "提到了「专家正式授权推荐」，但没给出本人或机构的原始出处。 还没确认，先别急着下结论。",
+    "next_action": "找到它说的测试人数和时长，或者原作者的原话。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "上下文完整性",
+        "title": "提到了「专家正式授权推荐」，但没给出本人或机构的原始出处。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "E1",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E139",
+    "expected_decision": "无法判定",
+    "expected_modality": "图文帖",
+    "split": "保留测试",
+    "mechanism": "工具失败",
+    "evidence_group": "C05",
+    "reference_files": [
+      "sources/cases/C05.txt"
+    ],
+    "input_files": [
+      "inputs/E139/evidence.json",
+      "inputs/E139/post.txt",
+      "inputs/E139/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.469Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "资料不足",
+    "presentation_state": "P-04",
+    "summary": "缺能对照的公开资料，暂时判断不了。",
+    "next_action": "补上能对照的公开资料，就能继续看。",
+    "evidence_cards": [],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "EI",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "unclear",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "E140",
+    "expected_decision": "资料不足",
+    "expected_modality": "图文帖",
+    "split": "保留测试",
+    "mechanism": "材料不足",
+    "evidence_group": "C07",
+    "reference_files": [
+      "sources/cases/C07.txt"
+    ],
+    "input_files": [
+      "inputs/E140/evidence.json",
+      "inputs/E140/post.txt",
+      "inputs/E140/request.json"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.469Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "提到了「有临床证明」，但没给出本人或机构的原始出处。 还没确认，先别急着下结论。",
+    "next_action": "找到它说的测试人数和时长，或者原作者的原话。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "上下文完整性",
+        "title": "提到了「有临床证明」，但没给出本人或机构的原始出处。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "NA",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "E1",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "I001",
+    "expected_decision": "资料不足",
+    "expected_modality": "图片",
+    "split": "验证",
+    "mechanism": "来源辨别",
+    "evidence_group": "P01",
+    "reference_files": [],
+    "input_files": [
+      "inputs/I001/image.png"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.469Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "口红膏体顶部与右侧边缘有细碎的红色像素点，边缘不平滑 还没确认，先别急着下结论。",
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "口红膏体顶部与右侧边缘有细碎的红色像素点，边缘不平滑",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-02",
+        "dim": "画面真实性",
+        "title": "黑色管身与盖子上有多条平行的斜向高光条纹，方向与角度高度一致",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-03",
+        "dim": "画面真实性",
+        "title": "膏体红色表面有较亮的白色高光块，与周围红色过渡较硬",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "NA",
+      "D2": "E1",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "I002",
+    "expected_decision": "资料不足",
+    "expected_modality": "图片",
+    "split": "验证",
+    "mechanism": "来源辨别",
+    "evidence_group": "P02",
+    "reference_files": [],
+    "input_files": [
+      "inputs/I002/image.png"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.469Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "粉饼表面有斜向的浅色压纹线条，纹理走向不完全一致，局部有交叉 还没确认，先别急着下结论。",
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "粉饼表面有斜向的浅色压纹线条，纹理走向不完全一致，局部有交叉",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-02",
+        "dim": "画面真实性",
+        "title": "镜面内反射的粉体颜色比实际粉饼偏浅偏粉，且反射区域边缘较模糊",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-03",
+        "dim": "画面真实性",
+        "title": "外圈金色边缘与黑色背景交界处有少量红色、黄色像素点",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E0",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "I003",
+    "expected_decision": "资料不足",
+    "expected_modality": "图片",
+    "split": "验证",
+    "mechanism": "来源辨别",
+    "evidence_group": "P03",
+    "reference_files": [],
+    "input_files": [
+      "inputs/I003/image.png"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.469Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "睫毛膏刷头与红色盖子的连接杆在靠近盖子处有一段细窄的红色突起，与黑色杆身衔接不连续 还没确认，先别急着下结论。",
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "睫毛膏刷头与红色盖子的连接杆在靠近盖子处有一段细窄的红色突起，与黑色杆身衔接不连续",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-02",
+        "dim": "画面真实性",
+        "title": "瓶身与红色盖子边缘有锯齿状、不规则的像素轮廓",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-03",
+        "dim": "画面真实性",
+        "title": "画面有局部压缩差异，可能来自修图，也可能只是压缩或纹理。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E0",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "I004",
+    "expected_decision": "资料不足",
+    "expected_modality": "图片",
+    "split": "验证",
+    "mechanism": "来源辨别",
+    "evidence_group": "P04",
+    "reference_files": [],
+    "input_files": [
+      "inputs/I004/image.png"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.470Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "瓶身与红色瓶盖的外轮廓边缘存在锯齿状、不规则的彩色像素杂边，尤其在瓶盖顶部和瓶身左下角处明显 还没确认，先别急着下结论。",
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "瓶身与红色瓶盖的外轮廓边缘存在锯齿状、不规则的彩色像素杂边，尤其在瓶盖顶部和瓶身左下角处明显",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-02",
+        "dim": "画面真实性",
+        "title": "瓶身玻璃内部的斜向高光线条与棱面切割线走向不完全一致，部分高光在棱角处突然中断",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E0",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "I005",
+    "expected_decision": "资料不足",
+    "expected_modality": "图片",
+    "split": "开发",
+    "mechanism": "来源辨别",
+    "evidence_group": "R01",
+    "reference_files": [],
+    "input_files": [
+      "inputs/I005/image.png"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.470Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "瓶盖顶部浮雕标志边缘与盖面高光过渡处有轻微模糊，膏体表面挖取痕迹边缘较柔和 还没确认，先别急着下结论。",
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "瓶盖顶部浮雕标志边缘与盖面高光过渡处有轻微模糊，膏体表面挖取痕迹边缘较柔和",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-02",
+        "dim": "画面真实性",
+        "title": "瓶身右侧印刷文字在弧面处有轻微拉伸变形",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-03",
+        "dim": "画面真实性",
+        "title": "画面有噪声不一致，可能来自修图，也可能只是压缩或纹理。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "I006",
+    "expected_decision": "资料不足",
+    "expected_modality": "图片",
+    "split": "保留测试",
+    "mechanism": "来源辨别",
+    "evidence_group": "R03",
+    "reference_files": [],
+    "input_files": [
+      "inputs/I006/image.png"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.470Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "画面有局部压缩差异、噪声不一致，可能来自修图，也可能只是压缩或纹理。 还没确认，先别急着下结论。",
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "画面有局部压缩差异、噪声不一致，可能来自修图，也可能只是压缩或纹理。",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E0",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "I007",
+    "expected_decision": "资料不足",
+    "expected_modality": "图片",
+    "split": "保留测试",
+    "mechanism": "来源辨别",
+    "evidence_group": "R06",
+    "reference_files": [],
+    "input_files": [
+      "inputs/I007/image.png"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.470Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "瓶身左侧有一条竖直的浅色高光带，右侧边缘也有一条较亮的反光边，瓶身中部颜色较均匀 还没确认，先别急着下结论。",
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "瓶身左侧有一条竖直的浅色高光带，右侧边缘也有一条较亮的反光边，瓶身中部颜色较均匀",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-02",
+        "dim": "画面真实性",
+        "title": "泵头与瓶口分离，泵头悬在瓶身右上方，吸管斜向下延伸，未插入瓶内",
+        "location": "仅线索"
+      },
+      {
+        "card": "CARD-03",
+        "dim": "画面真实性",
+        "title": "瓶身底部边缘与白色背景交界处有一条深色阴影带，瓶底轮廓略不规整",
+        "location": "仅线索"
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E0",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  },
+  {
+    "sample_id": "I008",
+    "expected_decision": "暂未发现问题",
+    "expected_modality": "图片",
+    "split": "开发",
+    "mechanism": "图片中文字核对",
+    "evidence_group": "K01",
+    "reference_files": [
+      "sources/knowledge/K01.txt"
+    ],
+    "input_files": [
+      "inputs/I008/image.png"
+    ],
+    "entry_point": "http://127.0.0.1:4191/api/review",
+    "started_at": "2026-10-20T11:48:49.470Z",
+    "status": "ok",
+    "cached": true,
+    "http_status": 200,
+    "app_elapsed_ms": 0,
+    "actual_decision": "线索级（待核验）",
+    "presentation_state": "P-02",
+    "summary": "同一张图里有两块内容高度吻合：一块在画面左上角，另一块在画面正上方。 还没确认，先别急着下结论。",
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence_cards": [
+      {
+        "card": "CARD-01",
+        "dim": "画面真实性",
+        "title": "同一张图里有两块内容高度吻合：一块在画面左上角，另一块在画面正上方。",
+        "location": "精确",
+        "box": [
+          0.0889,
+          0.195,
+          0.0311,
+          0.0148
+        ]
+      }
+    ],
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "NA",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "NA"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "verdict_legacy": "flagged",
+    "ocr_lines": 0,
+    "error_type": "",
+    "pass": false
+  }
+]

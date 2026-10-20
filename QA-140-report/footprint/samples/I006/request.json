@@ -1,0 +1,38 @@
+{
+  "sample_id": "I006",
+  "built": {
+    "kind": "image",
+    "notes": ""
+  },
+  "request": {
+    "audience": "consumer",
+    "kind": "image",
+    "images": [
+      "<1 image(s), dataURL 未内联留存，原始图片见 input_files>"
+    ],
+    "text": ">\n~",
+    "lines": [
+      {
+        "text": ">",
+        "imageIndex": 0,
+        "box": [
+          0.8359375,
+          0,
+          0.0828125,
+          0.04689331770222743
+        ]
+      },
+      {
+        "text": "~",
+        "imageIndex": 0,
+        "box": [
+          0.609375,
+          0.05041031652989449,
+          0.1109375,
+          0.06565064478311841
+        ]
+      }
+    ],
+    "scope": "已读取图片文字并检查其中的说法；是否经过AI修改，还需要进一步证据。"
+  }
+}

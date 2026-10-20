@@ -1,0 +1,230 @@
+{
+  "contentType": "social",
+  "verdict": "unclear",
+  "summary": "缺能对照的公开资料、商品名称和规格，暂时判断不了。",
+  "next": "补上能对照的公开资料、商品名称和规格，就能继续看。",
+  "evidence": [
+    {
+      "text": "中央资料卡四周有一圈浅米色底衬，卡片边缘与底衬之间可见轻微色差过渡",
+      "finding": "中央资料卡四周有一圈浅米色底衬，卡片边缘与底衬之间可见轻微色差过渡",
+      "why": "可能是截图时给卡片加了投影或描边样式，也可能是导出压缩造成的边缘色带",
+      "imageIndex": 0,
+      "source": "画面真实性",
+      "excerpt": "中央资料卡四周有一圈浅米色底衬，卡片边缘与底衬之间可见轻微色差过渡"
+    },
+    {
+      "text": "资料卡内文字整体偏小且行距较紧，与页面大标题的字号差距明显",
+      "finding": "资料卡内文字整体偏小且行距较紧，与页面大标题的字号差距明显",
+      "why": "可能是把原始资料缩略嵌入页面后按比例缩小显示",
+      "imageIndex": 0,
+      "source": "画面真实性",
+      "excerpt": "资料卡内文字整体偏小且行距较紧，与页面大标题的字号差距明显"
+    },
+    {
+      "text": "文字区域下方留有大片空白，内容集中在页面上半部",
+      "finding": "文字区域下方留有大片空白，内容集中在页面上半部",
+      "why": "可能是资料摘录本身内容较少，排版时保留了固定页边距",
+      "imageIndex": 1,
+      "source": "画面真实性",
+      "excerpt": "文字区域下方留有大片空白，内容集中在页面上半部"
+    }
+  ],
+  "references": [],
+  "numbers": [],
+  "answerKind": "check",
+  "tips": [],
+  "analysisLabel": "多个角度核对过",
+  "provider": "AUTHEN",
+  "model": "deepseek-chat",
+  "scope": "已读取图片文字并检查其中的说法；是否经过AI修改，还需要进一步证据。 这次检查了文字依据、画面真实性、图文一致性、上下文完整性、商品真实性这几个方面。其中文字依据、商品真实性材料不够。",
+  "checks": {
+    "content": "completed",
+    "knowledge": "not_connected",
+    "imageForensics": "partial",
+    "audioForensics": "partial"
+  },
+  "presentation": {
+    "presentation_state": "P-04",
+    "presentation_family": "证据不足",
+    "state_subtitle": "材料不足，暂时无法判断",
+    "state_reason": "缺能对照的公开资料、商品名称和规格，暂时判断不了。",
+    "confidence_tier": "—",
+    "dimension_summary": [
+      {
+        "dim": "文字依据",
+        "applicable": "适用",
+        "result": "没有资料可对",
+        "note": "这次没有可对照的公开资料。"
+      },
+      {
+        "dim": "画面真实性",
+        "applicable": "适用",
+        "result": "画面有一处可疑，也可能只是光线",
+        "note": "中央资料卡四周有一圈浅米色底衬，卡片边缘与底衬之间可见轻微色差过渡"
+      },
+      {
+        "dim": "图文一致性",
+        "applicable": "适用",
+        "result": "有一处图文对不上",
+        "note": "图内资料卡明确写「没有永久消除眼袋的试验结果」，文案却称试验证明一次使用永久消除眼袋，方向…"
+      },
+      {
+        "dim": "评论区真实性",
+        "applicable": "本次未涉及",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      },
+      {
+        "dim": "上下文完整性",
+        "applicable": "适用",
+        "result": "有多处没给条件",
+        "note": "这句把话说满了：「保湿记录被写成永久效果」，但没写多少人试过、试了多久。"
+      },
+      {
+        "dim": "商品真实性",
+        "applicable": "适用",
+        "result": "没认出具体商品",
+        "note": "没认出手上资料里的具体商品。"
+      }
+    ],
+    "evidence_cards": [
+      {
+        "card_id": "CARD-01",
+        "evidence_id": "EVD-D2-01",
+        "dim": "画面真实性",
+        "title": "中央资料卡四周有一圈浅米色底衬，卡片边缘与底衬之间可见轻微色差过渡",
+        "quote": "",
+        "observation": "中央资料卡四周有一圈浅米色底衬，卡片边缘与底衬之间可见轻微色差过渡",
+        "explanation": "可能是截图时给卡片加了投影或描边样式，也可能是导出压缩造成的边缘色带",
+        "alt_explanations": [
+          "光线与阴影",
+          "压缩或滤镜",
+          "拍摄角度"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "仅线索",
+        "direction": "support",
+        "image_index": 0
+      },
+      {
+        "card_id": "CARD-02",
+        "evidence_id": "EVD-D2-02",
+        "dim": "画面真实性",
+        "title": "资料卡内文字整体偏小且行距较紧，与页面大标题的字号差距明显",
+        "quote": "",
+        "observation": "资料卡内文字整体偏小且行距较紧，与页面大标题的字号差距明显",
+        "explanation": "可能是把原始资料缩略嵌入页面后按比例缩小显示",
+        "alt_explanations": [
+          "光线与阴影",
+          "压缩或滤镜",
+          "拍摄角度"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "仅线索",
+        "direction": "support",
+        "image_index": 0
+      },
+      {
+        "card_id": "CARD-03",
+        "evidence_id": "EVD-D2-03",
+        "dim": "画面真实性",
+        "title": "文字区域下方留有大片空白，内容集中在页面上半部",
+        "quote": "",
+        "observation": "文字区域下方留有大片空白，内容集中在页面上半部",
+        "explanation": "可能是资料摘录本身内容较少，排版时保留了固定页边距",
+        "alt_explanations": [
+          "光线与阴影",
+          "压缩或滤镜",
+          "拍摄角度"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "仅线索",
+        "direction": "support",
+        "image_index": 1
+      }
+    ],
+    "limitations": [
+      "这次看的是你发来的 2 张图，检查了 5 个方面。没有看评论区真实性。",
+      "有些位置只能给个大概，要精确还得对着原图看一眼。",
+      "结论只说这一条内容，不套到别的帖子上。"
+    ],
+    "next_action": "补上能对照的公开资料、商品名称和规格，就能继续看。",
+    "reason_steps": [
+      "这句把话说满了：「保湿记录被写成永久效果」，但没写多少人试过、试了多久。",
+      "发现问题的方面：上下文完整性。",
+      "材料不够的方面：文字依据、商品真实性。",
+      "合起来看，材料不够，暂时判断不了。"
+    ],
+    "reason_detail": "缺能对照的公开资料、商品名称和规格，暂时判断不了。 中央资料卡四周有一圈浅米色底衬，卡片边缘与底衬之间可见轻微色差过渡 资料卡内文字整体偏小且行距较紧，与页面大标题的字号差距明显 补上能对照的公开资料、商品名称和规格，就能继续看。",
+    "a11y_label": "状态：证据不足。材料不足，暂时无法判断。",
+    "aggregate_state": "E2",
+    "total_decision": "资料不足",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "rule_version": "authen-2.0",
+    "generated_at": "2026-10-20T11:53:05.887Z",
+    "dims": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E1",
+      "D4": "NA",
+      "D5": "E2",
+      "D6": "EI"
+    },
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "references": [],
+    "compliance_log": []
+  },
+  "audit": {
+    "modality": "image",
+    "content_type": "social",
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E1",
+      "D4": "NA",
+      "D5": "E2",
+      "D6": "EI"
+    },
+    "aggregate_state": "E2",
+    "e2_subtype": "—",
+    "upgrade_eligible": false,
+    "total_decision": "资料不足",
+    "rejection_reason_code": "J-01",
+    "merged_evidence": 1,
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "alt_explanations": [
+      "作者在别处写了测试条件，只是这段没带",
+      "这只是个人感受，不是对所有人的承诺",
+      "光线与阴影",
+      "压缩或滤镜",
+      "拍摄角度",
+      "拍摄角度或光线不同",
+      "说的是不同步骤"
+    ],
+    "rule_version": "authen-2.0",
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "elapsed_ms": 2919
+  }
+}

@@ -1,0 +1,8 @@
+Use case: product-mockup
+Asset type: production isolated shredder illustration/render to animate in AUTHEN, a premium beauty verification app.
+Input images: Image 1 is the machine interaction reference; Image 2 is the AUTHEN fashion character reference and palette context.
+Primary request: create one small, delightful, luxurious tabletop paper shredder inspired by the input/output arrangement of Image 1. Rounded porcelain-ivory body #F7F2EB, black horizontal insertion slot across its top, fine champagne-metal rim, one lipstick-red tactile switch, large open front output recess. A machine one might find on a designer's beauty vanity. No peaches, products, papers or other objects inside it: empty slot and empty output recess so live user material and generated reports can be composited in code.
+Composition: isolated single machine, nearly straight front view, camera very slightly above so the top slot is fully visible. Horizontal slot axis level, no dramatic perspective. Entire machine visible with 15% margin. Front output recess must be wide enough for a report card. Friendly rounded proportions with convincing depth, subtle ceramic and brushed metal materials. Sophisticated editorial product rendering consistent with red-black fashion illustration; tactile but not a toy, no sparkly stickers.
+Background: perfectly flat uniform chroma green #00FF00 with no gradient, no texture, no contact shadow. No green inside the subject; the output recess is dark warm gray, not green.
+Text: no text, logo, letters, watermark or brand. AUTHEN label will be added in native UI.
+Constraints: clean edges; no heavy external drop shadow; no human; no extra props; no inserted material. Ready for local background removal and layering into a native iOS view.

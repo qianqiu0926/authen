@@ -1,0 +1,63 @@
+{
+  "sample_id": "E115",
+  "built": {
+    "kind": "comments",
+    "notes": ""
+  },
+  "request": {
+    "audience": "consumer",
+    "kind": "comments",
+    "text": "刚收到，今晚试试\n普通讨论1\n普通讨论2\n普通讨论3\n普通讨论4\n普通讨论5\n普通讨论6\n用了30天，效果越来越明显",
+    "comments": [
+      {
+        "id": "e115_c1",
+        "author": "user_022",
+        "authorKey": "user_022",
+        "text": "刚收到，今晚试试"
+      },
+      {
+        "id": "e115_c2",
+        "author": "user_029",
+        "authorKey": "user_029",
+        "text": "普通讨论1"
+      },
+      {
+        "id": "e115_c3",
+        "author": "user_036",
+        "authorKey": "user_036",
+        "text": "普通讨论2"
+      },
+      {
+        "id": "e115_c4",
+        "author": "user_043",
+        "authorKey": "user_043",
+        "text": "普通讨论3"
+      },
+      {
+        "id": "e115_c5",
+        "author": "user_050",
+        "authorKey": "user_050",
+        "text": "普通讨论4"
+      },
+      {
+        "id": "e115_c6",
+        "author": "user_057",
+        "authorKey": "user_057",
+        "text": "普通讨论5"
+      },
+      {
+        "id": "e115_c7",
+        "author": "user_064",
+        "authorKey": "user_064",
+        "text": "普通讨论6"
+      },
+      {
+        "id": "e115_c8",
+        "author": "user_071",
+        "authorKey": "user_071",
+        "text": "用了30天，效果越来越明显"
+      }
+    ],
+    "scope": "仅检查本次读取到的评论，未读取原帖正文与商品详情。"
+  }
+}

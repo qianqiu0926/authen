@@ -1,0 +1,63 @@
+{
+  "sample_id": "E116",
+  "built": {
+    "kind": "comments",
+    "notes": ""
+  },
+  "request": {
+    "audience": "consumer",
+    "kind": "comments",
+    "text": "我这里偏干，下午会卡粉\n油皮用着还行，但香味有点重\n请问和上一版有什么区别\n薄涂自然，厚涂会显纹\n包装到了但还没开封\n我更关心成分和防晒条件\n这个色在黄光下偏暖\n用了两周，保湿尚可",
+    "comments": [
+      {
+        "id": "e116_c1",
+        "author": "user_033",
+        "authorKey": "user_033",
+        "text": "我这里偏干，下午会卡粉"
+      },
+      {
+        "id": "e116_c2",
+        "author": "user_040",
+        "authorKey": "user_040",
+        "text": "油皮用着还行，但香味有点重"
+      },
+      {
+        "id": "e116_c3",
+        "author": "user_047",
+        "authorKey": "user_047",
+        "text": "请问和上一版有什么区别"
+      },
+      {
+        "id": "e116_c4",
+        "author": "user_054",
+        "authorKey": "user_054",
+        "text": "薄涂自然，厚涂会显纹"
+      },
+      {
+        "id": "e116_c5",
+        "author": "user_061",
+        "authorKey": "user_061",
+        "text": "包装到了但还没开封"
+      },
+      {
+        "id": "e116_c6",
+        "author": "user_068",
+        "authorKey": "user_068",
+        "text": "我更关心成分和防晒条件"
+      },
+      {
+        "id": "e116_c7",
+        "author": "user_075",
+        "authorKey": "user_075",
+        "text": "这个色在黄光下偏暖"
+      },
+      {
+        "id": "e116_c8",
+        "author": "user_082",
+        "authorKey": "user_082",
+        "text": "用了两周，保湿尚可"
+      }
+    ],
+    "scope": "仅检查本次读取到的评论，未读取原帖正文与商品详情。"
+  }
+}

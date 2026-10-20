@@ -1,0 +1,38 @@
+{
+  "sample_id": "I005",
+  "built": {
+    "kind": "image",
+    "notes": ""
+  },
+  "request": {
+    "audience": "consumer",
+    "kind": "image",
+    "images": [
+      "<1 image(s), dataURL 未内联留存，原始图片见 input_files>"
+    ],
+    "text": "a i,\nAWN",
+    "lines": [
+      {
+        "text": "a i,",
+        "imageIndex": 0,
+        "box": [
+          0.18828125,
+          0.3083235638921454,
+          0.37890625,
+          0.029308323563892145
+        ]
+      },
+      {
+        "text": "AWN",
+        "imageIndex": 0,
+        "box": [
+          0.5203125,
+          0.44314185228604924,
+          0.08359375,
+          0.03634232121922626
+        ]
+      }
+    ],
+    "scope": "已读取图片文字并检查其中的说法；是否经过AI修改，还需要进一步证据。"
+  }
+}

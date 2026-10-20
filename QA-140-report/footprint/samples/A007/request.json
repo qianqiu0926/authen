@@ -1,0 +1,23 @@
+{
+  "sample_id": "A007",
+  "built": {
+    "kind": "audio",
+    "notes": ""
+  },
+  "request": {
+    "audience": "consumer",
+    "kind": "audio",
+    "text": "今天越來越层女温和捡炼, 美妆表越有香精。\n这段介绍能作为多埋一句呢。",
+    "lines": [
+      {
+        "text": "今天越來越层女温和捡炼, 美妆表越有香精。",
+        "seconds": 0
+      },
+      {
+        "text": "这段介绍能作为多埋一句呢。",
+        "seconds": 5
+      }
+    ],
+    "scope": "已把音频转成文字，核对其中的说法；尚未判断声音是否合成。"
+  }
+}

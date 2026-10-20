@@ -1,0 +1,229 @@
+{
+  "sample_id": "I002",
+  "http_status": 200,
+  "body": {
+    "contentType": "image",
+    "verdict": "flagged",
+    "summary": "粉饼表面有斜向的浅色压纹线条，纹理走向不完全一致，局部有交叉 还没确认，先别急着下结论。",
+    "next": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "evidence": [
+      {
+        "text": "粉饼表面有斜向的浅色压纹线条，纹理走向不完全一致，局部有交叉",
+        "finding": "粉饼表面有斜向的浅色压纹线条，纹理走向不完全一致，局部有交叉",
+        "why": "烘焙或压制成型时模具纹路与粉体收缩造成的自然压痕",
+        "imageIndex": 0,
+        "source": "画面真实性",
+        "excerpt": "粉饼表面有斜向的浅色压纹线条，纹理走向不完全一致，局部有交叉"
+      },
+      {
+        "text": "镜面内反射的粉体颜色比实际粉饼偏浅偏粉，且反射区域边缘较模糊",
+        "finding": "镜面内反射的粉体颜色比实际粉饼偏浅偏粉，且反射区域边缘较模糊",
+        "why": "镜面为弧面或带镀层，反射角度与光线衰减导致颜色和清晰度变化",
+        "imageIndex": 0,
+        "source": "画面真实性",
+        "excerpt": "镜面内反射的粉体颜色比实际粉饼偏浅偏粉，且反射区域边缘较模糊"
+      },
+      {
+        "text": "外圈金色边缘与黑色背景交界处有少量红色、黄色像素点",
+        "finding": "外圈金色边缘与黑色背景交界处有少量红色、黄色像素点",
+        "why": "图片压缩或抠图边缘抗锯齿处理留下的色边",
+        "imageIndex": 0,
+        "source": "画面真实性",
+        "excerpt": "外圈金色边缘与黑色背景交界处有少量红色、黄色像素点"
+      }
+    ],
+    "references": [],
+    "numbers": [],
+    "answerKind": "check",
+    "tips": [],
+    "analysisLabel": "多个角度核对过",
+    "provider": "AUTHEN",
+    "model": "deepseek-chat",
+    "scope": "已读取图片文字并检查其中的说法；是否经过AI修改，还需要进一步证据。 这次检查了文字依据、画面真实性、图文一致性、上下文完整性这几个方面。其中文字依据材料不够。",
+    "checks": {
+      "content": "completed",
+      "knowledge": "not_connected",
+      "imageForensics": "partial",
+      "audioForensics": "partial"
+    },
+    "presentation": {
+      "presentation_state": "P-02",
+      "presentation_family": "风险发现",
+      "state_subtitle": "发现需要进一步核实的线索",
+      "state_reason": "粉饼表面有斜向的浅色压纹线条，纹理走向不完全一致，局部有交叉 还没确认，先别急着下结论。",
+      "confidence_tier": "线索（尚未确认）",
+      "dimension_summary": [
+        {
+          "dim": "文字依据",
+          "applicable": "适用",
+          "result": "没有资料可对",
+          "note": "这次没有可对照的公开资料。"
+        },
+        {
+          "dim": "画面真实性",
+          "applicable": "适用",
+          "result": "画面有一处可疑，也可能只是光线",
+          "note": "粉饼表面有斜向的浅色压纹线条，纹理走向不完全一致，局部有交叉"
+        },
+        {
+          "dim": "图文一致性",
+          "applicable": "适用",
+          "result": "图文没有明显冲突",
+          "note": "图文没有明显冲突"
+        },
+        {
+          "dim": "评论区真实性",
+          "applicable": "本次未涉及",
+          "result": "这次没涉及",
+          "note": "这次没有这类材料"
+        },
+        {
+          "dim": "上下文完整性",
+          "applicable": "适用",
+          "result": "这次没涉及",
+          "note": "这次没有这类材料"
+        },
+        {
+          "dim": "商品真实性",
+          "applicable": "本次未涉及",
+          "result": "这次没涉及",
+          "note": "这次没有这类材料"
+        }
+      ],
+      "evidence_cards": [
+        {
+          "card_id": "CARD-01",
+          "evidence_id": "EVD-D2-01",
+          "dim": "画面真实性",
+          "title": "粉饼表面有斜向的浅色压纹线条，纹理走向不完全一致，局部有交叉",
+          "quote": "",
+          "observation": "粉饼表面有斜向的浅色压纹线条，纹理走向不完全一致，局部有交叉",
+          "explanation": "烘焙或压制成型时模具纹路与粉体收缩造成的自然压痕",
+          "alt_explanations": [
+            "光线与阴影",
+            "压缩或滤镜",
+            "拍摄角度"
+          ],
+          "cannot_infer": [
+            "发布者主观故意",
+            "整条内容为假",
+            "商品真伪"
+          ],
+          "location_quality": "仅线索",
+          "direction": "support",
+          "image_index": 0
+        },
+        {
+          "card_id": "CARD-02",
+          "evidence_id": "EVD-D2-02",
+          "dim": "画面真实性",
+          "title": "镜面内反射的粉体颜色比实际粉饼偏浅偏粉，且反射区域边缘较模糊",
+          "quote": "",
+          "observation": "镜面内反射的粉体颜色比实际粉饼偏浅偏粉，且反射区域边缘较模糊",
+          "explanation": "镜面为弧面或带镀层，反射角度与光线衰减导致颜色和清晰度变化",
+          "alt_explanations": [
+            "光线与阴影",
+            "压缩或滤镜",
+            "拍摄角度"
+          ],
+          "cannot_infer": [
+            "发布者主观故意",
+            "整条内容为假",
+            "商品真伪"
+          ],
+          "location_quality": "仅线索",
+          "direction": "support",
+          "image_index": 0
+        },
+        {
+          "card_id": "CARD-03",
+          "evidence_id": "EVD-D2-03",
+          "dim": "画面真实性",
+          "title": "外圈金色边缘与黑色背景交界处有少量红色、黄色像素点",
+          "quote": "",
+          "observation": "外圈金色边缘与黑色背景交界处有少量红色、黄色像素点",
+          "explanation": "图片压缩或抠图边缘抗锯齿处理留下的色边",
+          "alt_explanations": [
+            "光线与阴影",
+            "压缩或滤镜",
+            "拍摄角度"
+          ],
+          "cannot_infer": [
+            "发布者主观故意",
+            "整条内容为假",
+            "商品真伪"
+          ],
+          "location_quality": "仅线索",
+          "direction": "support",
+          "image_index": 0
+        }
+      ],
+      "limitations": [
+        "这次看的是你发来的 1 张图，检查了 4 个方面。没有看评论区真实性、商品真实性。",
+        "这个结果只说这条内容，不猜作者是不是故意，也不判断账号是谁。",
+        "有些位置只能给个大概，要精确还得对着原图看一眼。",
+        "结论只说这一条内容，不套到别的帖子上。"
+      ],
+      "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+      "reason_steps": [
+        "材料不够的方面：文字依据。",
+        "合起来看，有线索，但还不能确认。"
+      ],
+      "reason_detail": "粉饼表面有斜向的浅色压纹线条，纹理走向不完全一致，局部有交叉 还没确认，先别急着下结论。 粉饼表面有斜向的浅色压纹线条，纹理走向不完全一致，局部有交叉 镜面内反射的粉体颜色比实际粉饼偏浅偏粉，且反射区域边缘较模糊 补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+      "a11y_label": "状态：风险发现，线索（尚未确认）。发现需要进一步核实的线索。",
+      "aggregate_state": "E1",
+      "total_decision": "线索级（待核验）",
+      "e2_subtype": "—",
+      "rejection_reason_code": "—",
+      "rule_version": "authen-2.0",
+      "generated_at": "2026-10-20T11:46:09.147Z",
+      "dims": {
+        "D1": "EI",
+        "D2": "E1",
+        "D3": "E0",
+        "D4": "NA",
+        "D5": "NA",
+        "D6": "NA"
+      },
+      "cannot_infer": [
+        "发布者主观故意",
+        "整条内容为假",
+        "商品真伪"
+      ],
+      "references": [],
+      "compliance_log": []
+    },
+    "audit": {
+      "modality": "image",
+      "content_type": "image",
+      "dim_state_vector": {
+        "D1": "EI",
+        "D2": "E1",
+        "D3": "E0",
+        "D4": "NA",
+        "D5": "NA",
+        "D6": "NA"
+      },
+      "aggregate_state": "E1",
+      "e2_subtype": "—",
+      "upgrade_eligible": false,
+      "total_decision": "线索级（待核验）",
+      "rejection_reason_code": "—",
+      "merged_evidence": 0,
+      "cannot_infer": [
+        "发布者主观故意",
+        "整条内容为假",
+        "商品真伪"
+      ],
+      "alt_explanations": [
+        "光线与阴影",
+        "压缩或滤镜",
+        "拍摄角度"
+      ],
+      "rule_version": "authen-2.0",
+      "model": "deepseek-chat",
+      "provider": "deepseek",
+      "elapsed_ms": 2103
+    }
+  }
+}

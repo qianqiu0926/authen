@@ -1,0 +1,225 @@
+{
+  "contentType": "social",
+  "verdict": "flagged",
+  "summary": "内嵌资料卡片四周有一圈浅色边框，卡片内文字区域下方留有大片空白，文字只集中在卡片上部。 还没确认，先别急着下结论。",
+  "next": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+  "evidence": [
+    {
+      "text": "内嵌资料卡片四周有一圈浅色边框，卡片内文字区域下方留有大片空白，文字只集中在卡片上部。",
+      "finding": "内嵌资料卡片四周有一圈浅色边框，卡片内文字区域下方留有大片空白，文字只集中在卡片上部。",
+      "why": "可能是截图时只截取了资料页面的上半部分，或原页面本身排版留白较多。",
+      "imageIndex": 0,
+      "source": "画面真实性",
+      "excerpt": "内嵌资料卡片四周有一圈浅色边框，卡片内文字区域下方留有大片空白，文字只集中在卡片上部。"
+    },
+    {
+      "text": "内嵌卡片文字较小且边缘略软，与页面外层标题文字的清晰度不完全一致。",
+      "finding": "内嵌卡片文字较小且边缘略软，与页面外层标题文字的清晰度不完全一致。",
+      "why": "可能是内嵌图片经过缩放后插入页面，导致清晰度下降。",
+      "imageIndex": 0,
+      "source": "画面真实性",
+      "excerpt": "内嵌卡片文字较小且边缘略软，与页面外层标题文字的清晰度不完全一致。"
+    },
+    {
+      "text": "烟酰胺添加量为10加。",
+      "finding": "图片内嵌资料小字写的是「添加了10%烟酰胺」，文案写成「10加」，单位表述与图片不一致。",
+      "why": "文案和画面说法对不上，值得先核对。",
+      "imageIndex": 0,
+      "source": "图文一致性",
+      "excerpt": "图片内嵌资料小字写的是「添加了10%烟酰胺」，文案写成「10加」，单位表述与图片不一致。"
+    }
+  ],
+  "references": [],
+  "numbers": [],
+  "answerKind": "check",
+  "tips": [],
+  "analysisLabel": "多个角度核对过",
+  "provider": "AUTHEN",
+  "model": "deepseek-chat",
+  "scope": "已读取图片文字并检查其中的说法；是否经过AI修改，还需要进一步证据。 这次检查了文字依据、画面真实性、图文一致性、上下文完整性、商品真实性这几个方面。其中文字依据、商品真实性材料不够。",
+  "checks": {
+    "content": "completed",
+    "knowledge": "not_connected",
+    "imageForensics": "partial",
+    "audioForensics": "partial"
+  },
+  "presentation": {
+    "presentation_state": "P-02",
+    "presentation_family": "风险发现",
+    "state_subtitle": "发现需要进一步核实的线索",
+    "state_reason": "内嵌资料卡片四周有一圈浅色边框，卡片内文字区域下方留有大片空白，文字只集中在卡片上部。 还没确认，先别急着下结论。",
+    "confidence_tier": "线索（尚未确认）",
+    "dimension_summary": [
+      {
+        "dim": "文字依据",
+        "applicable": "适用",
+        "result": "没有资料可对",
+        "note": "这次没有可对照的公开资料。"
+      },
+      {
+        "dim": "画面真实性",
+        "applicable": "适用",
+        "result": "画面有一处可疑，也可能只是光线",
+        "note": "内嵌资料卡片四周有一圈浅色边框，卡片内文字区域下方留有大片空白，文字只集中在卡片上部。"
+      },
+      {
+        "dim": "图文一致性",
+        "applicable": "适用",
+        "result": "有一处图文对不上",
+        "note": "图片内嵌资料小字写的是「添加了10%烟酰胺」，文案写成「10加」，单位表述与图片不一致。"
+      },
+      {
+        "dim": "评论区真实性",
+        "applicable": "本次未涉及",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      },
+      {
+        "dim": "上下文完整性",
+        "applicable": "适用",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      },
+      {
+        "dim": "商品真实性",
+        "applicable": "适用",
+        "result": "没认出具体商品",
+        "note": "没认出手上资料里的具体商品。"
+      }
+    ],
+    "evidence_cards": [
+      {
+        "card_id": "CARD-01",
+        "evidence_id": "EVD-D2-01",
+        "dim": "画面真实性",
+        "title": "内嵌资料卡片四周有一圈浅色边框，卡片内文字区域下方留有大片空白，文字只集中在卡片上部。",
+        "quote": "",
+        "observation": "内嵌资料卡片四周有一圈浅色边框，卡片内文字区域下方留有大片空白，文字只集中在卡片上部。",
+        "explanation": "可能是截图时只截取了资料页面的上半部分，或原页面本身排版留白较多。",
+        "alt_explanations": [
+          "光线与阴影",
+          "压缩或滤镜",
+          "拍摄角度"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "仅线索",
+        "direction": "support",
+        "image_index": 0
+      },
+      {
+        "card_id": "CARD-02",
+        "evidence_id": "EVD-D2-02",
+        "dim": "画面真实性",
+        "title": "内嵌卡片文字较小且边缘略软，与页面外层标题文字的清晰度不完全一致。",
+        "quote": "",
+        "observation": "内嵌卡片文字较小且边缘略软，与页面外层标题文字的清晰度不完全一致。",
+        "explanation": "可能是内嵌图片经过缩放后插入页面，导致清晰度下降。",
+        "alt_explanations": [
+          "光线与阴影",
+          "压缩或滤镜",
+          "拍摄角度"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "仅线索",
+        "direction": "support",
+        "image_index": 0
+      },
+      {
+        "card_id": "CARD-03",
+        "evidence_id": "EVD-D3-01",
+        "dim": "图文一致性",
+        "title": "图片内嵌资料小字写的是「添加了10%烟酰胺」，文案写成「10加」，单位表述与图片不一致。",
+        "quote": "烟酰胺添加量为10加。",
+        "observation": "图片内嵌资料小字写的是「添加了10%烟酰胺」，文案写成「10加」，单位表述与图片不一致。",
+        "explanation": "文案和画面说法对不上，值得先核对。",
+        "alt_explanations": [
+          "拍摄角度或光线不同",
+          "说的是不同步骤"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假"
+        ],
+        "location_quality": "近似",
+        "direction": "support",
+        "image_index": 0
+      }
+    ],
+    "limitations": [
+      "这次看的是你发来的 1 张图，检查了 5 个方面。没有看评论区真实性。",
+      "这个结果只说这条内容，不猜作者是不是故意，也不判断账号是谁。",
+      "有些位置只能给个大概，要精确还得对着原图看一眼。",
+      "结论只说这一条内容，不套到别的帖子上。"
+    ],
+    "next_action": "补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "reason_steps": [
+      "材料不够的方面：文字依据、商品真实性。",
+      "合起来看，有线索，但还不能确认。"
+    ],
+    "reason_detail": "内嵌资料卡片四周有一圈浅色边框，卡片内文字区域下方留有大片空白，文字只集中在卡片上部。 还没确认，先别急着下结论。 内嵌资料卡片四周有一圈浅色边框，卡片内文字区域下方留有大片空白，文字只集中在卡片上部。 内嵌卡片文字较小且边缘略软，与页面外层标题文字的清晰度不完全一致。 补一张原片或同一场景的连续画面，才能判断画面有没有改过。",
+    "a11y_label": "状态：风险发现，线索（尚未确认）。发现需要进一步核实的线索。",
+    "aggregate_state": "E1",
+    "total_decision": "线索级（待核验）",
+    "e2_subtype": "—",
+    "rejection_reason_code": "—",
+    "rule_version": "authen-2.0",
+    "generated_at": "2026-10-20T11:57:10.907Z",
+    "dims": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E1",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "EI"
+    },
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "references": [],
+    "compliance_log": []
+  },
+  "audit": {
+    "modality": "image",
+    "content_type": "social",
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E1",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "EI"
+    },
+    "aggregate_state": "E1",
+    "e2_subtype": "—",
+    "upgrade_eligible": false,
+    "total_decision": "线索级（待核验）",
+    "rejection_reason_code": "—",
+    "merged_evidence": 0,
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "alt_explanations": [
+      "光线与阴影",
+      "压缩或滤镜",
+      "拍摄角度",
+      "拍摄角度或光线不同",
+      "说的是不同步骤"
+    ],
+    "rule_version": "authen-2.0",
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "elapsed_ms": 2079
+  }
+}

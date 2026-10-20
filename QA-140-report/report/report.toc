@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}测试范围与数据口径}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}被测对象与调用入口}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}数据包与参考标签}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}五类判定与严格通过定义}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}批测与冒烟的边界（重要）}{3}{subsection.1.4}%
+\contentsline {section}{\numberline {2}总体结果}{4}{section.2}%
+\contentsline {section}{\numberline {3}期望判定与实际判定分布}{4}{section.3}%
+\contentsline {section}{\numberline {4}混淆矩阵：期望行 $\times $ 实际列}{4}{section.4}%
+\contentsline {section}{\numberline {5}分模态统计}{4}{section.5}%
+\contentsline {section}{\numberline {6}分场景（split）统计}{5}{section.6}%
+\contentsline {section}{\numberline {7}失败分布}{5}{section.7}%
+\contentsline {section}{\numberline {8}典型案例（可回溯至 footprint）}{5}{section.8}%
+\contentsline {section}{\numberline {9}限制与能力边界}{5}{section.9}%
+\contentsline {subsection}{\numberline {9.1}本批验证了什么}{5}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}未接入/未验证（不得宣称已具备）}{5}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}测试预处理局限}{6}{subsection.9.3}%
+\contentsline {section}{\numberline {10}消费者首页修改说明与前后证据}{7}{section.10}%
+\contentsline {subsection}{\numberline {10.1}改动范围}{7}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}改动验证}{7}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}首页前后对比}{8}{subsection.10.3}%
+\contentsline {section}{\numberline {11}复现指南与交付清单}{8}{section.11}%
+\contentsline {subsection}{\numberline {11.1}复现步骤}{8}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}交付文件清单（根目录 QA-140-report/）}{8}{subsection.11.2}%

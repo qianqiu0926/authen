@@ -1,0 +1,7 @@
+Use case: product-mockup
+Asset type: four separate reusable input-button art objects for AUTHEN.
+Input image: AUTHEN's approved character is a palette/style reference, not an object to reproduce.
+Primary request: a clean 2 by 2 sprite sheet containing exactly four beauty vanity objects, all completely separated with generous space: upper left an open lipstick with dark metallic case and deep red lipstick; upper right an open ivory compact with a small clear mirror and rose powder; lower left a slim black mascara tube with its red-handled wand beside it; lower right a square champagne glass perfume bottle with a crimson cap. Polished, sculptural beauty editorial objects, ivory/black/lipstick-red/champagne palette, matching scale and perspective, no labels. Each individual object must fit fully inside its own quadrant with 15% margins, so it can be cropped and individually animated.
+Style: high-end tactile product illustration, delicate highlights, no brand imitation, no excessive sparkle. 3/4 view from a little above, each naturally rotated a few degrees for a playful vanity arrangement.
+Background: perfectly flat uniform chroma green #00FF00 throughout, no shadows or texture on green. No green materials or reflections in the objects. No panel divider lines.
+Text: none. No watermark or signature. No added fifth object or decorative particles.

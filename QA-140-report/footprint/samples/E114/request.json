@@ -1,0 +1,63 @@
+{
+  "sample_id": "E114",
+  "built": {
+    "kind": "comments",
+    "notes": ""
+  },
+  "request": {
+    "audience": "consumer",
+    "kind": "comments",
+    "text": "质地轻薄，上脸舒服，已经回购\n轻薄不闷，上脸很服帖，准备回购\n肤感轻盈，使用舒服，已经囤货\n真实好用，质地轻薄，推荐入手\n质地轻薄，上脸舒服，已经回购\n轻薄不闷，上脸很服帖，准备回购\n肤感轻盈，使用舒服，已经囤货\n真实好用，质地轻薄，推荐入手",
+    "comments": [
+      {
+        "id": "e114_c1",
+        "author": "user_011",
+        "authorKey": "user_011",
+        "text": "质地轻薄，上脸舒服，已经回购"
+      },
+      {
+        "id": "e114_c2",
+        "author": "user_018",
+        "authorKey": "user_018",
+        "text": "轻薄不闷，上脸很服帖，准备回购"
+      },
+      {
+        "id": "e114_c3",
+        "author": "user_025",
+        "authorKey": "user_025",
+        "text": "肤感轻盈，使用舒服，已经囤货"
+      },
+      {
+        "id": "e114_c4",
+        "author": "user_032",
+        "authorKey": "user_032",
+        "text": "真实好用，质地轻薄，推荐入手"
+      },
+      {
+        "id": "e114_c5",
+        "author": "user_039",
+        "authorKey": "user_039",
+        "text": "质地轻薄，上脸舒服，已经回购"
+      },
+      {
+        "id": "e114_c6",
+        "author": "user_046",
+        "authorKey": "user_046",
+        "text": "轻薄不闷，上脸很服帖，准备回购"
+      },
+      {
+        "id": "e114_c7",
+        "author": "user_053",
+        "authorKey": "user_053",
+        "text": "肤感轻盈，使用舒服，已经囤货"
+      },
+      {
+        "id": "e114_c8",
+        "author": "user_060",
+        "authorKey": "user_060",
+        "text": "真实好用，质地轻薄，推荐入手"
+      }
+    ],
+    "scope": "仅检查本次读取到的评论，未读取原帖正文与商品详情。"
+  }
+}

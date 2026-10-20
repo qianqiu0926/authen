@@ -1,0 +1,259 @@
+{
+  "contentType": "social",
+  "verdict": "unclear",
+  "summary": "缺能对照的公开资料、商品名称和规格，暂时判断不了。",
+  "next": "补上能对照的公开资料、商品名称和规格，就能继续看。",
+  "evidence": [
+    {
+      "text": "中央资料卡四周有一圈浅米色底衬，卡片边缘与底衬之间留白均匀，卡片内文字区域下方大片空白。",
+      "finding": "中央资料卡四周有一圈浅米色底衬，卡片边缘与底衬之间留白均匀，卡片内文字区域下方大片空白。",
+      "why": "排版时给资料卡加了底色衬底并保留空白，属于常见的设计留白。",
+      "imageIndex": 0,
+      "source": "画面真实性",
+      "excerpt": "中央资料卡四周有一圈浅米色底衬，卡片边缘与底衬之间留白均匀，卡片内文字区域下方大片空白。"
+    },
+    {
+      "text": "文字整体左对齐，行距与字号一致，未见明显错位或重影。",
+      "finding": "文字整体左对齐，行距与字号一致，未见明显错位或重影。",
+      "why": "正常排版渲染结果。",
+      "imageIndex": 1,
+      "source": "画面真实性",
+      "excerpt": "文字整体左对齐，行距与字号一致，未见明显错位或重影。"
+    },
+    {
+      "text": "同一张图里有两块内容高度吻合：一块在画面正上方，另一块在画面正上方。",
+      "finding": "同一张图里有两块内容高度吻合：一块在画面正上方，另一块在画面正上方。",
+      "why": "这可能是复制粘贴，也可能是平铺纹理或重复图案，需要原图对照。",
+      "imageIndex": 0,
+      "box": [
+        0.2493,
+        0.1025,
+        0.2796,
+        0.4925
+      ],
+      "source": "画面真实性",
+      "excerpt": "同一张图里有两块内容高度吻合：一块在画面正上方，另一块在画面正上方。"
+    }
+  ],
+  "references": [
+    {
+      "id": "aad-sunscreen",
+      "title": "美国皮肤科学会 · 如何选择防晒",
+      "url": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-select-sunscreen",
+      "excerpt": "Broad spectrum: The words \"broad spectrum” means that the sunscreen can protect your skin from both types of harmful UV rays — the UVA rays and the UVB rays.\nSPF 30 or higher: The American Academy of Dermatology recommends that you select a sunscreen with an SPF rating of 30 or higher.\nWater resistant: Dermatologists also recommend that you look for the words \"water resistant.” This tells you that the sunscreen will stay on wet or sweaty skin for a while before you need to reapply. Water resistance lasts either 40 or 80 minutes. Not all sunscreens offer water resistance.",
+      "retrievedAt": "2026-10-20T11:43:28.383Z"
+    }
+  ],
+  "numbers": [],
+  "answerKind": "check",
+  "tips": [],
+  "analysisLabel": "多个角度核对过",
+  "provider": "AUTHEN",
+  "model": "deepseek-chat",
+  "scope": "已读取图片文字并检查其中的说法；是否经过AI修改，还需要进一步证据。 这次检查了文字依据、画面真实性、图文一致性、上下文完整性、商品真实性这几个方面。其中文字依据、商品真实性材料不够。",
+  "checks": {
+    "content": "completed",
+    "knowledge": "retrieved",
+    "imageForensics": "partial",
+    "audioForensics": "partial"
+  },
+  "presentation": {
+    "presentation_state": "P-04",
+    "presentation_family": "证据不足",
+    "state_subtitle": "材料不足，暂时无法判断",
+    "state_reason": "缺能对照的公开资料、商品名称和规格，暂时判断不了。",
+    "confidence_tier": "—",
+    "dimension_summary": [
+      {
+        "dim": "文字依据",
+        "applicable": "适用",
+        "result": "没有资料可对",
+        "note": "这条内容里没找到能和资料直接对上的具体说法。"
+      },
+      {
+        "dim": "画面真实性",
+        "applicable": "适用",
+        "result": "画面有一处可疑，也可能只是光线",
+        "note": "中央资料卡四周有一圈浅米色底衬，卡片边缘与底衬之间留白均匀，卡片内文字区域下方大片空白。"
+      },
+      {
+        "dim": "图文一致性",
+        "applicable": "适用",
+        "result": "有一处图文对不上",
+        "note": "图内资料卡明确写着「没有治疗痤疮的临床资料」，文案与图内文字方向相反。"
+      },
+      {
+        "dim": "评论区真实性",
+        "applicable": "本次未涉及",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      },
+      {
+        "dim": "上下文完整性",
+        "applicable": "适用",
+        "result": "有多处没给条件",
+        "note": "提到了「产品已经通过治疗痤疮的临床试验。」，但没给出本人或机构的原始出处。"
+      },
+      {
+        "dim": "商品真实性",
+        "applicable": "适用",
+        "result": "没认出具体商品",
+        "note": "没认出手上资料里的具体商品。"
+      }
+    ],
+    "evidence_cards": [
+      {
+        "card_id": "CARD-01",
+        "evidence_id": "EVD-D2-01",
+        "dim": "画面真实性",
+        "title": "中央资料卡四周有一圈浅米色底衬，卡片边缘与底衬之间留白均匀，卡片内文字区域下方大片空白。",
+        "quote": "",
+        "observation": "中央资料卡四周有一圈浅米色底衬，卡片边缘与底衬之间留白均匀，卡片内文字区域下方大片空白。",
+        "explanation": "排版时给资料卡加了底色衬底并保留空白，属于常见的设计留白。",
+        "alt_explanations": [
+          "光线与阴影",
+          "压缩或滤镜",
+          "拍摄角度"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "仅线索",
+        "direction": "support",
+        "image_index": 0
+      },
+      {
+        "card_id": "CARD-02",
+        "evidence_id": "EVD-D2-02",
+        "dim": "画面真实性",
+        "title": "文字整体左对齐，行距与字号一致，未见明显错位或重影。",
+        "quote": "",
+        "observation": "文字整体左对齐，行距与字号一致，未见明显错位或重影。",
+        "explanation": "正常排版渲染结果。",
+        "alt_explanations": [
+          "光线与阴影",
+          "压缩或滤镜",
+          "拍摄角度"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "仅线索",
+        "direction": "support",
+        "image_index": 1
+      },
+      {
+        "card_id": "CARD-03",
+        "evidence_id": "EVD-D2-03",
+        "dim": "画面真实性",
+        "title": "同一张图里有两块内容高度吻合：一块在画面正上方，另一块在画面正上方。",
+        "quote": "",
+        "observation": "同一张图里有两块内容高度吻合：一块在画面正上方，另一块在画面正上方。",
+        "explanation": "这可能是复制粘贴，也可能是平铺纹理或重复图案，需要原图对照。",
+        "alt_explanations": [
+          "平铺纹理或重复图案",
+          "同一张贴纸的多个角度",
+          "背景本身重复"
+        ],
+        "cannot_infer": [
+          "发布者主观故意",
+          "整条内容为假",
+          "商品真伪"
+        ],
+        "location_quality": "精确",
+        "direction": "support",
+        "image_index": 0,
+        "box": [
+          0.2493,
+          0.1025,
+          0.2796,
+          0.4925
+        ]
+      }
+    ],
+    "limitations": [
+      "这次看的是你发来的 2 张图，检查了 5 个方面。没有看评论区真实性。",
+      "有些位置只能给个大概，要精确还得对着原图看一眼。",
+      "结论只说这一条内容，不套到别的帖子上。"
+    ],
+    "next_action": "补上能对照的公开资料、商品名称和规格，就能继续看。",
+    "reason_steps": [
+      "提到了「产品已经通过治疗痤疮的临床试验。」，但没给出本人或机构的原始出处。",
+      "发现问题的方面：上下文完整性。",
+      "材料不够的方面：文字依据、商品真实性。",
+      "合起来看，材料不够，暂时判断不了。"
+    ],
+    "reason_detail": "缺能对照的公开资料、商品名称和规格，暂时判断不了。 中央资料卡四周有一圈浅米色底衬，卡片边缘与底衬之间留白均匀，卡片内文字区域下方大片空白。 文字整体左对齐，行距与字号一致，未见明显错位或重影。 补上能对照的公开资料、商品名称和规格，就能继续看。",
+    "a11y_label": "状态：证据不足。材料不足，暂时无法判断。",
+    "aggregate_state": "E2",
+    "total_decision": "资料不足",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "rule_version": "authen-2.0",
+    "generated_at": "2026-10-20T11:52:31.880Z",
+    "dims": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E1",
+      "D4": "NA",
+      "D5": "E2",
+      "D6": "EI"
+    },
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "references": [
+      {
+        "id": "aad-sunscreen",
+        "title": "美国皮肤科学会 · 如何选择防晒",
+        "url": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-select-sunscreen",
+        "excerpt": "Broad spectrum: The words \"broad spectrum” means that the sunscreen can protect your skin from both types of harmful UV rays — the UVA rays and the UVB rays.\nSPF 30 or higher: The American Academy of Dermatology recommends that you select a sunscreen with an SPF rating of 30 or higher.\nWater resistant: Dermatologists also recommend that you look for the words \"water resistant.” This tells you that the sunscreen will stay on wet or sweaty skin for a while before you need to reapply. Water resistance lasts either 40 or 80 minutes. Not all sunscreens offer water resistance.",
+        "retrievedAt": "2026-10-20T11:43:28.383Z"
+      }
+    ],
+    "compliance_log": []
+  },
+  "audit": {
+    "modality": "image",
+    "content_type": "social",
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "E1",
+      "D3": "E1",
+      "D4": "NA",
+      "D5": "E2",
+      "D6": "EI"
+    },
+    "aggregate_state": "E2",
+    "e2_subtype": "—",
+    "upgrade_eligible": false,
+    "total_decision": "资料不足",
+    "rejection_reason_code": "J-01",
+    "merged_evidence": 1,
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "alt_explanations": [
+      "出处写在主页或评论区",
+      "只是转述，不是本人背书",
+      "光线与阴影",
+      "压缩或滤镜",
+      "拍摄角度",
+      "平铺纹理或重复图案",
+      "同一张贴纸的多个角度",
+      "背景本身重复"
+    ],
+    "rule_version": "authen-2.0",
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "elapsed_ms": 3669
+  }
+}

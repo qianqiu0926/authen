@@ -1,0 +1,122 @@
+{
+  "sample_id": "E117",
+  "http_status": 200,
+  "body": {
+    "contentType": "reviews",
+    "verdict": "unclear",
+    "summary": "这次没有能核对的说法，暂时判断不了。",
+    "next": "补一段正文、一张清晰截图或原帖链接。",
+    "evidence": [],
+    "references": [],
+    "numbers": [],
+    "answerKind": "check",
+    "tips": [],
+    "analysisLabel": "多个角度核对过",
+    "provider": "AUTHEN",
+    "model": "deepseek-chat",
+    "scope": "仅检查本次读取到的评论，未读取原帖正文与商品详情。 这次检查了评论区真实性这几个方面。",
+    "checks": {
+      "content": "completed",
+      "knowledge": "not_connected",
+      "imageForensics": "not_applicable",
+      "audioForensics": "not_applicable"
+    },
+    "presentation": {
+      "presentation_state": "P-04",
+      "presentation_family": "证据不足",
+      "state_subtitle": "材料不足，暂时无法判断",
+      "state_reason": "这次没有能核对的说法，暂时判断不了。",
+      "confidence_tier": "—",
+      "dimension_summary": [
+        {
+          "dim": "文字依据",
+          "applicable": "本次未涉及",
+          "result": "这次没涉及",
+          "note": "这次没有这类材料"
+        },
+        {
+          "dim": "画面真实性",
+          "applicable": "本次未涉及",
+          "result": "这次没涉及",
+          "note": "这次没有这类材料"
+        },
+        {
+          "dim": "图文一致性",
+          "applicable": "本次未涉及",
+          "result": "这次没涉及",
+          "note": "这次没有这类材料"
+        },
+        {
+          "dim": "评论区真实性",
+          "applicable": "适用",
+          "result": "这次没涉及",
+          "note": "这次没有这类材料"
+        },
+        {
+          "dim": "上下文完整性",
+          "applicable": "本次未涉及",
+          "result": "这次没涉及",
+          "note": "这次没有这类材料"
+        },
+        {
+          "dim": "商品真实性",
+          "applicable": "本次未涉及",
+          "result": "这次没涉及",
+          "note": "这次没有这类材料"
+        }
+      ],
+      "evidence_cards": [],
+      "limitations": [
+        "这次看的是你发来的评论，主要看了评论区真实性。其余方面这次用不上。",
+        "结论只说这一条内容，不套到别的帖子上。"
+      ],
+      "next_action": "补一段正文、一张清晰截图或原帖链接。",
+      "reason_steps": [
+        "合起来看，材料不够，暂时判断不了。"
+      ],
+      "reason_detail": "这次没有能核对的说法，暂时判断不了。 补一段正文、一张清晰截图或原帖链接。",
+      "a11y_label": "状态：证据不足。材料不足，暂时无法判断。",
+      "aggregate_state": "EI",
+      "total_decision": "资料不足",
+      "e2_subtype": "—",
+      "rejection_reason_code": "J-02",
+      "rule_version": "authen-2.0",
+      "generated_at": "2026-10-20T11:43:42.236Z",
+      "dims": {
+        "D1": "NA",
+        "D2": "NA",
+        "D3": "NA",
+        "D4": "NA",
+        "D5": "NA",
+        "D6": "NA"
+      },
+      "cannot_infer": [],
+      "references": [],
+      "compliance_log": []
+    },
+    "audit": {
+      "modality": "comments",
+      "content_type": "reviews",
+      "dim_state_vector": {
+        "D1": "NA",
+        "D2": "NA",
+        "D3": "NA",
+        "D4": "NA",
+        "D5": "NA",
+        "D6": "NA"
+      },
+      "aggregate_state": "EI",
+      "e2_subtype": "—",
+      "upgrade_eligible": false,
+      "total_decision": "资料不足",
+      "rejection_reason_code": "J-02",
+      "merged_evidence": 0,
+      "cannot_infer": [],
+      "alt_explanations": [],
+      "rule_version": "authen-2.0",
+      "model": "deepseek-chat",
+      "provider": "deepseek",
+      "elapsed_ms": 1
+    }
+  }
+}

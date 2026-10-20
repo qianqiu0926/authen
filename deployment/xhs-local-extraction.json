@@ -1,0 +1,30 @@
+{
+  "title": "皮肤好的人都要用很贵的精华吗",
+  "author": "-uio77",
+  "platform": "小红书",
+  "coverage": {
+    "text": true,
+    "reviews": 19,
+    "images": 3,
+    "excerptOnly": false
+  },
+  "limitations": [
+    "只读到页面公开提供的 19 条评价，不代表全部评价。",
+    "配图较多，这次最多读取前 3 张。"
+  ],
+  "images": [
+    {
+      "type": "data:image/jpeg;base64,/9",
+      "bytes": 181503
+    },
+    {
+      "type": "data:image/jpeg;base64,/9",
+      "bytes": 180923
+    },
+    {
+      "type": "data:image/jpeg;base64,/9",
+      "bytes": 214623
+    }
+  ],
+  "elapsed": 3239
+}

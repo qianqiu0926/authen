@@ -1,0 +1,30 @@
+# 依赖
+node_modules/
+.venv*/
+__pycache__/
+*.pyc
+
+# 构建产物
+dist/
+build/
+DerivedData/
+*.xcresult
+
+# 模型权重与本地数据
+models/
+*.bin
+*.safetensors
+*.pt
+*.onnx
+
+# 运行时与临时
+tmp/
+*.log
+.DS_Store
+*.zip
+
+# 私密配置
+service.env
+.env
+.env.*
+.deepseek.json

@@ -1,0 +1,147 @@
+{
+  "contentType": "image",
+  "verdict": "unclear",
+  "summary": "缺能对照的公开资料、原片或拍摄记录，暂时判断不了。",
+  "next": "补上能对照的公开资料、原片或拍摄记录，就能继续看。",
+  "evidence": [],
+  "references": [
+    {
+      "id": "aad-sunscreen",
+      "title": "美国皮肤科学会 · 如何选择防晒",
+      "url": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-select-sunscreen",
+      "excerpt": "Broad spectrum: The words \"broad spectrum” means that the sunscreen can protect your skin from both types of harmful UV rays — the UVA rays and the UVB rays.\nSPF 30 or higher: The American Academy of Dermatology recommends that you select a sunscreen with an SPF rating of 30 or higher.\nWater resistant: Dermatologists also recommend that you look for the words \"water resistant.” This tells you that the sunscreen will stay on wet or sweaty skin for a while before you need to reapply. Water resistance lasts either 40 or 80 minutes. Not all sunscreens offer water resistance.",
+      "retrievedAt": "2026-10-20T11:43:28.383Z"
+    }
+  ],
+  "numbers": [],
+  "answerKind": "check",
+  "tips": [],
+  "analysisLabel": "多个角度核对过",
+  "provider": "AUTHEN",
+  "model": "deepseek-chat",
+  "scope": "已读取图片文字并检查其中的说法；是否经过AI修改，还需要进一步证据。 这次检查了文字依据、画面真实性、图文一致性、上下文完整性、商品真实性这几个方面。其中文字依据、画面真实性、商品真实性材料不够。",
+  "checks": {
+    "content": "completed",
+    "knowledge": "retrieved",
+    "imageForensics": "partial",
+    "audioForensics": "partial"
+  },
+  "presentation": {
+    "presentation_state": "P-04",
+    "presentation_family": "证据不足",
+    "state_subtitle": "材料不足，暂时无法判断",
+    "state_reason": "缺能对照的公开资料、原片或拍摄记录，暂时判断不了。",
+    "confidence_tier": "—",
+    "dimension_summary": [
+      {
+        "dim": "文字依据",
+        "applicable": "适用",
+        "result": "没有资料可对",
+        "note": "这条内容里没找到能和资料直接对上的具体说法。"
+      },
+      {
+        "dim": "画面真实性",
+        "applicable": "适用",
+        "result": "缺原片，看不出是否修过",
+        "note": "这张图做了压缩、频域和噪声检查，没有发现明显信号；但缺原片，仍然不能说它没被修过。"
+      },
+      {
+        "dim": "图文一致性",
+        "applicable": "适用",
+        "result": "图文没有明显冲突",
+        "note": "图文没有明显冲突"
+      },
+      {
+        "dim": "评论区真实性",
+        "applicable": "本次未涉及",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      },
+      {
+        "dim": "上下文完整性",
+        "applicable": "适用",
+        "result": "这次没涉及",
+        "note": "这次没有这类材料"
+      },
+      {
+        "dim": "商品真实性",
+        "applicable": "适用",
+        "result": "没认出具体商品",
+        "note": "没认出手上资料里的具体商品。"
+      }
+    ],
+    "evidence_cards": [],
+    "limitations": [
+      "这次看的是你发来的 1 张图，检查了 5 个方面。没有看评论区真实性。",
+      "画面有没有修过暂时不判断：缺原片或拍摄记录。",
+      "结论只说这一条内容，不套到别的帖子上。"
+    ],
+    "next_action": "补上能对照的公开资料、原片或拍摄记录，就能继续看。",
+    "reason_steps": [
+      "这张图做了压缩、频域和噪声检查，没有发现明显信号；但缺原片，仍然不能说它没被修过。",
+      "材料不够的方面：文字依据、画面真实性、商品真实性。",
+      "合起来看，材料不够，暂时判断不了。"
+    ],
+    "reason_detail": "缺能对照的公开资料、原片或拍摄记录，暂时判断不了。 补上能对照的公开资料、原片或拍摄记录，就能继续看。",
+    "a11y_label": "状态：证据不足。材料不足，暂时无法判断。",
+    "aggregate_state": "E0",
+    "total_decision": "资料不足",
+    "e2_subtype": "—",
+    "rejection_reason_code": "J-01",
+    "rule_version": "authen-2.0",
+    "generated_at": "2026-10-20T11:50:43.053Z",
+    "dims": {
+      "D1": "EI",
+      "D2": "EI",
+      "D3": "E0",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "EI"
+    },
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "references": [
+      {
+        "id": "aad-sunscreen",
+        "title": "美国皮肤科学会 · 如何选择防晒",
+        "url": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-select-sunscreen",
+        "excerpt": "Broad spectrum: The words \"broad spectrum” means that the sunscreen can protect your skin from both types of harmful UV rays — the UVA rays and the UVB rays.\nSPF 30 or higher: The American Academy of Dermatology recommends that you select a sunscreen with an SPF rating of 30 or higher.\nWater resistant: Dermatologists also recommend that you look for the words \"water resistant.” This tells you that the sunscreen will stay on wet or sweaty skin for a while before you need to reapply. Water resistance lasts either 40 or 80 minutes. Not all sunscreens offer water resistance.",
+        "retrievedAt": "2026-10-20T11:43:28.383Z"
+      }
+    ],
+    "compliance_log": []
+  },
+  "audit": {
+    "modality": "image",
+    "content_type": "image",
+    "dim_state_vector": {
+      "D1": "EI",
+      "D2": "EI",
+      "D3": "E0",
+      "D4": "NA",
+      "D5": "NA",
+      "D6": "EI"
+    },
+    "aggregate_state": "E0",
+    "e2_subtype": "—",
+    "upgrade_eligible": false,
+    "total_decision": "资料不足",
+    "rejection_reason_code": "J-01",
+    "merged_evidence": 0,
+    "cannot_infer": [
+      "发布者主观故意",
+      "整条内容为假",
+      "商品真伪"
+    ],
+    "alt_explanations": [
+      "画面本身可能没问题，只是缺对照"
+    ],
+    "rule_version": "authen-2.0",
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "elapsed_ms": 1029
+  }
+}
