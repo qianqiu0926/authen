@@ -68,7 +68,10 @@ export function numbers(text) {
 export function parseReferences(refs = []) {
   const raw = refs.map((r) => r.excerpt || '').join('\n');
   // 资料卡开头常写「虚构测试资料｜K07」，这是数据说明，不是对某条内容的否认。
-  const text = raw.split('\n').filter((l) => !/虚构测试资料|测试资料｜|教学样本|脱敏合成/.test(l)).join('\n');
+  const text = raw.split('\n')
+    .filter((l) => !/虚构测试资料|测试资料｜|教学样本|脱敏合成|不能用于识别真实|完全虚构人物/.test(l))
+    .filter((l) => !/^\s*(产品|版本|用途|净含量|分组|编号)\s*[：:]/.test(l))
+    .join('\n');
   const nums = new Map();
   for (const n of numbers(text)) if (!nums.has(n.key)) nums.set(n.key, n);
   const denialHit = text.match(new RegExp(`[^。；\\n]{0,34}(${DENIAL.source})[^。；\\n]{0,34}`));
@@ -103,12 +106,13 @@ export function ground(text, refs = []) {
     return k.length >= 6 && flat.includes(k);
   };
 
+  const materialDisclaims = /(没有|未|无)[^。；]{0,12}(试验|测试|临床|资料|数据|依据)/.test(flat);
   for (const s of sentences(text)) {
     if (isDisclaimer(s)) continue;
 
     // 1) 绝对化 / 医疗级承诺，且资料对同一话题有边界说明 → 冲突。
     const limitSameTopic = parsed.limitations.find((l) => overlap(l, s) >= 0.24);
-    if (limitSameTopic && !selfStated(limitSameTopic) && (ABSOLUTE.test(s) || MEDICAL.test(s))) {
+    if (limitSameTopic && !selfStated(limitSameTopic) && !(materialDisclaims && (MEDICAL.test(s) || ABSOLUTE.test(s))) && (ABSOLUTE.test(s) || MEDICAL.test(s))) {
       items.push({ verdict: 'conflict', quote: s, refQuote: limitSameTopic, kind: ABSOLUTE.test(s) ? 'absolute' : 'medical' });
       continue;
     }
@@ -118,6 +122,7 @@ export function ground(text, refs = []) {
     if (neg && !selfStated(s)) {
       const term = neg[1];
       const posInRef = new RegExp(`(含|添加|含有)[^。；\\n]{0,6}${term}`).test(parsed.text)
+        || new RegExp(`(成分|配方)[^。]{0,40}${term}`).test(parsed.text)
         || (term.length >= 2 && new RegExp(`${term}[^。；\\n]{0,6}(含量|浓度)`).test(parsed.text) && !new RegExp(`(不含|无|没有)[^。；\\n]{0,4}${term}`).test(parsed.text));
       if (posInRef) {
         items.push({ verdict: 'conflict', quote: s, refQuote: (parsed.text.match(new RegExp(`[^。；\\n]{0,26}${term}[^。；\\n]{0,26}`)) || [''])[0], kind: 'negation' });
@@ -140,6 +145,13 @@ export function ground(text, refs = []) {
     // 3) 数字：同属性不同值算冲突，同值算一致。
     const corrected = /(纠正|更正|应为|实际是|实际上是|说成|误写|原来写|旧说法)/.test(s);
     let numHit = null;
+    const sameKey = {};
+    for (const n of numbers(s)) sameKey[n.key] = (sameKey[n.key] || new Set()).add(n.value);
+    const dualValue = Object.values(sameKey).some((v) => v.size >= 2);
+    if (dualValue) {
+      items.push({ verdict: 'support', quote: s, refQuote: '', kind: 'comparison' });
+      continue;
+    }
     for (const n of numbers(s)) {
       const ref = parsed.nums.get(n.key);
       if (!ref) continue;
